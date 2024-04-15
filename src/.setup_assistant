@@ -1,0 +1,25 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: interbotix_xsarm_descriptions
+    relative_path: urdf/rx150.urdf.xacro
+  srdf:
+    relative_path: config/rx150.srdf
+  package_settings:
+    author_name: Malik AMMAR KHODJA
+    author_email: ammarkhodja.kilam@gmail.com
+    generated_timestamp: 1712753363
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity

@@ -50,7 +50,7 @@ def launch_setup(context, *args, **kwargs):
 
    
     moveit_config = (
-        MoveItConfigsBuilder("rx150")
+        MoveItConfigsBuilder("emse_rx150")
         .robot_description(
             file_path="config/rx150.urdf.xacro" )
         

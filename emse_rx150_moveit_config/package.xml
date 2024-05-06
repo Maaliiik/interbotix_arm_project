@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-  <name>rx150_moveit_config</name>
+  <name>emse_rx150_moveit_config</name>
   <version>0.3.0</version>
   <description>A package with all the configuration and launch files for using the rx150 with the MoveIt Motion Planning Framework</description>
   <maintainer email="ammarkhodja.kilam@gmail.com">Malik AMMAR KHODJA</maintainer>

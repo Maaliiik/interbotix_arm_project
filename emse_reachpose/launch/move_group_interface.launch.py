@@ -23,7 +23,7 @@ def generate_launch_description():
     # MoveGroupInterface demo executable
     move_group_interface = Node(
         name="reachpose",
-        package="reachpose",
+        package="emse_reachpose",
         executable="reachpose",
         output="screen",
         parameters=[

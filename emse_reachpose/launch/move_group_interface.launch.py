@@ -6,7 +6,7 @@ from moveit_configs_utils import MoveItConfigsBuilder
 def generate_launch_description():
 
     moveit_config = (
-        MoveItConfigsBuilder("rx150")
+        MoveItConfigsBuilder("emse_rx150")
         .robot_description(
             file_path="config/rx150.urdf.xacro" )
         

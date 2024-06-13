@@ -1,0 +1,62 @@
+[0.026s] Invoking command in '/home/malik/interbotix_moveit/build/emse_rx150_benchmarks': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/malik/interbotix_ws/install/interbotix_xs_modules:/home/malik/interbotix_ws/install/interbotix_perception_modules:/home/malik/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --build /home/malik/interbotix_moveit/build/emse_rx150_benchmarks -- -j4 -l4
+[0.121s] [35m[1mConsolidate compiler generated dependencies of target benchmark[0m
+[0.174s] [ 33%] Built target moveit_ros_benchmarks
+[0.177s] [ 44%] [32mBuilding CXX object CMakeFiles/benchmark.dir/src/benchmark.cpp.o[0m
+[0.271s] [ 66%] Built target moveit_combine_predefined_poses_benchmark
+[0.289s] [ 88%] Built target moveit_run_benchmark
+[11.257s] [100%] [32m[1mLinking CXX executable benchmark[0m
+[11.719s] [100%] Built target benchmark
+[11.742s] Invoked command in '/home/malik/interbotix_moveit/build/emse_rx150_benchmarks' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/malik/interbotix_ws/install/interbotix_xs_modules:/home/malik/interbotix_ws/install/interbotix_perception_modules:/home/malik/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --build /home/malik/interbotix_moveit/build/emse_rx150_benchmarks -- -j4 -l4
+[11.851s] Invoking command in '/home/malik/interbotix_moveit/build/emse_rx150_benchmarks': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/malik/interbotix_ws/install/interbotix_xs_modules:/home/malik/interbotix_ws/install/interbotix_perception_modules:/home/malik/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --install /home/malik/interbotix_moveit/build/emse_rx150_benchmarks
+[11.867s] -- Install configuration: "Release"
+[11.867s] -- Installing: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/lib/emse_rx150_benchmarks/benchmark
+[11.869s] -- Set runtime path of "/home/malik/interbotix_moveit/install/emse_rx150_benchmarks/lib/emse_rx150_benchmarks/benchmark" to ""
+[11.869s] -- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/lib/libmoveit_ros_benchmarks.so.2.5.4
+[11.870s] -- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/lib/libmoveit_ros_benchmarks.so
+[11.870s] -- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/emse_rx150_benchmarks/environment/library_path.sh
+[11.870s] -- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/emse_rx150_benchmarks/environment/library_path.dsv
+[11.871s] -- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/lib/emse_rx150_benchmarks/moveit_run_benchmark
+[11.872s] -- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/lib/emse_rx150_benchmarks/moveit_combine_predefined_poses_benchmark
+[11.873s] -- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/include
+[11.873s] -- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/include/moveit
+[11.873s] -- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/include/moveit/benchmarks
+[11.874s] -- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/include/moveit/benchmarks/BenchmarkExecutor.h
+[11.874s] -- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/include/moveit/benchmarks/BenchmarkOptions.h
+[11.874s] -- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/lib/emse_rx150_benchmarks/moveit_benchmark_statistics.py
+[11.874s] -- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/emse_rx150_benchmarks
+[11.875s] -- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/emse_rx150_benchmarks/demo1.yaml
+[11.875s] -- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/emse_rx150_benchmarks/demo_panda_all_planners_obstacles.launch
+[11.875s] -- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/emse_rx150_benchmarks/demo_panda_predefined_poses.launch.py
+[11.875s] -- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/emse_rx150_benchmarks/demo2.yaml
+[11.876s] -- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/emse_rx150_benchmarks/demo_panda_predefined_poses.yaml
+[11.876s] -- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/emse_rx150_benchmarks/demo_panda.launch.py
+[11.876s] -- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/emse_rx150_benchmarks/demo_fanuc.launch
+[11.876s] -- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/emse_rx150_benchmarks/demo_obstacles.yaml
+[11.876s] -- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/emse_rx150_benchmarks/demo_panda_all_planners.launch
+[11.876s] -- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/emse_rx150_benchmarks/demo_panda_all_planners.yaml
+[11.877s] -- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/emse_rx150_benchmarks
+[11.877s] -- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/emse_rx150_benchmarks/ompl_benchmark_rx150.yaml
+[11.877s] -- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/emse_rx150_benchmarks/random_poses.csv
+[11.877s] -- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/emse_rx150_benchmarks
+[11.877s] -- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/emse_rx150_benchmarks/benchmark.launch.py
+[11.877s] -- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/ament_index/resource_index/package_run_dependencies/emse_rx150_benchmarks
+[11.878s] -- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/ament_index/resource_index/parent_prefix_path/emse_rx150_benchmarks
+[11.878s] -- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/emse_rx150_benchmarks/environment/ament_prefix_path.sh
+[11.878s] -- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/emse_rx150_benchmarks/environment/ament_prefix_path.dsv
+[11.878s] -- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/emse_rx150_benchmarks/environment/path.sh
+[11.878s] -- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/emse_rx150_benchmarks/environment/path.dsv
+[11.878s] -- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/emse_rx150_benchmarks/local_setup.bash
+[11.878s] -- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/emse_rx150_benchmarks/local_setup.sh
+[11.878s] -- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/emse_rx150_benchmarks/local_setup.zsh
+[11.878s] -- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/emse_rx150_benchmarks/local_setup.dsv
+[11.879s] -- Installing: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/emse_rx150_benchmarks/package.dsv
+[11.879s] -- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/ament_index/resource_index/packages/emse_rx150_benchmarks
+[11.879s] -- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/emse_rx150_benchmarks/cmake/export_emse_rx150_benchmarksExport.cmake
+[11.879s] -- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/emse_rx150_benchmarks/cmake/export_emse_rx150_benchmarksExport-release.cmake
+[11.879s] -- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/emse_rx150_benchmarks/cmake/ConfigExtras.cmake
+[11.879s] -- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/emse_rx150_benchmarks/cmake/ament_cmake_export_targets-extras.cmake
+[11.879s] -- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/emse_rx150_benchmarks/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.879s] -- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/emse_rx150_benchmarks/cmake/emse_rx150_benchmarksConfig.cmake
+[11.879s] -- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/emse_rx150_benchmarks/cmake/emse_rx150_benchmarksConfig-version.cmake
+[11.880s] -- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/emse_rx150_benchmarks/package.xml
+[11.881s] Invoked command in '/home/malik/interbotix_moveit/build/emse_rx150_benchmarks' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/malik/interbotix_ws/install/interbotix_xs_modules:/home/malik/interbotix_ws/install/interbotix_perception_modules:/home/malik/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --install /home/malik/interbotix_moveit/build/emse_rx150_benchmarks

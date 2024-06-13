@@ -1,0 +1,739 @@
+[0.000000] (-) TimerEvent: {}
+[0.000269] (-) JobUnselected: {'identifier': 'emse_moveit_actions'}
+[0.000361] (-) JobUnselected: {'identifier': 'emse_rx150_moveit_config'}
+[0.000445] (emse_reachpose) JobQueued: {'identifier': 'emse_reachpose', 'dependencies': OrderedDict()}
+[0.000525] (emse_reachpose) JobStarted: {'identifier': 'emse_reachpose'}
+[0.017244] (emse_reachpose) JobProgress: {'identifier': 'emse_reachpose', 'progress': 'cmake'}
+[0.017669] (emse_reachpose) Command: {'cmd': ['/usr/bin/cmake', '/home/malik/interbotix_moveit/src/emse_reachpose', '-DCMAKE_INSTALL_PREFIX=/home/malik/interbotix_moveit/install/emse_reachpose'], 'cwd': '/home/malik/interbotix_moveit/build/emse_reachpose', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'malik'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/malik/interbotix_moveit/install/emse_moveit_actions/lib:/home/malik/interbotix_ws/install/moveit_visual_tools/lib:/home/malik/interbotix_ws/install/interbotix_xs_rviz/lib:/home/malik/interbotix_ws/install/interbotix_xs_ros_control/lib:/home/malik/interbotix_ws/install/interbotix_xs_msgs/lib:/home/malik/interbotix_ws/install/interbotix_xs_driver/lib:/home/malik/interbotix_ws/install/interbotix_tf_tools/lib:/home/malik/interbotix_ws/install/interbotix_perception_msgs/lib:/home/malik/interbotix_ws/install/interbotix_moveit_interface_msgs/lib:/home/malik/interbotix_ws/install/dynamixel_workbench_toolbox/lib:/home/malik/apriltag_ws/install/apriltag_ros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/malik'), ('OLDPWD', '/home/malik'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_IP', '10.103.3.151'), ('SYSTEMD_EXEC_PID', '1870'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1003/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/malik/interbotix_moveit/install:/home/malik/interbotix_ws/install:/home/malik/apriltag_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'malik'), ('_', '/home/malik/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'malik'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/malik/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/LAB-INFO-03:@/tmp/.ICE-unix/1848,unix/LAB-INFO-03:/tmp/.ICE-unix/1848'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8e7511db_2d24_4635_82c1_e55c826f1d39'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1003'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1003/.mutter-Xwaylandauth.YWMVO2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.114'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1003/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/malik/interbotix_moveit/install/emse_moveit_actions:/home/malik/interbotix_ws/install/interbotix_ros_xsarms_examples:/home/malik/interbotix_ws/install/interbotix_xsarm_moveit_interface:/home/malik/interbotix_ws/install/interbotix_moveit_interface:/home/malik/interbotix_ws/install/moveit_visual_tools:/home/malik/interbotix_ws/install/interbotix_ros_xsarms:/home/malik/interbotix_ws/install/interbotix_xsarm_moveit:/home/malik/interbotix_ws/install/interbotix_xsarm_sim:/home/malik/interbotix_ws/install/interbotix_xsarm_ros_control:/home/malik/interbotix_ws/install/interbotix_xsarm_puppet:/home/malik/interbotix_ws/install/interbotix_xsarm_perception:/home/malik/interbotix_ws/install/interbotix_xsarm_joy:/home/malik/interbotix_ws/install/interbotix_xsarm_dual:/home/malik/interbotix_ws/install/interbotix_xsarm_control:/home/malik/interbotix_ws/install/interbotix_xsarm_descriptions:/home/malik/interbotix_ws/install/interbotix_xs_toolbox:/home/malik/interbotix_ws/install/interbotix_xs_rviz:/home/malik/interbotix_ws/install/interbotix_xs_modules:/home/malik/interbotix_ws/install/interbotix_ros_xseries:/home/malik/interbotix_ws/install/interbotix_xs_sdk:/home/malik/interbotix_ws/install/interbotix_xs_ros_control:/home/malik/interbotix_ws/install/interbotix_perception_toolbox:/home/malik/interbotix_ws/install/interbotix_perception_modules:/home/malik/interbotix_ws/install/interbotix_perception_pipelines:/home/malik/interbotix_ws/install/interbotix_xs_msgs:/home/malik/interbotix_ws/install/interbotix_xs_driver:/home/malik/interbotix_ws/install/interbotix_tf_tools:/home/malik/interbotix_ws/install/interbotix_perception_msgs:/home/malik/interbotix_ws/install/interbotix_moveit_interface_msgs:/home/malik/interbotix_ws/install/interbotix_common_toolbox:/home/malik/interbotix_ws/install/interbotix_common_sim:/home/malik/interbotix_ws/install/interbotix_common_modules:/home/malik/interbotix_ws/install/dynamixel_workbench_toolbox:/home/malik/apriltag_ws/install/apriltag_ros:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/malik/interbotix_moveit/build/emse_reachpose'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/malik/interbotix_moveit/install/emse_moveit_actions/local/lib/python3.10/dist-packages:/home/malik/interbotix_ws/install/interbotix_xs_modules/lib/python3.10/site-packages:/home/malik/interbotix_ws/install/interbotix_perception_modules/lib/python3.10/site-packages:/home/malik/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages:/home/malik/interbotix_ws/install/interbotix_perception_msgs/local/lib/python3.10/dist-packages:/home/malik/interbotix_ws/install/interbotix_moveit_interface_msgs/local/lib/python3.10/dist-packages:/home/malik/interbotix_ws/install/interbotix_common_modules/lib/python3.10/site-packages:/home/malik/apriltag_ws/install/apriltag_ros/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/malik/interbotix_moveit/install/emse_moveit_actions:/home/malik/interbotix_ws/install/interbotix_ros_xsarms_examples:/home/malik/interbotix_ws/install/interbotix_xsarm_moveit_interface:/home/malik/interbotix_ws/install/interbotix_moveit_interface:/home/malik/interbotix_ws/install/moveit_visual_tools:/home/malik/interbotix_ws/install/interbotix_ros_xsarms:/home/malik/interbotix_ws/install/interbotix_xsarm_moveit:/home/malik/interbotix_ws/install/interbotix_xsarm_sim:/home/malik/interbotix_ws/install/interbotix_xsarm_ros_control:/home/malik/interbotix_ws/install/interbotix_xsarm_puppet:/home/malik/interbotix_ws/install/interbotix_xsarm_perception:/home/malik/interbotix_ws/install/interbotix_xsarm_joy:/home/malik/interbotix_ws/install/interbotix_xsarm_dual:/home/malik/interbotix_ws/install/interbotix_xsarm_control:/home/malik/interbotix_ws/install/interbotix_xsarm_descriptions:/home/malik/interbotix_ws/install/interbotix_xs_toolbox:/home/malik/interbotix_ws/install/interbotix_xs_rviz:/home/malik/interbotix_ws/install/interbotix_ros_xseries:/home/malik/interbotix_ws/install/interbotix_xs_sdk:/home/malik/interbotix_ws/install/interbotix_xs_ros_control:/home/malik/interbotix_ws/install/interbotix_perception_toolbox:/home/malik/interbotix_ws/install/interbotix_perception_pipelines:/home/malik/interbotix_ws/install/interbotix_xs_msgs:/home/malik/interbotix_ws/install/interbotix_xs_driver:/home/malik/interbotix_ws/install/interbotix_tf_tools:/home/malik/interbotix_ws/install/interbotix_perception_msgs:/home/malik/interbotix_ws/install/interbotix_moveit_interface_msgs:/home/malik/interbotix_ws/install/interbotix_common_toolbox:/home/malik/interbotix_ws/install/interbotix_common_sim:/home/malik/interbotix_ws/install/dynamixel_workbench_toolbox:/home/malik/apriltag_ws/install/apriltag_ros:/home/malik/interbotix_ws/install/interbotix_xs_modules:/home/malik/interbotix_ws/install/interbotix_perception_modules:/home/malik/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble')]), 'shell': False}
+[0.098781] (-) TimerEvent: {}
+[0.107260] (emse_reachpose) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.190463] (emse_reachpose) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.198869] (-) TimerEvent: {}
+[0.200964] (emse_reachpose) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299025] (-) TimerEvent: {}
+[0.332312] (emse_reachpose) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.341948] (emse_reachpose) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.342270] (emse_reachpose) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.342982] (emse_reachpose) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.347582] (emse_reachpose) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.399192] (-) TimerEvent: {}
+[0.478917] (emse_reachpose) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.488870] (emse_reachpose) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.489385] (emse_reachpose) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.490081] (emse_reachpose) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.499287] (-) TimerEvent: {}
+[0.499707] (emse_reachpose) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.599394] (-) TimerEvent: {}
+[0.699739] (-) TimerEvent: {}
+[0.742315] (emse_reachpose) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.799842] (-) TimerEvent: {}
+[0.900211] (-) TimerEvent: {}
+[0.958749] (emse_reachpose) StdoutLine: {'line': b'-- Found moveit_ros_planning_interface: 2.5.5 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)\n'}
+[1.000341] (-) TimerEvent: {}
+[1.100653] (-) TimerEvent: {}
+[1.200964] (-) TimerEvent: {}
+[1.268767] (emse_reachpose) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread \n'}
+[1.301100] (-) TimerEvent: {}
+[1.394845] (emse_reachpose) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.401197] (-) TimerEvent: {}
+[1.413819] (emse_reachpose) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.438754] (emse_reachpose) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.473015] (emse_reachpose) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.501344] (-) TimerEvent: {}
+[1.519564] (emse_reachpose) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.601473] (-) TimerEvent: {}
+[1.701783] (-) TimerEvent: {}
+[1.802085] (-) TimerEvent: {}
+[1.902400] (-) TimerEvent: {}
+[2.002715] (-) TimerEvent: {}
+[2.103022] (-) TimerEvent: {}
+[2.203343] (-) TimerEvent: {}
+[2.303651] (-) TimerEvent: {}
+[2.403962] (-) TimerEvent: {}
+[2.504272] (-) TimerEvent: {}
+[2.604592] (-) TimerEvent: {}
+[2.704917] (-) TimerEvent: {}
+[2.805241] (-) TimerEvent: {}
+[2.905602] (-) TimerEvent: {}
+[2.915956] (emse_reachpose) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread \n'}
+[2.968159] (emse_reachpose) StdoutLine: {'line': b'-- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)\n'}
+[3.005751] (-) TimerEvent: {}
+[3.106063] (-) TimerEvent: {}
+[3.124807] (emse_reachpose) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.136763] (emse_reachpose) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.206193] (-) TimerEvent: {}
+[3.306479] (-) TimerEvent: {}
+[3.341014] (emse_reachpose) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[3.388112] (emse_reachpose) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[3.406617] (-) TimerEvent: {}
+[3.469693] (emse_reachpose) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.501388] (emse_reachpose) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.506721] (-) TimerEvent: {}
+[3.607035] (-) TimerEvent: {}
+[3.707346] (-) TimerEvent: {}
+[3.764269] (emse_reachpose) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.8 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[3.807490] (-) TimerEvent: {}
+[3.850907] (emse_reachpose) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem \n'}
+[3.907633] (-) TimerEvent: {}
+[4.007919] (-) TimerEvent: {}
+[4.059723] (emse_reachpose) StdoutLine: {'line': b'-- library: /usr/lib/x86_64-linux-gnu/libcurl.so\n'}
+[4.108028] (-) TimerEvent: {}
+[4.208357] (-) TimerEvent: {}
+[4.308691] (-) TimerEvent: {}
+[4.313463] (emse_reachpose) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[4.313750] (emse_reachpose) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[4.408838] (-) TimerEvent: {}
+[4.509228] (-) TimerEvent: {}
+[4.609596] (-) TimerEvent: {}
+[4.709949] (-) TimerEvent: {}
+[4.810353] (-) TimerEvent: {}
+[4.910690] (-) TimerEvent: {}
+[5.011014] (-) TimerEvent: {}
+[5.111354] (-) TimerEvent: {}
+[5.211693] (-) TimerEvent: {}
+[5.221102] (emse_reachpose) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono \n'}
+[5.311797] (-) TimerEvent: {}
+[5.412110] (-) TimerEvent: {}
+[5.512440] (-) TimerEvent: {}
+[5.612817] (-) TimerEvent: {}
+[5.713162] (-) TimerEvent: {}
+[5.813495] (-) TimerEvent: {}
+[5.913827] (-) TimerEvent: {}
+[6.014217] (-) TimerEvent: {}
+[6.021678] (emse_reachpose) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options \n'}
+[6.114321] (-) TimerEvent: {}
+[6.214642] (-) TimerEvent: {}
+[6.314977] (-) TimerEvent: {}
+[6.392443] (emse_reachpose) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread \n'}
+[6.415084] (-) TimerEvent: {}
+[6.515408] (-) TimerEvent: {}
+[6.615748] (-) TimerEvent: {}
+[6.716114] (-) TimerEvent: {}
+[6.816444] (-) TimerEvent: {}
+[6.916906] (-) TimerEvent: {}
+[7.017224] (-) TimerEvent: {}
+[7.032495] (emse_reachpose) StdoutLine: {'line': b'-- Found moveit: 2.5.5 (/opt/ros/humble/share/moveit/cmake)\n'}
+[7.033312] (emse_reachpose) StdoutLine: {'line': b'-- Found emse_moveit_actions: 0.0.0 (/home/malik/interbotix_moveit/install/emse_moveit_actions/share/emse_moveit_actions/cmake)\n'}
+[7.117326] (-) TimerEvent: {}
+[7.217647] (-) TimerEvent: {}
+[7.317963] (-) TimerEvent: {}
+[7.418315] (-) TimerEvent: {}
+[7.474198] (emse_reachpose) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[7.518453] (-) TimerEvent: {}
+[7.618743] (-) TimerEvent: {}
+[7.634568] (emse_reachpose) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[7.637544] (emse_reachpose) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[7.638096] (emse_reachpose) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/malik/interbotix_moveit/src/emse_reachpose/include>\n'}
+[7.638265] (emse_reachpose) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[7.639863] (emse_reachpose) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[7.641897] (emse_reachpose) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[7.643553] (emse_reachpose) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[7.646827] (emse_reachpose) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[7.647102] (emse_reachpose) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[7.649388] (emse_reachpose) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[7.652717] (emse_reachpose) StdoutLine: {'line': b'-- Configuring done\n'}
+[7.718882] (-) TimerEvent: {}
+[7.738857] (emse_reachpose) StdoutLine: {'line': b'-- Generating done\n'}
+[7.741976] (emse_reachpose) StdoutLine: {'line': b'-- Build files have been written to: /home/malik/interbotix_moveit/build/emse_reachpose\n'}
+[7.764214] (emse_reachpose) CommandEnded: {'returncode': 0}
+[7.765064] (emse_reachpose) JobProgress: {'identifier': 'emse_reachpose', 'progress': 'build'}
+[7.766766] (emse_reachpose) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/malik/interbotix_moveit/build/emse_reachpose', '--', '-j4', '-l4'], 'cwd': '/home/malik/interbotix_moveit/build/emse_reachpose', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'malik'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/malik/interbotix_moveit/install/emse_moveit_actions/lib:/home/malik/interbotix_ws/install/moveit_visual_tools/lib:/home/malik/interbotix_ws/install/interbotix_xs_rviz/lib:/home/malik/interbotix_ws/install/interbotix_xs_ros_control/lib:/home/malik/interbotix_ws/install/interbotix_xs_msgs/lib:/home/malik/interbotix_ws/install/interbotix_xs_driver/lib:/home/malik/interbotix_ws/install/interbotix_tf_tools/lib:/home/malik/interbotix_ws/install/interbotix_perception_msgs/lib:/home/malik/interbotix_ws/install/interbotix_moveit_interface_msgs/lib:/home/malik/interbotix_ws/install/dynamixel_workbench_toolbox/lib:/home/malik/apriltag_ws/install/apriltag_ros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/malik'), ('OLDPWD', '/home/malik'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_IP', '10.103.3.151'), ('SYSTEMD_EXEC_PID', '1870'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1003/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/malik/interbotix_moveit/install:/home/malik/interbotix_ws/install:/home/malik/apriltag_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'malik'), ('_', '/home/malik/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'malik'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/malik/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/LAB-INFO-03:@/tmp/.ICE-unix/1848,unix/LAB-INFO-03:/tmp/.ICE-unix/1848'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8e7511db_2d24_4635_82c1_e55c826f1d39'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1003'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1003/.mutter-Xwaylandauth.YWMVO2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.114'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1003/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/malik/interbotix_moveit/install/emse_moveit_actions:/home/malik/interbotix_ws/install/interbotix_ros_xsarms_examples:/home/malik/interbotix_ws/install/interbotix_xsarm_moveit_interface:/home/malik/interbotix_ws/install/interbotix_moveit_interface:/home/malik/interbotix_ws/install/moveit_visual_tools:/home/malik/interbotix_ws/install/interbotix_ros_xsarms:/home/malik/interbotix_ws/install/interbotix_xsarm_moveit:/home/malik/interbotix_ws/install/interbotix_xsarm_sim:/home/malik/interbotix_ws/install/interbotix_xsarm_ros_control:/home/malik/interbotix_ws/install/interbotix_xsarm_puppet:/home/malik/interbotix_ws/install/interbotix_xsarm_perception:/home/malik/interbotix_ws/install/interbotix_xsarm_joy:/home/malik/interbotix_ws/install/interbotix_xsarm_dual:/home/malik/interbotix_ws/install/interbotix_xsarm_control:/home/malik/interbotix_ws/install/interbotix_xsarm_descriptions:/home/malik/interbotix_ws/install/interbotix_xs_toolbox:/home/malik/interbotix_ws/install/interbotix_xs_rviz:/home/malik/interbotix_ws/install/interbotix_xs_modules:/home/malik/interbotix_ws/install/interbotix_ros_xseries:/home/malik/interbotix_ws/install/interbotix_xs_sdk:/home/malik/interbotix_ws/install/interbotix_xs_ros_control:/home/malik/interbotix_ws/install/interbotix_perception_toolbox:/home/malik/interbotix_ws/install/interbotix_perception_modules:/home/malik/interbotix_ws/install/interbotix_perception_pipelines:/home/malik/interbotix_ws/install/interbotix_xs_msgs:/home/malik/interbotix_ws/install/interbotix_xs_driver:/home/malik/interbotix_ws/install/interbotix_tf_tools:/home/malik/interbotix_ws/install/interbotix_perception_msgs:/home/malik/interbotix_ws/install/interbotix_moveit_interface_msgs:/home/malik/interbotix_ws/install/interbotix_common_toolbox:/home/malik/interbotix_ws/install/interbotix_common_sim:/home/malik/interbotix_ws/install/interbotix_common_modules:/home/malik/interbotix_ws/install/dynamixel_workbench_toolbox:/home/malik/apriltag_ws/install/apriltag_ros:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/malik/interbotix_moveit/build/emse_reachpose'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/malik/interbotix_moveit/install/emse_moveit_actions/local/lib/python3.10/dist-packages:/home/malik/interbotix_ws/install/interbotix_xs_modules/lib/python3.10/site-packages:/home/malik/interbotix_ws/install/interbotix_perception_modules/lib/python3.10/site-packages:/home/malik/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages:/home/malik/interbotix_ws/install/interbotix_perception_msgs/local/lib/python3.10/dist-packages:/home/malik/interbotix_ws/install/interbotix_moveit_interface_msgs/local/lib/python3.10/dist-packages:/home/malik/interbotix_ws/install/interbotix_common_modules/lib/python3.10/site-packages:/home/malik/apriltag_ws/install/apriltag_ros/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/malik/interbotix_moveit/install/emse_moveit_actions:/home/malik/interbotix_ws/install/interbotix_ros_xsarms_examples:/home/malik/interbotix_ws/install/interbotix_xsarm_moveit_interface:/home/malik/interbotix_ws/install/interbotix_moveit_interface:/home/malik/interbotix_ws/install/moveit_visual_tools:/home/malik/interbotix_ws/install/interbotix_ros_xsarms:/home/malik/interbotix_ws/install/interbotix_xsarm_moveit:/home/malik/interbotix_ws/install/interbotix_xsarm_sim:/home/malik/interbotix_ws/install/interbotix_xsarm_ros_control:/home/malik/interbotix_ws/install/interbotix_xsarm_puppet:/home/malik/interbotix_ws/install/interbotix_xsarm_perception:/home/malik/interbotix_ws/install/interbotix_xsarm_joy:/home/malik/interbotix_ws/install/interbotix_xsarm_dual:/home/malik/interbotix_ws/install/interbotix_xsarm_control:/home/malik/interbotix_ws/install/interbotix_xsarm_descriptions:/home/malik/interbotix_ws/install/interbotix_xs_toolbox:/home/malik/interbotix_ws/install/interbotix_xs_rviz:/home/malik/interbotix_ws/install/interbotix_ros_xseries:/home/malik/interbotix_ws/install/interbotix_xs_sdk:/home/malik/interbotix_ws/install/interbotix_xs_ros_control:/home/malik/interbotix_ws/install/interbotix_perception_toolbox:/home/malik/interbotix_ws/install/interbotix_perception_pipelines:/home/malik/interbotix_ws/install/interbotix_xs_msgs:/home/malik/interbotix_ws/install/interbotix_xs_driver:/home/malik/interbotix_ws/install/interbotix_tf_tools:/home/malik/interbotix_ws/install/interbotix_perception_msgs:/home/malik/interbotix_ws/install/interbotix_moveit_interface_msgs:/home/malik/interbotix_ws/install/interbotix_common_toolbox:/home/malik/interbotix_ws/install/interbotix_common_sim:/home/malik/interbotix_ws/install/dynamixel_workbench_toolbox:/home/malik/apriltag_ws/install/apriltag_ros:/home/malik/interbotix_ws/install/interbotix_xs_modules:/home/malik/interbotix_ws/install/interbotix_perception_modules:/home/malik/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble')]), 'shell': False}
+[7.819020] (-) TimerEvent: {}
+[7.864073] (emse_reachpose) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/reach_pose.dir/src/reach_pose.cpp.o\x1b[0m\n'}
+[7.872021] (emse_reachpose) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/plan_pose.dir/src/reachpose_action_server.cpp.o\x1b[0m\n'}
+[7.875139] (emse_reachpose) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/reachpose.dir/src/reachpose.cpp.o\x1b[0m\n'}
+[7.919149] (-) TimerEvent: {}
+[8.019541] (-) TimerEvent: {}
+[8.119900] (-) TimerEvent: {}
+[8.220228] (-) TimerEvent: {}
+[8.320609] (-) TimerEvent: {}
+[8.421008] (-) TimerEvent: {}
+[8.521405] (-) TimerEvent: {}
+[8.621775] (-) TimerEvent: {}
+[8.722288] (-) TimerEvent: {}
+[8.823547] (-) TimerEvent: {}
+[8.924037] (-) TimerEvent: {}
+[9.024498] (-) TimerEvent: {}
+[9.133021] (-) TimerEvent: {}
+[9.233406] (-) TimerEvent: {}
+[9.333809] (-) TimerEvent: {}
+[9.434290] (-) TimerEvent: {}
+[9.534779] (-) TimerEvent: {}
+[9.636637] (-) TimerEvent: {}
+[9.737268] (-) TimerEvent: {}
+[9.837748] (-) TimerEvent: {}
+[9.938259] (-) TimerEvent: {}
+[10.038698] (-) TimerEvent: {}
+[10.139144] (-) TimerEvent: {}
+[10.239546] (-) TimerEvent: {}
+[10.340050] (-) TimerEvent: {}
+[10.440445] (-) TimerEvent: {}
+[10.540819] (-) TimerEvent: {}
+[10.641171] (-) TimerEvent: {}
+[10.741709] (-) TimerEvent: {}
+[10.842074] (-) TimerEvent: {}
+[10.942434] (-) TimerEvent: {}
+[11.042783] (-) TimerEvent: {}
+[11.143136] (-) TimerEvent: {}
+[11.243486] (-) TimerEvent: {}
+[11.343859] (-) TimerEvent: {}
+[11.444248] (-) TimerEvent: {}
+[11.544584] (-) TimerEvent: {}
+[11.645127] (-) TimerEvent: {}
+[11.745680] (-) TimerEvent: {}
+[11.845991] (-) TimerEvent: {}
+[11.946355] (-) TimerEvent: {}
+[12.046828] (-) TimerEvent: {}
+[12.147317] (-) TimerEvent: {}
+[12.247828] (-) TimerEvent: {}
+[12.348216] (-) TimerEvent: {}
+[12.448660] (-) TimerEvent: {}
+[12.549060] (-) TimerEvent: {}
+[12.649440] (-) TimerEvent: {}
+[12.749821] (-) TimerEvent: {}
+[12.850348] (-) TimerEvent: {}
+[12.950844] (-) TimerEvent: {}
+[13.051302] (-) TimerEvent: {}
+[13.151699] (-) TimerEvent: {}
+[13.252094] (-) TimerEvent: {}
+[13.352589] (-) TimerEvent: {}
+[13.456452] (-) TimerEvent: {}
+[13.556827] (-) TimerEvent: {}
+[13.657174] (-) TimerEvent: {}
+[13.757559] (-) TimerEvent: {}
+[13.858316] (-) TimerEvent: {}
+[13.958664] (-) TimerEvent: {}
+[14.058955] (-) TimerEvent: {}
+[14.159340] (-) TimerEvent: {}
+[14.259650] (-) TimerEvent: {}
+[14.360173] (-) TimerEvent: {}
+[14.460539] (-) TimerEvent: {}
+[14.560970] (-) TimerEvent: {}
+[14.661688] (-) TimerEvent: {}
+[14.772249] (-) TimerEvent: {}
+[14.872626] (-) TimerEvent: {}
+[14.973234] (-) TimerEvent: {}
+[15.073873] (-) TimerEvent: {}
+[15.174256] (-) TimerEvent: {}
+[15.274834] (-) TimerEvent: {}
+[15.375665] (-) TimerEvent: {}
+[15.839718] (-) TimerEvent: {}
+[15.940564] (-) TimerEvent: {}
+[16.044486] (-) TimerEvent: {}
+[16.145527] (-) TimerEvent: {}
+[16.246475] (-) TimerEvent: {}
+[16.347592] (-) TimerEvent: {}
+[16.461786] (-) TimerEvent: {}
+[16.562793] (-) TimerEvent: {}
+[16.663816] (-) TimerEvent: {}
+[16.764832] (-) TimerEvent: {}
+[16.867580] (-) TimerEvent: {}
+[16.968381] (-) TimerEvent: {}
+[17.069394] (-) TimerEvent: {}
+[17.170160] (-) TimerEvent: {}
+[17.270640] (-) TimerEvent: {}
+[17.371112] (-) TimerEvent: {}
+[17.471578] (-) TimerEvent: {}
+[17.572076] (-) TimerEvent: {}
+[17.672477] (-) TimerEvent: {}
+[17.772893] (-) TimerEvent: {}
+[17.873401] (-) TimerEvent: {}
+[17.973931] (-) TimerEvent: {}
+[18.074287] (-) TimerEvent: {}
+[18.174607] (-) TimerEvent: {}
+[18.275115] (-) TimerEvent: {}
+[18.375616] (-) TimerEvent: {}
+[18.475996] (-) TimerEvent: {}
+[18.576374] (-) TimerEvent: {}
+[18.676716] (-) TimerEvent: {}
+[18.777223] (-) TimerEvent: {}
+[18.877627] (-) TimerEvent: {}
+[18.978010] (-) TimerEvent: {}
+[19.078422] (-) TimerEvent: {}
+[19.178794] (-) TimerEvent: {}
+[19.279203] (-) TimerEvent: {}
+[19.379892] (-) TimerEvent: {}
+[19.480432] (-) TimerEvent: {}
+[19.580971] (-) TimerEvent: {}
+[19.681571] (-) TimerEvent: {}
+[19.782576] (-) TimerEvent: {}
+[19.882968] (-) TimerEvent: {}
+[19.983406] (-) TimerEvent: {}
+[20.083804] (-) TimerEvent: {}
+[20.184175] (-) TimerEvent: {}
+[20.284786] (-) TimerEvent: {}
+[20.385856] (-) TimerEvent: {}
+[20.486355] (-) TimerEvent: {}
+[20.586863] (-) TimerEvent: {}
+[20.687899] (-) TimerEvent: {}
+[20.788501] (-) TimerEvent: {}
+[20.889364] (-) TimerEvent: {}
+[20.990468] (-) TimerEvent: {}
+[21.091088] (-) TimerEvent: {}
+[21.491800] (-) TimerEvent: {}
+[21.592490] (-) TimerEvent: {}
+[21.693650] (-) TimerEvent: {}
+[21.794808] (-) TimerEvent: {}
+[21.895941] (-) TimerEvent: {}
+[22.006053] (-) TimerEvent: {}
+[22.106475] (-) TimerEvent: {}
+[22.206896] (-) TimerEvent: {}
+[22.307649] (-) TimerEvent: {}
+[22.408533] (-) TimerEvent: {}
+[22.509247] (-) TimerEvent: {}
+[22.609968] (-) TimerEvent: {}
+[22.659507] (emse_reachpose) StderrLine: {'line': b'\x1b[01m\x1b[K/home/malik/interbotix_moveit/src/emse_reachpose/src/reachpose_action_server.cpp:14:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kemse_reachpose\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[23.287144] (-) TimerEvent: {}
+[23.288034] (emse_reachpose) StderrLine: {'line': b'   14 |   using ReachPose = \x1b[01;31m\x1b[Kemse_reachpose\x1b[m\x1b[K::action::ReachPose;\n'}
+[23.288662] (emse_reachpose) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.289538] (emse_reachpose) StderrLine: {'line': b'\x1b[01m\x1b[K/home/malik/interbotix_moveit/src/emse_reachpose/src/reachpose_action_server.cpp:15:63:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KReachPose\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kemse_moveit_actions::action::ReachPose\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[23.290357] (emse_reachpose) StderrLine: {'line': b'   15 |   using GoalHandleReachPose = rclcpp_action::ServerGoalHandle<\x1b[01;31m\x1b[KReachPose\x1b[m\x1b[K>;\n'}
+[23.291136] (emse_reachpose) StderrLine: {'line': b'      |                                                               \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[23.291927] (emse_reachpose) StderrLine: {'line': b'      |                                                               \x1b[32m\x1b[Kemse_moveit_actions::action::ReachPose\x1b[m\x1b[K\n'}
+[23.292716] (emse_reachpose) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/malik/interbotix_moveit/install/emse_moveit_actions/include/emse_moveit_actions/emse_moveit_actions/action/reach_pose.hpp:7\x1b[m\x1b[K,\n'}
+[23.293582] (emse_reachpose) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/malik/interbotix_moveit/src/emse_reachpose/src/reachpose_action_server.cpp:9\x1b[m\x1b[K:\n'}
+[23.294393] (emse_reachpose) StderrLine: {'line': b'\x1b[01m\x1b[K/home/malik/interbotix_moveit/install/emse_moveit_actions/include/emse_moveit_actions/emse_moveit_actions/action/detail/reach_pose__struct.hpp:1118:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kemse_moveit_actions::action::ReachPose\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[23.295221] (emse_reachpose) StderrLine: {'line': b' 1118 | typedef struct ReachPose \x1b[01;36m\x1b[KReachPose\x1b[m\x1b[K;\n'}
+[23.296016] (emse_reachpose) StderrLine: {'line': b'      |                          \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[23.296664] (emse_reachpose) StderrLine: {'line': b'\x1b[01m\x1b[K/home/malik/interbotix_moveit/src/emse_reachpose/src/reachpose_action_server.cpp:15:72:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[23.297413] (emse_reachpose) StderrLine: {'line': b'   15 |   using GoalHandleReachPose = rclcpp_action::ServerGoalHandle<ReachPose\x1b[01;31m\x1b[K>\x1b[m\x1b[K;\n'}
+[23.298048] (emse_reachpose) StderrLine: {'line': b'      |                                                                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[23.298582] (emse_reachpose) StderrLine: {'line': b'\x1b[01m\x1b[K/home/malik/interbotix_moveit/src/emse_reachpose/src/reachpose_action_server.cpp:35:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KReachPose\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kemse_moveit_actions::action::ReachPose\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[23.299081] (emse_reachpose) StderrLine: {'line': b'   35 |   rclcpp_action::Server<\x1b[01;31m\x1b[KReachPose\x1b[m\x1b[K>::SharedPtr action_server_;\n'}
+[23.299532] (emse_reachpose) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[23.300083] (emse_reachpose) StderrLine: {'line': b'      |                         \x1b[32m\x1b[Kemse_moveit_actions::action::ReachPose\x1b[m\x1b[K\n'}
+[23.300767] (emse_reachpose) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/malik/interbotix_moveit/install/emse_moveit_actions/include/emse_moveit_actions/emse_moveit_actions/action/reach_pose.hpp:7\x1b[m\x1b[K,\n'}
+[23.301456] (emse_reachpose) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/malik/interbotix_moveit/src/emse_reachpose/src/reachpose_action_server.cpp:9\x1b[m\x1b[K:\n'}
+[23.302103] (emse_reachpose) StderrLine: {'line': b'\x1b[01m\x1b[K/home/malik/interbotix_moveit/install/emse_moveit_actions/include/emse_moveit_actions/emse_moveit_actions/action/detail/reach_pose__struct.hpp:1118:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kemse_moveit_actions::action::ReachPose\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[23.302771] (emse_reachpose) StderrLine: {'line': b' 1118 | typedef struct ReachPose \x1b[01;36m\x1b[KReachPose\x1b[m\x1b[K;\n'}
+[23.303418] (emse_reachpose) StderrLine: {'line': b'      |                          \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[23.304066] (emse_reachpose) StderrLine: {'line': b'\x1b[01m\x1b[K/home/malik/interbotix_moveit/src/emse_reachpose/src/reachpose_action_server.cpp:35:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[23.304712] (emse_reachpose) StderrLine: {'line': b'   35 |   rclcpp_action::Server<ReachPose\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr action_server_;\n'}
+[23.305407] (emse_reachpose) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[23.306100] (emse_reachpose) StderrLine: {'line': b'\x1b[01m\x1b[K/home/malik/interbotix_moveit/src/emse_reachpose/src/reachpose_action_server.cpp:35:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[23.306878] (emse_reachpose) StderrLine: {'line': b'   35 |   rclcpp_action::Server<ReachPose>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K action_server_;\n'}
+[23.307457] (emse_reachpose) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[23.308017] (emse_reachpose) StderrLine: {'line': b'      |                                              \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[23.308603] (emse_reachpose) StderrLine: {'line': b'\x1b[01m\x1b[K/home/malik/interbotix_moveit/src/emse_reachpose/src/reachpose_action_server.cpp:35:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kaction_server_\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_action_server_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[23.309337] (emse_reachpose) StderrLine: {'line': b'   35 |   rclcpp_action::Server<ReachPose>::SharedPtr \x1b[01;31m\x1b[Kaction_server_\x1b[m\x1b[K;\n'}
+[23.310003] (emse_reachpose) StderrLine: {'line': b'      |                                               \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.310676] (emse_reachpose) StderrLine: {'line': b'      |                                               \x1b[32m\x1b[Krcl_action_server_t\x1b[m\x1b[K\n'}
+[23.314800] (emse_reachpose) StderrLine: {'line': b'\x1b[01m\x1b[K/home/malik/interbotix_moveit/src/emse_reachpose/src/reachpose_action_server.cpp:40:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[KISO C++ forbids declaration of \xe2\x80\x98\x1b[01m\x1b[Ktype name\x1b[m\x1b[K\xe2\x80\x99 with no type [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[23.315977] (emse_reachpose) StderrLine: {'line': b'   40 |     std::shared_ptr<const ReachPose\x1b[01;31m\x1b[K::\x1b[m\x1b[KGoal> goal)\n'}
+[23.341642] (emse_reachpose) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[23.342263] (emse_reachpose) StderrLine: {'line': b'\x1b[01m\x1b[K/home/malik/interbotix_moveit/src/emse_reachpose/src/reachpose_action_server.cpp:40:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[23.342834] (emse_reachpose) StderrLine: {'line': b'   40 |     std::shared_ptr<const ReachPose::Goal\x1b[01;31m\x1b[K>\x1b[m\x1b[K goal)\n'}
+[23.343412] (emse_reachpose) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[23.343970] (emse_reachpose) StderrLine: {'line': b'\x1b[01m\x1b[K/home/malik/interbotix_moveit/src/emse_reachpose/src/reachpose_action_server.cpp:40:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[KISO C++ forbids declaration of \xe2\x80\x98\x1b[01m\x1b[Ktype name\x1b[m\x1b[K\xe2\x80\x99 with no type [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[23.344545] (emse_reachpose) StderrLine: {'line': b'   40 |     std::shared_ptr<const ReachPose\x1b[01;31m\x1b[K::\x1b[m\x1b[KGoal> goal)\n'}
+[23.345483] (emse_reachpose) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[23.346110] (emse_reachpose) StderrLine: {'line': b'\x1b[01m\x1b[K/home/malik/interbotix_moveit/src/emse_reachpose/src/reachpose_action_server.cpp:40:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[23.346723] (emse_reachpose) StderrLine: {'line': b'   40 |     std::shared_ptr<const ReachPose::Goal\x1b[01;31m\x1b[K>\x1b[m\x1b[K goal)\n'}
+[23.347277] (emse_reachpose) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[23.347812] (emse_reachpose) StderrLine: {'line': b'\x1b[01m\x1b[K/home/malik/interbotix_moveit/src/emse_reachpose/src/reachpose_action_server.cpp:40:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[KISO C++ forbids declaration of \xe2\x80\x98\x1b[01m\x1b[Ktype name\x1b[m\x1b[K\xe2\x80\x99 with no type [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[23.348372] (emse_reachpose) StderrLine: {'line': b'   40 |     std::shared_ptr<const ReachPose\x1b[01;31m\x1b[K::\x1b[m\x1b[KGoal> goal)\n'}
+[23.348945] (emse_reachpose) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[23.349496] (emse_reachpose) StderrLine: {'line': b'\x1b[01m\x1b[K/home/malik/interbotix_moveit/src/emse_reachpose/src/reachpose_action_server.cpp:40:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[23.350032] (emse_reachpose) StderrLine: {'line': b'   40 |     std::shared_ptr<const ReachPose::Goal\x1b[01;31m\x1b[K>\x1b[m\x1b[K goal)\n'}
+[23.350565] (emse_reachpose) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[23.351094] (emse_reachpose) StderrLine: {'line': b'\x1b[01m\x1b[K/home/malik/interbotix_moveit/src/emse_reachpose/src/reachpose_action_server.cpp:40:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid template-id\n'}
+[23.351664] (emse_reachpose) StderrLine: {'line': b'   40 |     \x1b[01;31m\x1b[Kstd\x1b[m\x1b[K::shared_ptr<const ReachPose::Goal> goal)\n'}
+[23.352186] (emse_reachpose) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[23.352707] (emse_reachpose) StderrLine: {'line': b'\x1b[01m\x1b[K/home/malik/interbotix_moveit/src/emse_reachpose/src/reachpose_action_server.cpp:40:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[KISO C++ forbids declaration of \xe2\x80\x98\x1b[01m\x1b[Ktype name\x1b[m\x1b[K\xe2\x80\x99 with no type [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[23.353321] (emse_reachpose) StderrLine: {'line': b'   40 |     std::shared_ptr<const ReachPose\x1b[01;31m\x1b[K::\x1b[m\x1b[KGoal> goal)\n'}
+[23.353883] (emse_reachpose) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[23.354424] (emse_reachpose) StderrLine: {'line': b'\x1b[01m\x1b[K/home/malik/interbotix_moveit/src/emse_reachpose/src/reachpose_action_server.cpp:40:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[Kconst\x1b[m\x1b[K\xe2\x80\x99\n'}
+[23.354970] (emse_reachpose) StderrLine: {'line': b'   40 |     std::shared_ptr<\x1b[01;31m\x1b[Kconst\x1b[m\x1b[K ReachPose::Goal> goal)\n'}
+[23.355487] (emse_reachpose) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[23.356003] (emse_reachpose) StderrLine: {'line': b'\x1b[01m\x1b[K/home/malik/interbotix_moveit/src/emse_reachpose/src/reachpose_action_server.cpp:40:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kconst\x1b[m\x1b[K\xe2\x80\x99\n'}
+[23.356543] (emse_reachpose) StderrLine: {'line': b'\x1b[01m\x1b[K/home/malik/interbotix_moveit/src/emse_reachpose/src/reachpose_action_server.cpp:40:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kclass template placeholder \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr\x1b[m\x1b[K\xe2\x80\x99 not permitted in this context\n'}
+[23.357198] (emse_reachpose) StderrLine: {'line': b'   40 |     \x1b[01;31m\x1b[Kstd\x1b[m\x1b[K::shared_ptr<const ReachPose::Goal> goal)\n'}
+[23.357728] (emse_reachpose) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[23.387333] (-) TimerEvent: {}
+[23.551619] (emse_reachpose) StderrLine: {'line': b'\x1b[01m\x1b[K/home/malik/interbotix_moveit/src/emse_reachpose/src/reachpose_action_server.cpp:50:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KGoalHandleReachPose\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[23.552668] (-) TimerEvent: {}
+[23.553385] (emse_reachpose) StderrLine: {'line': b'   50 |     const std::shared_ptr<\x1b[01;31m\x1b[KGoalHandleReachPose\x1b[m\x1b[K> /*goal_handle*/)\n'}
+[23.554220] (emse_reachpose) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.555009] (emse_reachpose) StderrLine: {'line': b'\x1b[01m\x1b[K/home/malik/interbotix_moveit/src/emse_reachpose/src/reachpose_action_server.cpp:50:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[23.555777] (emse_reachpose) StderrLine: {'line': b'   50 |     const std::shared_ptr<GoalHandleReachPose\x1b[01;31m\x1b[K>\x1b[m\x1b[K /*goal_handle*/)\n'}
+[23.556538] (emse_reachpose) StderrLine: {'line': b'      |                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[23.652915] (-) TimerEvent: {}
+[23.710222] (emse_reachpose) StderrLine: {'line': b'\x1b[01m\x1b[K/home/malik/interbotix_moveit/src/emse_reachpose/src/reachpose_action_server.cpp:56:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KGoalHandleReachPose\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[23.710504] (emse_reachpose) StderrLine: {'line': b'   56 |   void handle_accepted(const std::shared_ptr<\x1b[01;31m\x1b[KGoalHandleReachPose\x1b[m\x1b[K> goal_handle)\n'}
+[23.710694] (emse_reachpose) StderrLine: {'line': b'      |                                              \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.710843] (emse_reachpose) StderrLine: {'line': b'\x1b[01m\x1b[K/home/malik/interbotix_moveit/src/emse_reachpose/src/reachpose_action_server.cpp:56:65:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[23.710992] (emse_reachpose) StderrLine: {'line': b'   56 |   void handle_accepted(const std::shared_ptr<GoalHandleReachPose\x1b[01;31m\x1b[K>\x1b[m\x1b[K goal_handle)\n'}
+[23.711150] (emse_reachpose) StderrLine: {'line': b'      |                                                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[23.753003] (-) TimerEvent: {}
+[23.753558] (emse_reachpose) StderrLine: {'line': b'\x1b[01m\x1b[K/home/malik/interbotix_moveit/src/emse_reachpose/src/reachpose_action_server.cpp:61:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KGoalHandleReachPose\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[23.753818] (emse_reachpose) StderrLine: {'line': b'   61 |   void execute(const std::shared_ptr<\x1b[01;31m\x1b[KGoalHandleReachPose\x1b[m\x1b[K> goal_handle)\n'}
+[23.754003] (emse_reachpose) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.754250] (emse_reachpose) StderrLine: {'line': b'\x1b[01m\x1b[K/home/malik/interbotix_moveit/src/emse_reachpose/src/reachpose_action_server.cpp:61:57:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[23.754423] (emse_reachpose) StderrLine: {'line': b'   61 |   void execute(const std::shared_ptr<GoalHandleReachPose\x1b[01;31m\x1b[K>\x1b[m\x1b[K goal_handle)\n'}
+[23.754573] (emse_reachpose) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[23.780520] (emse_reachpose) StderrLine: {'line': b'\x1b[01m\x1b[K/home/malik/interbotix_moveit/src/emse_reachpose/src/reachpose_action_server.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KReachPoseActionServer::ReachPoseActionServer()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[23.780842] (emse_reachpose) StderrLine: {'line': b'\x1b[01m\x1b[K/home/malik/interbotix_moveit/src/emse_reachpose/src/reachpose_action_server.cpp:23:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kaction_server_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_action_server_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[23.780955] (emse_reachpose) StderrLine: {'line': b'   23 |     \x1b[01;31m\x1b[Kaction_server_\x1b[m\x1b[K = rclcpp_action::create_server<ReachPose>(\n'}
+[23.781036] (emse_reachpose) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.781111] (emse_reachpose) StderrLine: {'line': b'      |     \x1b[32m\x1b[Krcl_action_server_t\x1b[m\x1b[K\n'}
+[23.787155] (emse_reachpose) StderrLine: {'line': b'\x1b[01m\x1b[K/home/malik/interbotix_moveit/src/emse_reachpose/src/reachpose_action_server.cpp:23:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KReachPose\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kemse_moveit_actions::action::ReachPose\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[23.787481] (emse_reachpose) StderrLine: {'line': b'   23 |     action_server_ = rclcpp_action::create_server<\x1b[01;31m\x1b[KReachPose\x1b[m\x1b[K>(\n'}
+[23.787587] (emse_reachpose) StderrLine: {'line': b'      |                                                   \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[23.787663] (emse_reachpose) StderrLine: {'line': b'      |                                                   \x1b[32m\x1b[Kemse_moveit_actions::action::ReachPose\x1b[m\x1b[K\n'}
+[23.787738] (emse_reachpose) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/malik/interbotix_moveit/install/emse_moveit_actions/include/emse_moveit_actions/emse_moveit_actions/action/reach_pose.hpp:7\x1b[m\x1b[K,\n'}
+[23.788934] (emse_reachpose) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/malik/interbotix_moveit/src/emse_reachpose/src/reachpose_action_server.cpp:9\x1b[m\x1b[K:\n'}
+[23.789120] (emse_reachpose) StderrLine: {'line': b'\x1b[01m\x1b[K/home/malik/interbotix_moveit/install/emse_moveit_actions/include/emse_moveit_actions/emse_moveit_actions/action/detail/reach_pose__struct.hpp:1118:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kemse_moveit_actions::action::ReachPose\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[23.789294] (emse_reachpose) StderrLine: {'line': b' 1118 | typedef struct ReachPose \x1b[01;36m\x1b[KReachPose\x1b[m\x1b[K;\n'}
+[23.789476] (emse_reachpose) StderrLine: {'line': b'      |                          \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[23.840279] (emse_reachpose) StderrLine: {'line': b'\x1b[01m\x1b[K/home/malik/interbotix_moveit/src/emse_reachpose/src/reachpose_action_server.cpp:23:61:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kcreate_server<<expression error> >(ReachPoseActionServer*, const char [10], std::_Bind_helper<false, rclcpp_action::GoalResponse (ReachPoseActionServer::*)(...), ReachPoseActionServer*, const std::_Placeholder<1>&, const std::_Placeholder<2>&>::type, std::_Bind_helper<false, rclcpp_action::CancelResponse (ReachPoseActionServer::*)(int), ReachPoseActionServer*, const std::_Placeholder<1>&>::type, std::_Bind_helper<false, void (ReachPoseActionServer::*)(int), ReachPoseActionServer*, const std::_Placeholder<1>&>::type)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[23.840641] (emse_reachpose) StderrLine: {'line': b'   23 |     action_server_ = \x1b[01;31m\x1b[Krclcpp_action::create_server<ReachPose>(\x1b[m\x1b[K\n'}
+[23.840847] (emse_reachpose) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[23.841027] (emse_reachpose) StderrLine: {'line': b'   24 | \x1b[01;31m\x1b[K      this,\x1b[m\x1b[K\n'}
+[23.841282] (emse_reachpose) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K~~~~~\x1b[m\x1b[K                                                  \n'}
+[23.841404] (emse_reachpose) StderrLine: {'line': b'   25 | \x1b[01;31m\x1b[K      "plan_pose",\x1b[m\x1b[K\n'}
+[23.841595] (emse_reachpose) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K~~~~~~~~~~~~\x1b[m\x1b[K                                           \n'}
+[23.841872] (emse_reachpose) StderrLine: {'line': b'   26 | \x1b[01;31m\x1b[K      std::bind(&ReachPoseActionServer::handle_goal, this, _1, _2),\x1b[m\x1b[K\n'}
+[23.842815] (emse_reachpose) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.842957] (emse_reachpose) StderrLine: {'line': b'   27 | \x1b[01;31m\x1b[K      std::bind(&ReachPoseActionServer::handle_cancel, this, _1),\x1b[m\x1b[K\n'}
+[23.843083] (emse_reachpose) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.843208] (emse_reachpose) StderrLine: {'line': b'   28 | \x1b[01;31m\x1b[K      std::bind(&ReachPoseActionServer::handle_accepted, this, _1))\x1b[m\x1b[K;\n'}
+[23.843331] (emse_reachpose) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.853124] (-) TimerEvent: {}
+[23.953504] (-) TimerEvent: {}
+[24.015201] (emse_reachpose) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp:39\x1b[m\x1b[K,\n'}
+[24.015839] (emse_reachpose) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/malik/interbotix_moveit/src/emse_reachpose/src/reachpose_action_server.cpp:3\x1b[m\x1b[K:\n'}
+[24.016307] (emse_reachpose) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_server.hpp:58:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ActionT> typename rclcpp_action::Server<ActionT>::SharedPtr rclcpp_action::create_server(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr, rclcpp::node_interfaces::NodeClockInterface::SharedPtr, rclcpp::node_interfaces::NodeLoggingInterface::SharedPtr, rclcpp::node_interfaces::NodeWaitablesInterface::SharedPtr, const string&, typename rclcpp_action::Server<ActionT>::GoalCallback, typename rclcpp_action::Server<ActionT>::CancelCallback, typename rclcpp_action::Server<ActionT>::AcceptedCallback, const rcl_action_server_options_t&, rclcpp::CallbackGroup::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[24.017091] (emse_reachpose) StderrLine: {'line': b'   58 | \x1b[01;36m\x1b[Kcreate_server\x1b[m\x1b[K(\n'}
+[24.017598] (emse_reachpose) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[24.018042] (emse_reachpose) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_server.hpp:58:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[24.018482] (emse_reachpose) StderrLine: {'line': b'\x1b[01m\x1b[K/home/malik/interbotix_moveit/src/emse_reachpose/src/reachpose_action_server.cpp:23:61:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[24.018898] (emse_reachpose) StderrLine: {'line': b'   23 |     action_server_ = \x1b[01;31m\x1b[Krclcpp_action::create_server<ReachPose>(\x1b[m\x1b[K\n'}
+[24.019331] (emse_reachpose) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[24.019759] (emse_reachpose) StderrLine: {'line': b'   24 | \x1b[01;31m\x1b[K      this,\x1b[m\x1b[K\n'}
+[24.020172] (emse_reachpose) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K~~~~~\x1b[m\x1b[K                                                  \n'}
+[24.020583] (emse_reachpose) StderrLine: {'line': b'   25 | \x1b[01;31m\x1b[K      "plan_pose",\x1b[m\x1b[K\n'}
+[24.021102] (emse_reachpose) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K~~~~~~~~~~~~\x1b[m\x1b[K                                           \n'}
+[24.021538] (emse_reachpose) StderrLine: {'line': b'   26 | \x1b[01;31m\x1b[K      std::bind(&ReachPoseActionServer::handle_goal, this, _1, _2),\x1b[m\x1b[K\n'}
+[24.021959] (emse_reachpose) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[24.022374] (emse_reachpose) StderrLine: {'line': b'   27 | \x1b[01;31m\x1b[K      std::bind(&ReachPoseActionServer::handle_cancel, this, _1),\x1b[m\x1b[K\n'}
+[24.022794] (emse_reachpose) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[24.023216] (emse_reachpose) StderrLine: {'line': b'   28 | \x1b[01;31m\x1b[K      std::bind(&ReachPoseActionServer::handle_accepted, this, _1))\x1b[m\x1b[K;\n'}
+[24.023630] (emse_reachpose) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[24.033531] (emse_reachpose) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp:39\x1b[m\x1b[K,\n'}
+[24.033945] (emse_reachpose) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/malik/interbotix_moveit/src/emse_reachpose/src/reachpose_action_server.cpp:3\x1b[m\x1b[K:\n'}
+[24.034352] (emse_reachpose) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_server.hpp:132:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ActionT, class NodeT> typename rclcpp_action::Server<ActionT>::SharedPtr rclcpp_action::create_server(NodeT, const string&, typename rclcpp_action::Server<ActionT>::GoalCallback, typename rclcpp_action::Server<ActionT>::CancelCallback, typename rclcpp_action::Server<ActionT>::AcceptedCallback, const rcl_action_server_options_t&, rclcpp::CallbackGroup::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[24.036046] (emse_reachpose) StderrLine: {'line': b'  132 | \x1b[01;36m\x1b[Kcreate_server\x1b[m\x1b[K(\n'}
+[24.036384] (emse_reachpose) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[24.036692] (emse_reachpose) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_server.hpp:132:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[24.037055] (emse_reachpose) StderrLine: {'line': b'\x1b[01m\x1b[K/home/malik/interbotix_moveit/src/emse_reachpose/src/reachpose_action_server.cpp:23:61:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[24.037368] (emse_reachpose) StderrLine: {'line': b'   23 |     action_server_ = \x1b[01;31m\x1b[Krclcpp_action::create_server<ReachPose>(\x1b[m\x1b[K\n'}
+[24.037662] (emse_reachpose) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[24.037957] (emse_reachpose) StderrLine: {'line': b'   24 | \x1b[01;31m\x1b[K      this,\x1b[m\x1b[K\n'}
+[24.038245] (emse_reachpose) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K~~~~~\x1b[m\x1b[K                                                  \n'}
+[24.038531] (emse_reachpose) StderrLine: {'line': b'   25 | \x1b[01;31m\x1b[K      "plan_pose",\x1b[m\x1b[K\n'}
+[24.038822] (emse_reachpose) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K~~~~~~~~~~~~\x1b[m\x1b[K                                           \n'}
+[24.039111] (emse_reachpose) StderrLine: {'line': b'   26 | \x1b[01;31m\x1b[K      std::bind(&ReachPoseActionServer::handle_goal, this, _1, _2),\x1b[m\x1b[K\n'}
+[24.039411] (emse_reachpose) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[24.039700] (emse_reachpose) StderrLine: {'line': b'   27 | \x1b[01;31m\x1b[K      std::bind(&ReachPoseActionServer::handle_cancel, this, _1),\x1b[m\x1b[K\n'}
+[24.039985] (emse_reachpose) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[24.040207] (emse_reachpose) StderrLine: {'line': b'   28 | \x1b[01;31m\x1b[K      std::bind(&ReachPoseActionServer::handle_accepted, this, _1))\x1b[m\x1b[K;\n'}
+[24.040427] (emse_reachpose) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[24.047715] (emse_reachpose) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[24.048208] (emse_reachpose) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[24.048618] (emse_reachpose) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[24.049017] (emse_reachpose) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[24.049327] (emse_reachpose) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[24.049636] (emse_reachpose) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[24.049946] (emse_reachpose) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[24.050270] (emse_reachpose) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[24.050576] (emse_reachpose) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[24.050912] (emse_reachpose) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[24.051233] (emse_reachpose) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[24.051532] (emse_reachpose) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/malik/interbotix_moveit/src/emse_reachpose/src/reachpose_action_server.cpp:2\x1b[m\x1b[K:\n'}
+[24.051850] (emse_reachpose) StderrLine: {'line': b'\x1b[01m\x1b[K/home/malik/interbotix_moveit/src/emse_reachpose/src/reachpose_action_server.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Krclcpp_action::GoalResponse ReachPoseActionServer::handle_goal(...)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[24.052171] (emse_reachpose) StderrLine: {'line': b'\x1b[01m\x1b[K/home/malik/interbotix_moveit/src/emse_reachpose/src/reachpose_action_server.cpp:43:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgoal\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[24.052484] (emse_reachpose) StderrLine: {'line': b'   43 |       \x1b[01;31m\x1b[Kgoal\x1b[m\x1b[K->target_pose.position.x,\n'}
+[24.052802] (emse_reachpose) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[24.053586] (-) TimerEvent: {}
+[24.056405] (emse_reachpose) StderrLine: {'line': b'\x1b[01m\x1b[K/home/malik/interbotix_moveit/src/emse_reachpose/src/reachpose_action_server.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ReachPoseActionServer::execute(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[24.056848] (emse_reachpose) StderrLine: {'line': b'\x1b[01m\x1b[K/home/malik/interbotix_moveit/src/emse_reachpose/src/reachpose_action_server.cpp:64:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kbase operand of \xe2\x80\x98\x1b[01m\x1b[K->\x1b[m\x1b[K\xe2\x80\x99 is not a pointer\n'}
+[24.057229] (emse_reachpose) StderrLine: {'line': b'   64 |     const auto goal = goal_handle\x1b[01;31m\x1b[K->\x1b[m\x1b[Kget_goal();\n'}
+[24.057554] (emse_reachpose) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[24.059879] (emse_reachpose) StderrLine: {'line': b'\x1b[01m\x1b[K/home/malik/interbotix_moveit/src/emse_reachpose/src/reachpose_action_server.cpp:76:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KReachPose\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kemse_moveit_actions::action::ReachPose\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[24.060256] (emse_reachpose) StderrLine: {'line': b'   76 |     auto result = std::make_shared<\x1b[01;31m\x1b[KReachPose\x1b[m\x1b[K::Result>();\n'}
+[24.060527] (emse_reachpose) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[24.060821] (emse_reachpose) StderrLine: {'line': b'      |                                    \x1b[32m\x1b[Kemse_moveit_actions::action::ReachPose\x1b[m\x1b[K\n'}
+[24.061168] (emse_reachpose) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/malik/interbotix_moveit/install/emse_moveit_actions/include/emse_moveit_actions/emse_moveit_actions/action/reach_pose.hpp:7\x1b[m\x1b[K,\n'}
+[24.061443] (emse_reachpose) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/malik/interbotix_moveit/src/emse_reachpose/src/reachpose_action_server.cpp:9\x1b[m\x1b[K:\n'}
+[24.061727] (emse_reachpose) StderrLine: {'line': b'\x1b[01m\x1b[K/home/malik/interbotix_moveit/install/emse_moveit_actions/include/emse_moveit_actions/emse_moveit_actions/action/detail/reach_pose__struct.hpp:1118:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kemse_moveit_actions::action::ReachPose\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[24.061982] (emse_reachpose) StderrLine: {'line': b' 1118 | typedef struct ReachPose \x1b[01;36m\x1b[KReachPose\x1b[m\x1b[K;\n'}
+[24.062247] (emse_reachpose) StderrLine: {'line': b'      |                          \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[24.062601] (emse_reachpose) StderrLine: {'line': b'\x1b[01m\x1b[K/home/malik/interbotix_moveit/src/emse_reachpose/src/reachpose_action_server.cpp:76:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kparse error in template argument list\n'}
+[24.062869] (emse_reachpose) StderrLine: {'line': b'   76 |     auto result = std::\x1b[01;31m\x1b[Kmake_shared<ReachPose::Result>\x1b[m\x1b[K();\n'}
+[24.063131] (emse_reachpose) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[24.063467] (emse_reachpose) StderrLine: {'line': b'\x1b[01m\x1b[K/home/malik/interbotix_moveit/src/emse_reachpose/src/reachpose_action_server.cpp:76:54:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kmake_shared<<expression error> >()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[24.063746] (emse_reachpose) StderrLine: {'line': b'   76 |     auto result = \x1b[01;31m\x1b[Kstd::make_shared<ReachPose::Result>()\x1b[m\x1b[K;\n'}
+[24.064540] (emse_reachpose) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[24.153758] (-) TimerEvent: {}
+[24.254148] (-) TimerEvent: {}
+[24.266273] (emse_reachpose) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[24.266944] (emse_reachpose) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/malik/interbotix_moveit/src/emse_reachpose/src/reachpose_action_server.cpp:1\x1b[m\x1b[K:\n'}
+[24.267426] (emse_reachpose) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:875:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[24.267887] (emse_reachpose) StderrLine: {'line': b'  875 |     \x1b[01;36m\x1b[Kmake_shared\x1b[m\x1b[K(_Args&&... __args)\n'}
+[24.268362] (emse_reachpose) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[24.268934] (emse_reachpose) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:875:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[24.269456] (emse_reachpose) StderrLine: {'line': b'\x1b[01m\x1b[K/home/malik/interbotix_moveit/src/emse_reachpose/src/reachpose_action_server.cpp:76:54:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[24.269941] (emse_reachpose) StderrLine: {'line': b'   76 |     auto result = \x1b[01;31m\x1b[Kstd::make_shared<ReachPose::Result>()\x1b[m\x1b[K;\n'}
+[24.270410] (emse_reachpose) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[24.271273] (emse_reachpose) StderrLine: {'line': b'\x1b[01m\x1b[K/home/malik/interbotix_moveit/src/emse_reachpose/src/reachpose_action_server.cpp:85:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kbase operand of \xe2\x80\x98\x1b[01m\x1b[K->\x1b[m\x1b[K\xe2\x80\x99 is not a pointer\n'}
+[24.271810] (emse_reachpose) StderrLine: {'line': b'   85 |       goal_handle\x1b[01;31m\x1b[K->\x1b[m\x1b[Ksucceed(result);\n'}
+[24.272297] (emse_reachpose) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[24.272780] (emse_reachpose) StderrLine: {'line': b'\x1b[01m\x1b[K/home/malik/interbotix_moveit/src/emse_reachpose/src/reachpose_action_server.cpp:90:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kbase operand of \xe2\x80\x98\x1b[01m\x1b[K->\x1b[m\x1b[K\xe2\x80\x99 is not a pointer\n'}
+[24.273091] (emse_reachpose) StderrLine: {'line': b'   90 |       goal_handle\x1b[01;31m\x1b[K->\x1b[m\x1b[Kabort(result);\n'}
+[24.273342] (emse_reachpose) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[24.354265] (-) TimerEvent: {}
+[24.454712] (-) TimerEvent: {}
+[24.555284] (-) TimerEvent: {}
+[24.657449] (-) TimerEvent: {}
+[24.757860] (-) TimerEvent: {}
+[24.858239] (-) TimerEvent: {}
+[24.958599] (-) TimerEvent: {}
+[25.058911] (-) TimerEvent: {}
+[25.159282] (-) TimerEvent: {}
+[25.259638] (-) TimerEvent: {}
+[25.360001] (-) TimerEvent: {}
+[25.460369] (-) TimerEvent: {}
+[25.560984] (-) TimerEvent: {}
+[25.661674] (-) TimerEvent: {}
+[25.762399] (-) TimerEvent: {}
+[25.869072] (-) TimerEvent: {}
+[25.970033] (-) TimerEvent: {}
+[26.070558] (-) TimerEvent: {}
+[26.170870] (-) TimerEvent: {}
+[26.271288] (-) TimerEvent: {}
+[26.371745] (-) TimerEvent: {}
+[26.472368] (-) TimerEvent: {}
+[26.573350] (-) TimerEvent: {}
+[26.677832] (-) TimerEvent: {}
+[26.778337] (-) TimerEvent: {}
+[26.879058] (-) TimerEvent: {}
+[26.981714] (-) TimerEvent: {}
+[27.082680] (-) TimerEvent: {}
+[27.183162] (-) TimerEvent: {}
+[27.283568] (-) TimerEvent: {}
+[27.384211] (-) TimerEvent: {}
+[27.485298] (-) TimerEvent: {}
+[27.585996] (-) TimerEvent: {}
+[27.686856] (-) TimerEvent: {}
+[27.787451] (-) TimerEvent: {}
+[27.887893] (-) TimerEvent: {}
+[27.988790] (-) TimerEvent: {}
+[28.089362] (-) TimerEvent: {}
+[28.191335] (-) TimerEvent: {}
+[28.292313] (-) TimerEvent: {}
+[28.392807] (-) TimerEvent: {}
+[28.534103] (-) TimerEvent: {}
+[28.650910] (-) TimerEvent: {}
+[28.751285] (-) TimerEvent: {}
+[28.854341] (-) TimerEvent: {}
+[28.955435] (-) TimerEvent: {}
+[29.055954] (-) TimerEvent: {}
+[29.156416] (-) TimerEvent: {}
+[29.256820] (-) TimerEvent: {}
+[29.357320] (-) TimerEvent: {}
+[29.458251] (-) TimerEvent: {}
+[29.562492] (-) TimerEvent: {}
+[29.665639] (-) TimerEvent: {}
+[29.766659] (-) TimerEvent: {}
+[29.867016] (-) TimerEvent: {}
+[29.967419] (-) TimerEvent: {}
+[30.068759] (-) TimerEvent: {}
+[30.169256] (-) TimerEvent: {}
+[30.270081] (-) TimerEvent: {}
+[30.370471] (-) TimerEvent: {}
+[30.567966] (-) TimerEvent: {}
+[30.668804] (-) TimerEvent: {}
+[30.769150] (-) TimerEvent: {}
+[30.869497] (-) TimerEvent: {}
+[30.969851] (-) TimerEvent: {}
+[31.070205] (-) TimerEvent: {}
+[31.554625] (-) TimerEvent: {}
+[31.655022] (-) TimerEvent: {}
+[31.755444] (-) TimerEvent: {}
+[31.855866] (-) TimerEvent: {}
+[31.956298] (-) TimerEvent: {}
+[32.056678] (-) TimerEvent: {}
+[32.157044] (-) TimerEvent: {}
+[32.257398] (-) TimerEvent: {}
+[33.851169] (-) TimerEvent: {}
+[33.951509] (-) TimerEvent: {}
+[34.051852] (-) TimerEvent: {}
+[34.152232] (-) TimerEvent: {}
+[34.252513] (-) TimerEvent: {}
+[34.352859] (-) TimerEvent: {}
+[34.453159] (-) TimerEvent: {}
+[34.553467] (-) TimerEvent: {}
+[34.653754] (-) TimerEvent: {}
+[34.754069] (-) TimerEvent: {}
+[34.854487] (-) TimerEvent: {}
+[34.954814] (-) TimerEvent: {}
+[35.055135] (-) TimerEvent: {}
+[35.155550] (-) TimerEvent: {}
+[35.255887] (-) TimerEvent: {}
+[35.356227] (-) TimerEvent: {}
+[35.456633] (-) TimerEvent: {}
+[35.557247] (-) TimerEvent: {}
+[35.993008] (-) TimerEvent: {}
+[36.024141] (emse_reachpose) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/plan_pose.dir/build.make:76: CMakeFiles/plan_pose.dir/src/reachpose_action_server.cpp.o] Error 1\n'}
+[36.024438] (emse_reachpose) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/plan_pose.dir/all] Error 2\n'}
+[36.024566] (emse_reachpose) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[36.093116] (-) TimerEvent: {}
+[36.193463] (-) TimerEvent: {}
+[36.293792] (-) TimerEvent: {}
+[36.394703] (-) TimerEvent: {}
+[36.495054] (-) TimerEvent: {}
+[36.595409] (-) TimerEvent: {}
+[36.695753] (-) TimerEvent: {}
+[36.796098] (-) TimerEvent: {}
+[36.896613] (-) TimerEvent: {}
+[37.056910] (-) TimerEvent: {}
+[37.157258] (-) TimerEvent: {}
+[37.257591] (-) TimerEvent: {}
+[37.358040] (-) TimerEvent: {}
+[37.458519] (-) TimerEvent: {}
+[37.559291] (-) TimerEvent: {}
+[37.659639] (-) TimerEvent: {}
+[37.759989] (-) TimerEvent: {}
+[37.860333] (-) TimerEvent: {}
+[37.960676] (-) TimerEvent: {}
+[38.061021] (-) TimerEvent: {}
+[38.161373] (-) TimerEvent: {}
+[38.261700] (-) TimerEvent: {}
+[38.362030] (-) TimerEvent: {}
+[38.462384] (-) TimerEvent: {}
+[38.562731] (-) TimerEvent: {}
+[38.663085] (-) TimerEvent: {}
+[38.763488] (-) TimerEvent: {}
+[38.861116] (emse_reachpose) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable reachpose\x1b[0m\n'}
+[38.863582] (-) TimerEvent: {}
+[38.963907] (-) TimerEvent: {}
+[39.064253] (-) TimerEvent: {}
+[39.164608] (-) TimerEvent: {}
+[39.265014] (-) TimerEvent: {}
+[39.365355] (-) TimerEvent: {}
+[39.465691] (-) TimerEvent: {}
+[39.566045] (-) TimerEvent: {}
+[39.666385] (-) TimerEvent: {}
+[39.766766] (-) TimerEvent: {}
+[39.867092] (-) TimerEvent: {}
+[39.967413] (-) TimerEvent: {}
+[40.067739] (-) TimerEvent: {}
+[40.168062] (-) TimerEvent: {}
+[40.268381] (-) TimerEvent: {}
+[40.368671] (-) TimerEvent: {}
+[40.469043] (-) TimerEvent: {}
+[40.569414] (-) TimerEvent: {}
+[40.669711] (-) TimerEvent: {}
+[40.770006] (-) TimerEvent: {}
+[40.870308] (-) TimerEvent: {}
+[40.970811] (-) TimerEvent: {}
+[41.071767] (-) TimerEvent: {}
+[41.172478] (-) TimerEvent: {}
+[41.272824] (-) TimerEvent: {}
+[41.373172] (-) TimerEvent: {}
+[41.473513] (-) TimerEvent: {}
+[41.573861] (-) TimerEvent: {}
+[41.674223] (-) TimerEvent: {}
+[41.774576] (-) TimerEvent: {}
+[41.874930] (-) TimerEvent: {}
+[41.914647] (emse_reachpose) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable reach_pose\x1b[0m\n'}
+[41.975162] (-) TimerEvent: {}
+[42.075853] (-) TimerEvent: {}
+[42.176237] (-) TimerEvent: {}
+[42.276799] (-) TimerEvent: {}
+[42.377573] (-) TimerEvent: {}
+[42.478525] (-) TimerEvent: {}
+[42.579547] (-) TimerEvent: {}
+[42.680470] (-) TimerEvent: {}
+[42.781679] (-) TimerEvent: {}
+[42.882602] (-) TimerEvent: {}
+[42.983588] (-) TimerEvent: {}
+[43.084505] (-) TimerEvent: {}
+[43.185557] (-) TimerEvent: {}
+[43.286517] (-) TimerEvent: {}
+[43.387611] (-) TimerEvent: {}
+[43.488536] (-) TimerEvent: {}
+[43.589489] (-) TimerEvent: {}
+[43.690404] (-) TimerEvent: {}
+[43.791533] (-) TimerEvent: {}
+[43.892490] (-) TimerEvent: {}
+[43.993569] (-) TimerEvent: {}
+[44.094516] (-) TimerEvent: {}
+[44.195806] (-) TimerEvent: {}
+[44.296860] (-) TimerEvent: {}
+[44.397770] (-) TimerEvent: {}
+[44.498857] (-) TimerEvent: {}
+[44.599714] (-) TimerEvent: {}
+[44.700992] (-) TimerEvent: {}
+[44.802219] (-) TimerEvent: {}
+[44.903217] (-) TimerEvent: {}
+[45.004413] (-) TimerEvent: {}
+[45.105430] (-) TimerEvent: {}
+[45.206445] (-) TimerEvent: {}
+[45.307494] (-) TimerEvent: {}
+[45.408450] (-) TimerEvent: {}
+[45.509622] (-) TimerEvent: {}
+[45.610498] (-) TimerEvent: {}
+[45.711337] (-) TimerEvent: {}
+[45.812421] (-) TimerEvent: {}
+[45.913455] (-) TimerEvent: {}
+[46.014375] (-) TimerEvent: {}
+[46.115285] (-) TimerEvent: {}
+[46.216332] (-) TimerEvent: {}
+[46.317547] (-) TimerEvent: {}
+[46.418545] (-) TimerEvent: {}
+[46.519016] (-) TimerEvent: {}
+[46.619939] (-) TimerEvent: {}
+[46.721034] (-) TimerEvent: {}
+[46.821901] (-) TimerEvent: {}
+[46.922990] (-) TimerEvent: {}
+[47.024077] (-) TimerEvent: {}
+[47.125031] (-) TimerEvent: {}
+[47.225995] (-) TimerEvent: {}
+[47.326952] (-) TimerEvent: {}
+[47.427895] (-) TimerEvent: {}
+[47.529094] (-) TimerEvent: {}
+[47.629935] (-) TimerEvent: {}
+[47.730943] (-) TimerEvent: {}
+[47.832112] (-) TimerEvent: {}
+[47.933142] (-) TimerEvent: {}
+[48.034058] (-) TimerEvent: {}
+[48.135031] (-) TimerEvent: {}
+[48.235981] (-) TimerEvent: {}
+[48.337092] (-) TimerEvent: {}
+[48.437542] (-) TimerEvent: {}
+[48.538078] (-) TimerEvent: {}
+[48.638888] (-) TimerEvent: {}
+[48.739433] (-) TimerEvent: {}
+[48.840217] (-) TimerEvent: {}
+[48.940917] (-) TimerEvent: {}
+[49.042066] (-) TimerEvent: {}
+[49.142685] (-) TimerEvent: {}
+[49.243781] (-) TimerEvent: {}
+[49.344639] (-) TimerEvent: {}
+[49.445332] (-) TimerEvent: {}
+[49.545895] (-) TimerEvent: {}
+[49.646840] (-) TimerEvent: {}
+[49.747290] (-) TimerEvent: {}
+[49.799812] (emse_reachpose) StdoutLine: {'line': b'[ 83%] Built target reachpose\n'}
+[49.847421] (-) TimerEvent: {}
+[49.947746] (-) TimerEvent: {}
+[50.048119] (-) TimerEvent: {}
+[50.085685] (emse_reachpose) StdoutLine: {'line': b'[ 83%] Built target reach_pose\n'}
+[50.087396] (emse_reachpose) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[50.090224] (emse_reachpose) CommandEnded: {'returncode': 2}
+[50.148390] (-) TimerEvent: {}
+[50.248886] (-) TimerEvent: {}
+[50.351141] (-) TimerEvent: {}
+[50.365183] (emse_reachpose) JobEnded: {'identifier': 'emse_reachpose', 'rc': 2}
+[50.370198] (-) EventReactorShutdown: {}

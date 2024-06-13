@@ -1,0 +1,2 @@
+source;share/emse_reachpose/environment/ament_prefix_path.sh
+source;share/emse_reachpose/environment/path.sh

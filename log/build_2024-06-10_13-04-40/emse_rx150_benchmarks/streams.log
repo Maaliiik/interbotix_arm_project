@@ -1,0 +1,46 @@
+[0.099s] Invoking command in '/home/malik/interbotix_moveit/build/emse_rx150_benchmarks': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/malik/interbotix_ws/install/interbotix_xs_modules:/home/malik/interbotix_ws/install/interbotix_perception_modules:/home/malik/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --build /home/malik/interbotix_moveit/build/emse_rx150_benchmarks -- -j4 -l4
+[1.301s] -- Found moveit_common: 2.5.5 (/opt/ros/humble/share/moveit_common/cmake)
+[1.330s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.424s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[2.424s] -- BACKWARD_HAS_UNWIND=1
+[2.424s] -- BACKWARD_HAS_BACKTRACE=0
+[2.424s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[2.424s] -- BACKWARD_HAS_DW=1
+[2.424s] -- BACKWARD_HAS_BFD=0
+[2.425s] -- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+[2.426s] [0memse_rx150_benchmarks: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+[2.439s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[2.911s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.135s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.264s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.387s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.574s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.845s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.898s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.404s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.830s] -- Found tf2_eigen: 0.25.6 (/opt/ros/humble/share/tf2_eigen/cmake)
+[5.837s] -- Found moveit_core: 2.5.5 (/opt/ros/humble/share/moveit_core/cmake)
+[6.011s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[6.209s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[6.310s] -- Found rclcpp_lifecycle: 16.0.8 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[6.477s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[6.738s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[7.381s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[8.950s] -- Found moveit_ros_planning: 2.5.5 (/opt/ros/humble/share/moveit_ros_planning/cmake)
+[8.961s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[9.729s] -- Found moveit_ros_warehouse: 2.5.5 (/opt/ros/humble/share/moveit_ros_warehouse/cmake)
+[9.739s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[10.155s] -- Found moveit_ros_planning_interface: 2.5.5 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[10.163s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[10.526s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[11.333s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem 
+[11.356s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:42 (message):
+[11.357s]   ament_target_dependencies() the first argument must be a valid target name
+[11.357s] Call Stack (most recent call first):
+[11.357s]   CMakeLists.txt:53 (ament_target_dependencies)
+[11.357s] 
+[11.357s] [0m
+[11.357s] -- Configuring incomplete, errors occurred!
+[11.357s] See also "/home/malik/interbotix_moveit/build/emse_rx150_benchmarks/CMakeFiles/CMakeOutput.log".
+[11.434s] gmake: *** [Makefile:376: cmake_check_build_system] Error 1
+[11.440s] Invoked command in '/home/malik/interbotix_moveit/build/emse_rx150_benchmarks' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/malik/interbotix_ws/install/interbotix_xs_modules:/home/malik/interbotix_ws/install/interbotix_perception_modules:/home/malik/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --build /home/malik/interbotix_moveit/build/emse_rx150_benchmarks -- -j4 -l4

@@ -1,0 +1,3 @@
+source;share/emse_rx150_benchmarks/environment/ament_prefix_path.sh
+source;share/emse_rx150_benchmarks/environment/library_path.sh
+source;share/emse_rx150_benchmarks/environment/path.sh

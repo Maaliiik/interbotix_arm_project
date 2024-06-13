@@ -1,0 +1,33 @@
+[0.071s] Invoking command in '/home/malik/interbotix_moveit/build/emse_reachpose': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/malik/interbotix_ws/install/interbotix_xs_modules:/home/malik/interbotix_ws/install/interbotix_perception_modules:/home/malik/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --build /home/malik/interbotix_moveit/build/emse_reachpose -- -j4 -l4
+[0.156s] [35m[1mConsolidate compiler generated dependencies of target reachpose[0m
+[0.204s] [ 16%] [32mBuilding CXX object CMakeFiles/reachpose.dir/src/reachpose.cpp.o[0m
+[0.212s] [ 50%] Built target reach_pose
+[0.215s] [ 83%] Built target plan_pose
+[14.683s] [100%] [32m[1mLinking CXX executable reachpose[0m
+[15.228s] [100%] Built target reachpose
+[15.246s] Invoked command in '/home/malik/interbotix_moveit/build/emse_reachpose' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/malik/interbotix_ws/install/interbotix_xs_modules:/home/malik/interbotix_ws/install/interbotix_perception_modules:/home/malik/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --build /home/malik/interbotix_moveit/build/emse_reachpose -- -j4 -l4
+[15.326s] Invoking command in '/home/malik/interbotix_moveit/build/emse_reachpose': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/malik/interbotix_ws/install/interbotix_xs_modules:/home/malik/interbotix_ws/install/interbotix_perception_modules:/home/malik/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --install /home/malik/interbotix_moveit/build/emse_reachpose
+[15.338s] -- Install configuration: ""
+[15.338s] -- Installing: /home/malik/interbotix_moveit/install/emse_reachpose/lib/emse_reachpose/reachpose
+[15.339s] -- Set runtime path of "/home/malik/interbotix_moveit/install/emse_reachpose/lib/emse_reachpose/reachpose" to ""
+[15.340s] -- Up-to-date: /home/malik/interbotix_moveit/install/emse_reachpose/lib/emse_reachpose/reach_pose
+[15.341s] -- Up-to-date: /home/malik/interbotix_moveit/install/emse_reachpose/lib/emse_reachpose/plan_pose
+[15.341s] -- Up-to-date: /home/malik/interbotix_moveit/install/emse_reachpose/share/emse_reachpose/launch
+[15.341s] -- Up-to-date: /home/malik/interbotix_moveit/install/emse_reachpose/share/emse_reachpose/launch/joint_state_move_group_interface.launch.py
+[15.342s] -- Up-to-date: /home/malik/interbotix_moveit/install/emse_reachpose/share/emse_reachpose/launch/move_group_interface.launch.py
+[15.342s] -- Up-to-date: /home/malik/interbotix_moveit/install/emse_reachpose/share/ament_index/resource_index/package_run_dependencies/emse_reachpose
+[15.342s] -- Up-to-date: /home/malik/interbotix_moveit/install/emse_reachpose/share/ament_index/resource_index/parent_prefix_path/emse_reachpose
+[15.342s] -- Up-to-date: /home/malik/interbotix_moveit/install/emse_reachpose/share/emse_reachpose/environment/ament_prefix_path.sh
+[15.342s] -- Up-to-date: /home/malik/interbotix_moveit/install/emse_reachpose/share/emse_reachpose/environment/ament_prefix_path.dsv
+[15.342s] -- Up-to-date: /home/malik/interbotix_moveit/install/emse_reachpose/share/emse_reachpose/environment/path.sh
+[15.343s] -- Up-to-date: /home/malik/interbotix_moveit/install/emse_reachpose/share/emse_reachpose/environment/path.dsv
+[15.343s] -- Up-to-date: /home/malik/interbotix_moveit/install/emse_reachpose/share/emse_reachpose/local_setup.bash
+[15.343s] -- Up-to-date: /home/malik/interbotix_moveit/install/emse_reachpose/share/emse_reachpose/local_setup.sh
+[15.343s] -- Up-to-date: /home/malik/interbotix_moveit/install/emse_reachpose/share/emse_reachpose/local_setup.zsh
+[15.343s] -- Up-to-date: /home/malik/interbotix_moveit/install/emse_reachpose/share/emse_reachpose/local_setup.dsv
+[15.343s] -- Installing: /home/malik/interbotix_moveit/install/emse_reachpose/share/emse_reachpose/package.dsv
+[15.343s] -- Up-to-date: /home/malik/interbotix_moveit/install/emse_reachpose/share/ament_index/resource_index/packages/emse_reachpose
+[15.343s] -- Up-to-date: /home/malik/interbotix_moveit/install/emse_reachpose/share/emse_reachpose/cmake/emse_reachposeConfig.cmake
+[15.344s] -- Up-to-date: /home/malik/interbotix_moveit/install/emse_reachpose/share/emse_reachpose/cmake/emse_reachposeConfig-version.cmake
+[15.344s] -- Up-to-date: /home/malik/interbotix_moveit/install/emse_reachpose/share/emse_reachpose/package.xml
+[15.345s] Invoked command in '/home/malik/interbotix_moveit/build/emse_reachpose' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/malik/interbotix_ws/install/interbotix_xs_modules:/home/malik/interbotix_ws/install/interbotix_perception_modules:/home/malik/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --install /home/malik/interbotix_moveit/build/emse_reachpose

@@ -1,0 +1,157 @@
+[0.000000] (-) TimerEvent: {}
+[0.001139] (-) JobUnselected: {'identifier': 'emse_moveit_actions'}
+[0.001284] (-) JobUnselected: {'identifier': 'emse_reachpose'}
+[0.001354] (-) JobUnselected: {'identifier': 'emse_rx150_moveit_config'}
+[0.001486] (emse_rx150_benchmarks) JobQueued: {'identifier': 'emse_rx150_benchmarks', 'dependencies': OrderedDict()}
+[0.001787] (emse_rx150_benchmarks) JobStarted: {'identifier': 'emse_rx150_benchmarks'}
+[0.020414] (emse_rx150_benchmarks) JobProgress: {'identifier': 'emse_rx150_benchmarks', 'progress': 'cmake'}
+[0.021625] (emse_rx150_benchmarks) JobProgress: {'identifier': 'emse_rx150_benchmarks', 'progress': 'build'}
+[0.023331] (emse_rx150_benchmarks) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/malik/interbotix_moveit/build/emse_rx150_benchmarks', '--', '-j4', '-l4'], 'cwd': '/home/malik/interbotix_moveit/build/emse_rx150_benchmarks', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'malik'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/malik/interbotix_ws/install/moveit_visual_tools/lib:/home/malik/interbotix_ws/install/interbotix_xs_rviz/lib:/home/malik/interbotix_ws/install/interbotix_xs_ros_control/lib:/home/malik/interbotix_ws/install/interbotix_xs_msgs/lib:/home/malik/interbotix_ws/install/interbotix_xs_driver/lib:/home/malik/interbotix_ws/install/interbotix_tf_tools/lib:/home/malik/interbotix_ws/install/interbotix_perception_msgs/lib:/home/malik/interbotix_ws/install/interbotix_moveit_interface_msgs/lib:/home/malik/interbotix_ws/install/dynamixel_workbench_toolbox/lib:/home/malik/apriltag_ws/install/apriltag_ros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/malik'), ('OLDPWD', '/home/malik/interbotix_moveit/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_IP', '10.103.3.151'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1868'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1003/bus,guid=24f7d0f87a2a8679624a60706666d3e3'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/malik/interbotix_ws/install:/home/malik/apriltag_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'malik'), ('_', '/home/malik/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'malik'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/malik/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/LAB-INFO-03:@/tmp/.ICE-unix/1868,unix/LAB-INFO-03:/tmp/.ICE-unix/1868'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1787aa7f_a0de_49f5_a37d_859cfa183da6'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1003'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1003/.mutter-Xwaylandauth.6ND6O2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.115'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1003/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/malik/interbotix_ws/install/interbotix_ros_xsarms_examples:/home/malik/interbotix_ws/install/interbotix_xsarm_moveit_interface:/home/malik/interbotix_ws/install/interbotix_moveit_interface:/home/malik/interbotix_ws/install/moveit_visual_tools:/home/malik/interbotix_ws/install/interbotix_ros_xsarms:/home/malik/interbotix_ws/install/interbotix_xsarm_moveit:/home/malik/interbotix_ws/install/interbotix_xsarm_sim:/home/malik/interbotix_ws/install/interbotix_xsarm_ros_control:/home/malik/interbotix_ws/install/interbotix_xsarm_puppet:/home/malik/interbotix_ws/install/interbotix_xsarm_perception:/home/malik/interbotix_ws/install/interbotix_xsarm_joy:/home/malik/interbotix_ws/install/interbotix_xsarm_dual:/home/malik/interbotix_ws/install/interbotix_xsarm_control:/home/malik/interbotix_ws/install/interbotix_xsarm_descriptions:/home/malik/interbotix_ws/install/interbotix_xs_toolbox:/home/malik/interbotix_ws/install/interbotix_xs_rviz:/home/malik/interbotix_ws/install/interbotix_xs_modules:/home/malik/interbotix_ws/install/interbotix_ros_xseries:/home/malik/interbotix_ws/install/interbotix_xs_sdk:/home/malik/interbotix_ws/install/interbotix_xs_ros_control:/home/malik/interbotix_ws/install/interbotix_perception_toolbox:/home/malik/interbotix_ws/install/interbotix_perception_modules:/home/malik/interbotix_ws/install/interbotix_perception_pipelines:/home/malik/interbotix_ws/install/interbotix_xs_msgs:/home/malik/interbotix_ws/install/interbotix_xs_driver:/home/malik/interbotix_ws/install/interbotix_tf_tools:/home/malik/interbotix_ws/install/interbotix_perception_msgs:/home/malik/interbotix_ws/install/interbotix_moveit_interface_msgs:/home/malik/interbotix_ws/install/interbotix_common_toolbox:/home/malik/interbotix_ws/install/interbotix_common_sim:/home/malik/interbotix_ws/install/interbotix_common_modules:/home/malik/interbotix_ws/install/dynamixel_workbench_toolbox:/home/malik/apriltag_ws/install/apriltag_ros:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/malik/interbotix_moveit/build/emse_rx150_benchmarks'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1003/bus,guid=24f7d0f87a2a8679624a60706666d3e3'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/malik/interbotix_ws/install/interbotix_xs_modules/lib/python3.10/site-packages:/home/malik/interbotix_ws/install/interbotix_perception_modules/lib/python3.10/site-packages:/home/malik/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages:/home/malik/interbotix_ws/install/interbotix_perception_msgs/local/lib/python3.10/dist-packages:/home/malik/interbotix_ws/install/interbotix_moveit_interface_msgs/local/lib/python3.10/dist-packages:/home/malik/interbotix_ws/install/interbotix_common_modules/lib/python3.10/site-packages:/home/malik/apriltag_ws/install/apriltag_ros/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/malik/interbotix_ws/install/interbotix_ros_xsarms_examples:/home/malik/interbotix_ws/install/interbotix_xsarm_moveit_interface:/home/malik/interbotix_ws/install/interbotix_moveit_interface:/home/malik/interbotix_ws/install/moveit_visual_tools:/home/malik/interbotix_ws/install/interbotix_ros_xsarms:/home/malik/interbotix_ws/install/interbotix_xsarm_moveit:/home/malik/interbotix_ws/install/interbotix_xsarm_sim:/home/malik/interbotix_ws/install/interbotix_xsarm_ros_control:/home/malik/interbotix_ws/install/interbotix_xsarm_puppet:/home/malik/interbotix_ws/install/interbotix_xsarm_perception:/home/malik/interbotix_ws/install/interbotix_xsarm_joy:/home/malik/interbotix_ws/install/interbotix_xsarm_dual:/home/malik/interbotix_ws/install/interbotix_xsarm_control:/home/malik/interbotix_ws/install/interbotix_xsarm_descriptions:/home/malik/interbotix_ws/install/interbotix_xs_toolbox:/home/malik/interbotix_ws/install/interbotix_xs_rviz:/home/malik/interbotix_ws/install/interbotix_ros_xseries:/home/malik/interbotix_ws/install/interbotix_xs_sdk:/home/malik/interbotix_ws/install/interbotix_xs_ros_control:/home/malik/interbotix_ws/install/interbotix_perception_toolbox:/home/malik/interbotix_ws/install/interbotix_perception_pipelines:/home/malik/interbotix_ws/install/interbotix_xs_msgs:/home/malik/interbotix_ws/install/interbotix_xs_driver:/home/malik/interbotix_ws/install/interbotix_tf_tools:/home/malik/interbotix_ws/install/interbotix_perception_msgs:/home/malik/interbotix_ws/install/interbotix_moveit_interface_msgs:/home/malik/interbotix_ws/install/interbotix_common_toolbox:/home/malik/interbotix_ws/install/interbotix_common_sim:/home/malik/interbotix_ws/install/dynamixel_workbench_toolbox:/home/malik/apriltag_ws/install/apriltag_ros:/home/malik/interbotix_ws/install/interbotix_xs_modules:/home/malik/interbotix_ws/install/interbotix_perception_modules:/home/malik/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble')]), 'shell': False}
+[0.099469] (-) TimerEvent: {}
+[0.108897] (emse_rx150_benchmarks) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target benchmark\x1b[0m\n'}
+[0.166427] (emse_rx150_benchmarks) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object CMakeFiles/benchmark.dir/src/benchmark.cpp.o\x1b[0m\n'}
+[0.169870] (emse_rx150_benchmarks) StdoutLine: {'line': b'[ 44%] Built target moveit_ros_benchmarks\n'}
+[0.199609] (-) TimerEvent: {}
+[0.266645] (emse_rx150_benchmarks) StdoutLine: {'line': b'[ 66%] Built target moveit_combine_predefined_poses_benchmark\n'}
+[0.282745] (emse_rx150_benchmarks) StdoutLine: {'line': b'[ 88%] Built target moveit_run_benchmark\n'}
+[0.299759] (-) TimerEvent: {}
+[0.400152] (-) TimerEvent: {}
+[0.500539] (-) TimerEvent: {}
+[0.600895] (-) TimerEvent: {}
+[0.701262] (-) TimerEvent: {}
+[0.801659] (-) TimerEvent: {}
+[0.902114] (-) TimerEvent: {}
+[1.002513] (-) TimerEvent: {}
+[1.102931] (-) TimerEvent: {}
+[1.203315] (-) TimerEvent: {}
+[1.303774] (-) TimerEvent: {}
+[1.404161] (-) TimerEvent: {}
+[1.504551] (-) TimerEvent: {}
+[1.604976] (-) TimerEvent: {}
+[1.705385] (-) TimerEvent: {}
+[1.805790] (-) TimerEvent: {}
+[1.906178] (-) TimerEvent: {}
+[2.006545] (-) TimerEvent: {}
+[2.106924] (-) TimerEvent: {}
+[2.207301] (-) TimerEvent: {}
+[2.307672] (-) TimerEvent: {}
+[2.408057] (-) TimerEvent: {}
+[2.508402] (-) TimerEvent: {}
+[2.608768] (-) TimerEvent: {}
+[2.709155] (-) TimerEvent: {}
+[2.809568] (-) TimerEvent: {}
+[2.909915] (-) TimerEvent: {}
+[3.010289] (-) TimerEvent: {}
+[3.110691] (-) TimerEvent: {}
+[3.211066] (-) TimerEvent: {}
+[3.311421] (-) TimerEvent: {}
+[3.411793] (-) TimerEvent: {}
+[3.512196] (-) TimerEvent: {}
+[3.612613] (-) TimerEvent: {}
+[3.713000] (-) TimerEvent: {}
+[3.813365] (-) TimerEvent: {}
+[3.913731] (-) TimerEvent: {}
+[4.014107] (-) TimerEvent: {}
+[4.114479] (-) TimerEvent: {}
+[4.214855] (-) TimerEvent: {}
+[4.315258] (-) TimerEvent: {}
+[4.415644] (-) TimerEvent: {}
+[4.516031] (-) TimerEvent: {}
+[4.616436] (-) TimerEvent: {}
+[4.716860] (-) TimerEvent: {}
+[4.817264] (-) TimerEvent: {}
+[4.917602] (-) TimerEvent: {}
+[5.018007] (-) TimerEvent: {}
+[5.118354] (-) TimerEvent: {}
+[5.218715] (-) TimerEvent: {}
+[5.319089] (-) TimerEvent: {}
+[5.419472] (-) TimerEvent: {}
+[5.519906] (-) TimerEvent: {}
+[5.620294] (-) TimerEvent: {}
+[5.720688] (-) TimerEvent: {}
+[5.821084] (-) TimerEvent: {}
+[5.921544] (-) TimerEvent: {}
+[6.022039] (-) TimerEvent: {}
+[6.122446] (-) TimerEvent: {}
+[6.222855] (-) TimerEvent: {}
+[6.323267] (-) TimerEvent: {}
+[6.423665] (-) TimerEvent: {}
+[6.524042] (-) TimerEvent: {}
+[6.624404] (-) TimerEvent: {}
+[6.724774] (-) TimerEvent: {}
+[6.825161] (-) TimerEvent: {}
+[6.901897] (emse_rx150_benchmarks) StderrLine: {'line': b'\x1b[01m\x1b[K/home/malik/interbotix_moveit/src/emse_rx150_benchmarks/src/benchmark.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KMoveItBenchmark::MoveItBenchmark()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.902281] (emse_rx150_benchmarks) StderrLine: {'line': b'\x1b[01m\x1b[K/home/malik/interbotix_moveit/src/emse_rx150_benchmarks/src/benchmark.cpp:9:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.902412] (emse_rx150_benchmarks) StderrLine: {'line': b'    9 |     MoveItBenchmark() : Node("moveit_benchmark"\x1b[01;31m\x1b[K)\x1b[m\x1b[K {\n'}
+[6.902523] (emse_rx150_benchmarks) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[6.902626] (emse_rx150_benchmarks) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/malik/interbotix_moveit/src/emse_rx150_benchmarks/src/benchmark.cpp:2\x1b[m\x1b[K:\n'}
+[6.902784] (emse_rx150_benchmarks) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:159:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(moveit::planning_interface::MoveGroupInterface&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.902963] (emse_rx150_benchmarks) StderrLine: {'line': b'  159 |   \x1b[01;36m\x1b[KMoveGroupInterface\x1b[m\x1b[K(MoveGroupInterface&& other) noexcept;\n'}
+[6.903072] (emse_rx150_benchmarks) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.903170] (emse_rx150_benchmarks) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:159:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 0 provided\n'}
+[6.903269] (emse_rx150_benchmarks) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:145:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(const SharedPtr&, const string&, const std::shared_ptr<tf2_ros::Buffer>&, const rclcpp::Duration&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.903374] (emse_rx150_benchmarks) StderrLine: {'line': b'  145 |   \x1b[01;36m\x1b[KMoveGroupInterface\x1b[m\x1b[K(const rclcpp::Node::SharedPtr& node, const std::string& group,\n'}
+[6.903473] (emse_rx150_benchmarks) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.903569] (emse_rx150_benchmarks) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:145:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 0 provided\n'}
+[6.903665] (emse_rx150_benchmarks) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:134:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(const SharedPtr&, const moveit::planning_interface::MoveGroupInterface::Options&, const std::shared_ptr<tf2_ros::Buffer>&, const rclcpp::Duration&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.903765] (emse_rx150_benchmarks) StderrLine: {'line': b'  134 |   \x1b[01;36m\x1b[KMoveGroupInterface\x1b[m\x1b[K(const rclcpp::Node::SharedPtr& node, const Options& opt,\n'}
+[6.903878] (emse_rx150_benchmarks) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.903974] (emse_rx150_benchmarks) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:134:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 0 provided\n'}
+[6.909146] (emse_rx150_benchmarks) StderrLine: {'line': b'\x1b[01m\x1b[K/home/malik/interbotix_moveit/src/emse_rx150_benchmarks/src/benchmark.cpp:14:105:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator=\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Kmoveit::planning_interface::MoveGroupInterface\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<moveit::planning_interface::MoveGroupInterface>\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[6.909458] (emse_rx150_benchmarks) StderrLine: {'line': b'   14 |     move_group = std::make_shared<moveit::planning_interface::MoveGroupInterface>(node, "interbotix_arm"\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[6.909612] (emse_rx150_benchmarks) StderrLine: {'line': b'      |                                                                                                         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[6.909718] (emse_rx150_benchmarks) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/malik/interbotix_moveit/src/emse_rx150_benchmarks/src/benchmark.cpp:2\x1b[m\x1b[K:\n'}
+[6.909836] (emse_rx150_benchmarks) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:160:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kmoveit::planning_interface::MoveGroupInterface& moveit::planning_interface::MoveGroupInterface::operator=(moveit::planning_interface::MoveGroupInterface&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.909943] (emse_rx150_benchmarks) StderrLine: {'line': b'  160 |   MoveGroupInterface& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(MoveGroupInterface&& other) noexcept;\n'}
+[6.910042] (emse_rx150_benchmarks) StderrLine: {'line': b'      |                       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[6.910139] (emse_rx150_benchmarks) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:160:54:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<moveit::planning_interface::MoveGroupInterface>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kmoveit::planning_interface::MoveGroupInterface&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.910251] (emse_rx150_benchmarks) StderrLine: {'line': b'  160 |   MoveGroupInterface& operator=(\x1b[01;36m\x1b[KMoveGroupInterface&& other\x1b[m\x1b[K) noexcept;\n'}
+[6.910368] (emse_rx150_benchmarks) StderrLine: {'line': b'      |                                 \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[6.913592] (emse_rx150_benchmarks) StderrLine: {'line': b'\x1b[01m\x1b[K/home/malik/interbotix_moveit/src/emse_rx150_benchmarks/src/benchmark.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MoveItBenchmark::performBenchmark()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.913803] (emse_rx150_benchmarks) StderrLine: {'line': b'\x1b[01m\x1b[K/home/malik/interbotix_moveit/src/emse_rx150_benchmarks/src/benchmark.cpp:72:99:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing MoveItErrorCode = class moveit::core::MoveItErrorCode\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use moveit::core::MoveItErrorCode [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.913922] (emse_rx150_benchmarks) StderrLine: {'line': b'   72 |             auto success = (move_group.plan(plan) == moveit::planning_interface::MoveItErrorCode::\x1b[01;35m\x1b[KSUCCESS\x1b[m\x1b[K);\n'}
+[6.914038] (emse_rx150_benchmarks) StderrLine: {'line': b'      |                                                                                                   \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[6.914135] (emse_rx150_benchmarks) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/malik/interbotix_moveit/src/emse_rx150_benchmarks/src/benchmark.cpp:2\x1b[m\x1b[K:\n'}
+[6.914229] (emse_rx150_benchmarks) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:71:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[6.914322] (emse_rx150_benchmarks) StderrLine: {'line': b'   71 | using \x1b[01;36m\x1b[KMoveItErrorCode\x1b[m\x1b[K [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;\n'}
+[6.914414] (emse_rx150_benchmarks) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.925302] (-) TimerEvent: {}
+[7.025680] (-) TimerEvent: {}
+[7.126048] (-) TimerEvent: {}
+[7.226451] (-) TimerEvent: {}
+[7.326839] (-) TimerEvent: {}
+[7.427241] (-) TimerEvent: {}
+[7.527665] (-) TimerEvent: {}
+[7.628074] (-) TimerEvent: {}
+[7.728459] (-) TimerEvent: {}
+[7.828825] (-) TimerEvent: {}
+[7.929208] (-) TimerEvent: {}
+[8.029629] (-) TimerEvent: {}
+[8.130033] (-) TimerEvent: {}
+[8.230427] (-) TimerEvent: {}
+[8.330861] (-) TimerEvent: {}
+[8.431265] (-) TimerEvent: {}
+[8.531660] (-) TimerEvent: {}
+[8.632031] (-) TimerEvent: {}
+[8.732389] (-) TimerEvent: {}
+[8.832753] (-) TimerEvent: {}
+[8.933127] (-) TimerEvent: {}
+[9.033511] (-) TimerEvent: {}
+[9.133873] (-) TimerEvent: {}
+[9.234224] (-) TimerEvent: {}
+[9.334571] (-) TimerEvent: {}
+[9.434918] (-) TimerEvent: {}
+[9.535264] (-) TimerEvent: {}
+[9.635659] (-) TimerEvent: {}
+[9.736045] (-) TimerEvent: {}
+[9.836466] (-) TimerEvent: {}
+[9.936895] (-) TimerEvent: {}
+[10.037252] (-) TimerEvent: {}
+[10.137704] (-) TimerEvent: {}
+[10.213254] (emse_rx150_benchmarks) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/benchmark.dir/build.make:76: CMakeFiles/benchmark.dir/src/benchmark.cpp.o] Error 1\n'}
+[10.213888] (emse_rx150_benchmarks) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/benchmark.dir/all] Error 2\n'}
+[10.214277] (emse_rx150_benchmarks) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[10.217399] (emse_rx150_benchmarks) CommandEnded: {'returncode': 2}
+[10.237940] (-) TimerEvent: {}
+[10.321939] (emse_rx150_benchmarks) JobEnded: {'identifier': 'emse_rx150_benchmarks', 'rc': 2}
+[10.332894] (-) EventReactorShutdown: {}

@@ -1,0 +1,184 @@
+[0.219s] DEBUG:colcon:Command line arguments: ['/home/malik/.local/bin/colcon', 'build', '--packages-select', 'emse_rx150_benchmarks']
+[0.220s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['emse_rx150_benchmarks'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7c423e0e2260>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7c423e1e29b0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7c423e1e29b0>>, mixin_verb=('build',))
+[0.496s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.496s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.496s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.496s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.496s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.496s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.496s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/malik/interbotix_moveit'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/emse_moveit_actions) by extensions ['ignore', 'ignore_ament_install']
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/emse_moveit_actions) by extension 'ignore'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/emse_moveit_actions) by extension 'ignore_ament_install'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/emse_moveit_actions) by extensions ['colcon_pkg']
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/emse_moveit_actions) by extension 'colcon_pkg'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/emse_moveit_actions) by extensions ['colcon_meta']
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/emse_moveit_actions) by extension 'colcon_meta'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/emse_moveit_actions) by extensions ['ros']
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/emse_moveit_actions) by extension 'ros'
+[0.518s] DEBUG:colcon.colcon_core.package_identification:Package 'src/emse_moveit_actions' with type 'ros.ament_cmake' and name 'emse_moveit_actions'
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/emse_reachpose) by extensions ['ignore', 'ignore_ament_install']
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/emse_reachpose) by extension 'ignore'
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/emse_reachpose) by extension 'ignore_ament_install'
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/emse_reachpose) by extensions ['colcon_pkg']
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/emse_reachpose) by extension 'colcon_pkg'
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/emse_reachpose) by extensions ['colcon_meta']
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/emse_reachpose) by extension 'colcon_meta'
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/emse_reachpose) by extensions ['ros']
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/emse_reachpose) by extension 'ros'
+[0.520s] DEBUG:colcon.colcon_core.package_identification:Package 'src/emse_reachpose' with type 'ros.ament_cmake' and name 'emse_reachpose'
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/emse_rx150_benchmarks) by extensions ['ignore', 'ignore_ament_install']
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/emse_rx150_benchmarks) by extension 'ignore'
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/emse_rx150_benchmarks) by extension 'ignore_ament_install'
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/emse_rx150_benchmarks) by extensions ['colcon_pkg']
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/emse_rx150_benchmarks) by extension 'colcon_pkg'
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/emse_rx150_benchmarks) by extensions ['colcon_meta']
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/emse_rx150_benchmarks) by extension 'colcon_meta'
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/emse_rx150_benchmarks) by extensions ['ros']
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/emse_rx150_benchmarks) by extension 'ros'
+[0.523s] DEBUG:colcon.colcon_core.package_identification:Package 'src/emse_rx150_benchmarks' with type 'ros.ament_cmake' and name 'emse_rx150_benchmarks'
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/emse_rx150_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/emse_rx150_moveit_config) by extension 'ignore'
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/emse_rx150_moveit_config) by extension 'ignore_ament_install'
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/emse_rx150_moveit_config) by extensions ['colcon_pkg']
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/emse_rx150_moveit_config) by extension 'colcon_pkg'
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/emse_rx150_moveit_config) by extensions ['colcon_meta']
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/emse_rx150_moveit_config) by extension 'colcon_meta'
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/emse_rx150_moveit_config) by extensions ['ros']
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/emse_rx150_moveit_config) by extension 'ros'
+[0.526s] DEBUG:colcon.colcon_core.package_identification:Package 'src/emse_rx150_moveit_config' with type 'ros.ament_cmake' and name 'emse_rx150_moveit_config'
+[0.526s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.526s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.526s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.526s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.527s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.556s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'emse_moveit_actions' in 'src/emse_moveit_actions'
+[0.556s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'emse_reachpose' in 'src/emse_reachpose'
+[0.556s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'emse_rx150_moveit_config' in 'src/emse_rx150_moveit_config'
+[0.557s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.557s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.574s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/malik/interbotix_moveit/install
+[0.576s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 32 installed packages in /home/malik/interbotix_ws/install
+[0.577s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/malik/apriltag_ws/install
+[0.580s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 386 installed packages in /opt/ros/humble
+[0.582s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.851s] Level 5:colcon.colcon_core.verb:set package 'emse_rx150_benchmarks' build argument 'cmake_args' from command line to 'None'
+[0.851s] Level 5:colcon.colcon_core.verb:set package 'emse_rx150_benchmarks' build argument 'cmake_target' from command line to 'None'
+[0.851s] Level 5:colcon.colcon_core.verb:set package 'emse_rx150_benchmarks' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.851s] Level 5:colcon.colcon_core.verb:set package 'emse_rx150_benchmarks' build argument 'cmake_clean_cache' from command line to 'False'
+[0.852s] Level 5:colcon.colcon_core.verb:set package 'emse_rx150_benchmarks' build argument 'cmake_clean_first' from command line to 'False'
+[0.852s] Level 5:colcon.colcon_core.verb:set package 'emse_rx150_benchmarks' build argument 'cmake_force_configure' from command line to 'False'
+[0.852s] Level 5:colcon.colcon_core.verb:set package 'emse_rx150_benchmarks' build argument 'ament_cmake_args' from command line to 'None'
+[0.852s] Level 5:colcon.colcon_core.verb:set package 'emse_rx150_benchmarks' build argument 'catkin_cmake_args' from command line to 'None'
+[0.852s] Level 5:colcon.colcon_core.verb:set package 'emse_rx150_benchmarks' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.852s] DEBUG:colcon.colcon_core.verb:Building package 'emse_rx150_benchmarks' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/malik/interbotix_moveit/build/emse_rx150_benchmarks', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/malik/interbotix_moveit/install/emse_rx150_benchmarks', 'merge_install': False, 'path': '/home/malik/interbotix_moveit/src/emse_rx150_benchmarks', 'symlink_install': False, 'test_result_base': None}
+[0.852s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.854s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.854s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/malik/interbotix_moveit/src/emse_rx150_benchmarks' with build type 'ament_cmake'
+[0.854s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/malik/interbotix_moveit/src/emse_rx150_benchmarks'
+[0.858s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.858s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.858s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.880s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/malik/interbotix_moveit/build/emse_rx150_benchmarks': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/malik/interbotix_ws/install/interbotix_xs_modules:/home/malik/interbotix_ws/install/interbotix_perception_modules:/home/malik/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --build /home/malik/interbotix_moveit/build/emse_rx150_benchmarks -- -j4 -l4
+[12.590s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/malik/interbotix_moveit/build/emse_rx150_benchmarks' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/malik/interbotix_ws/install/interbotix_xs_modules:/home/malik/interbotix_ws/install/interbotix_perception_modules:/home/malik/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --build /home/malik/interbotix_moveit/build/emse_rx150_benchmarks -- -j4 -l4
+[12.697s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/malik/interbotix_moveit/build/emse_rx150_benchmarks': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/malik/interbotix_ws/install/interbotix_xs_modules:/home/malik/interbotix_ws/install/interbotix_perception_modules:/home/malik/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --install /home/malik/interbotix_moveit/build/emse_rx150_benchmarks
+[12.725s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(emse_rx150_benchmarks)
+[12.730s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/malik/interbotix_moveit/build/emse_rx150_benchmarks' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/malik/interbotix_ws/install/interbotix_xs_modules:/home/malik/interbotix_ws/install/interbotix_perception_modules:/home/malik/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --install /home/malik/interbotix_moveit/build/emse_rx150_benchmarks
+[12.733s] Level 1:colcon.colcon_core.environment:checking '/home/malik/interbotix_moveit/install/emse_rx150_benchmarks' for CMake module files
+[12.734s] Level 1:colcon.colcon_core.environment:checking '/home/malik/interbotix_moveit/install/emse_rx150_benchmarks' for CMake config files
+[12.735s] Level 1:colcon.colcon_core.shell:create_environment_hook('emse_rx150_benchmarks', 'cmake_prefix_path')
+[12.735s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/emse_rx150_benchmarks/hook/cmake_prefix_path.ps1'
+[12.736s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/emse_rx150_benchmarks/hook/cmake_prefix_path.dsv'
+[12.736s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/emse_rx150_benchmarks/hook/cmake_prefix_path.sh'
+[12.738s] Level 1:colcon.colcon_core.environment:checking '/home/malik/interbotix_moveit/install/emse_rx150_benchmarks/lib'
+[12.739s] Level 1:colcon.colcon_core.shell:create_environment_hook('emse_rx150_benchmarks', 'ld_library_path_lib')
+[12.739s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/emse_rx150_benchmarks/hook/ld_library_path_lib.ps1'
+[12.740s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/emse_rx150_benchmarks/hook/ld_library_path_lib.dsv'
+[12.741s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/emse_rx150_benchmarks/hook/ld_library_path_lib.sh'
+[12.741s] Level 1:colcon.colcon_core.environment:checking '/home/malik/interbotix_moveit/install/emse_rx150_benchmarks/bin'
+[12.741s] Level 1:colcon.colcon_core.environment:checking '/home/malik/interbotix_moveit/install/emse_rx150_benchmarks/lib/pkgconfig/emse_rx150_benchmarks.pc'
+[12.742s] Level 1:colcon.colcon_core.environment:checking '/home/malik/interbotix_moveit/install/emse_rx150_benchmarks/lib/python3.10/site-packages'
+[12.742s] Level 1:colcon.colcon_core.environment:checking '/home/malik/interbotix_moveit/install/emse_rx150_benchmarks/bin'
+[12.743s] INFO:colcon.colcon_core.shell:Creating package script '/home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/emse_rx150_benchmarks/package.ps1'
+[12.744s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/emse_rx150_benchmarks/package.dsv'
+[12.744s] INFO:colcon.colcon_core.shell:Creating package script '/home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/emse_rx150_benchmarks/package.sh'
+[12.745s] INFO:colcon.colcon_core.shell:Creating package script '/home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/emse_rx150_benchmarks/package.bash'
+[12.746s] INFO:colcon.colcon_core.shell:Creating package script '/home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/emse_rx150_benchmarks/package.zsh'
+[12.747s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/colcon-core/packages/emse_rx150_benchmarks)
+[12.837s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(emse_rx150_benchmarks)
+[12.838s] Level 1:colcon.colcon_core.environment:checking '/home/malik/interbotix_moveit/install/emse_rx150_benchmarks' for CMake module files
+[12.840s] Level 1:colcon.colcon_core.environment:checking '/home/malik/interbotix_moveit/install/emse_rx150_benchmarks' for CMake config files
+[12.840s] Level 1:colcon.colcon_core.shell:create_environment_hook('emse_rx150_benchmarks', 'cmake_prefix_path')
+[12.840s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/emse_rx150_benchmarks/hook/cmake_prefix_path.ps1'
+[12.841s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/emse_rx150_benchmarks/hook/cmake_prefix_path.dsv'
+[12.842s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/emse_rx150_benchmarks/hook/cmake_prefix_path.sh'
+[12.843s] Level 1:colcon.colcon_core.environment:checking '/home/malik/interbotix_moveit/install/emse_rx150_benchmarks/lib'
+[12.843s] Level 1:colcon.colcon_core.shell:create_environment_hook('emse_rx150_benchmarks', 'ld_library_path_lib')
+[12.843s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/emse_rx150_benchmarks/hook/ld_library_path_lib.ps1'
+[12.844s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/emse_rx150_benchmarks/hook/ld_library_path_lib.dsv'
+[12.844s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/emse_rx150_benchmarks/hook/ld_library_path_lib.sh'
+[12.845s] Level 1:colcon.colcon_core.environment:checking '/home/malik/interbotix_moveit/install/emse_rx150_benchmarks/bin'
+[12.845s] Level 1:colcon.colcon_core.environment:checking '/home/malik/interbotix_moveit/install/emse_rx150_benchmarks/lib/pkgconfig/emse_rx150_benchmarks.pc'
+[12.845s] Level 1:colcon.colcon_core.environment:checking '/home/malik/interbotix_moveit/install/emse_rx150_benchmarks/lib/python3.10/site-packages'
+[12.845s] Level 1:colcon.colcon_core.environment:checking '/home/malik/interbotix_moveit/install/emse_rx150_benchmarks/bin'
+[12.846s] INFO:colcon.colcon_core.shell:Creating package script '/home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/emse_rx150_benchmarks/package.ps1'
+[12.847s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/emse_rx150_benchmarks/package.dsv'
+[12.848s] INFO:colcon.colcon_core.shell:Creating package script '/home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/emse_rx150_benchmarks/package.sh'
+[12.848s] INFO:colcon.colcon_core.shell:Creating package script '/home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/emse_rx150_benchmarks/package.bash'
+[12.849s] INFO:colcon.colcon_core.shell:Creating package script '/home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/emse_rx150_benchmarks/package.zsh'
+[12.850s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/colcon-core/packages/emse_rx150_benchmarks)
+[12.850s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[12.850s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[12.851s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[12.851s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[12.862s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[12.862s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[12.862s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[12.878s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[12.878s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/malik/interbotix_moveit/install/local_setup.ps1'
+[12.880s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/malik/interbotix_moveit/install/_local_setup_util_ps1.py'
+[12.883s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/malik/interbotix_moveit/install/setup.ps1'
+[12.888s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/malik/interbotix_moveit/install/local_setup.sh'
+[12.889s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/malik/interbotix_moveit/install/_local_setup_util_sh.py'
+[12.890s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/malik/interbotix_moveit/install/setup.sh'
+[12.895s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/malik/interbotix_moveit/install/local_setup.bash'
+[12.896s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/malik/interbotix_moveit/install/setup.bash'
+[12.900s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/malik/interbotix_moveit/install/local_setup.zsh'
+[12.901s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/malik/interbotix_moveit/install/setup.zsh'

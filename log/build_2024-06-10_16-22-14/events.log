@@ -1,0 +1,205 @@
+[0.000000] (-) TimerEvent: {}
+[0.000811] (-) JobUnselected: {'identifier': 'emse_moveit_actions'}
+[0.001179] (-) JobUnselected: {'identifier': 'emse_reachpose'}
+[0.001278] (-) JobUnselected: {'identifier': 'emse_rx150_moveit_config'}
+[0.001404] (emse_rx150_benchmarks) JobQueued: {'identifier': 'emse_rx150_benchmarks', 'dependencies': OrderedDict()}
+[0.001528] (emse_rx150_benchmarks) JobStarted: {'identifier': 'emse_rx150_benchmarks'}
+[0.027439] (emse_rx150_benchmarks) JobProgress: {'identifier': 'emse_rx150_benchmarks', 'progress': 'cmake'}
+[0.028502] (emse_rx150_benchmarks) JobProgress: {'identifier': 'emse_rx150_benchmarks', 'progress': 'build'}
+[0.029733] (emse_rx150_benchmarks) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/malik/interbotix_moveit/build/emse_rx150_benchmarks', '--', '-j4', '-l4'], 'cwd': '/home/malik/interbotix_moveit/build/emse_rx150_benchmarks', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'malik'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/malik/interbotix_moveit/install/emse_rx150_benchmarks/lib:/home/malik/interbotix_moveit/install/emse_moveit_actions/lib:/home/malik/interbotix_ws/install/moveit_visual_tools/lib:/home/malik/interbotix_ws/install/interbotix_xs_rviz/lib:/home/malik/interbotix_ws/install/interbotix_xs_ros_control/lib:/home/malik/interbotix_ws/install/interbotix_xs_msgs/lib:/home/malik/interbotix_ws/install/interbotix_xs_driver/lib:/home/malik/interbotix_ws/install/interbotix_tf_tools/lib:/home/malik/interbotix_ws/install/interbotix_perception_msgs/lib:/home/malik/interbotix_ws/install/interbotix_moveit_interface_msgs/lib:/home/malik/interbotix_ws/install/dynamixel_workbench_toolbox/lib:/home/malik/apriltag_ws/install/apriltag_ros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/malik'), ('OLDPWD', '/home/malik/interbotix_moveit/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_IP', '10.103.3.151'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1868'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1003/bus,guid=24f7d0f87a2a8679624a60706666d3e3'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/malik/interbotix_moveit/install:/home/malik/interbotix_ws/install:/home/malik/apriltag_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'malik'), ('_', '/home/malik/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'malik'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/malik/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/LAB-INFO-03:@/tmp/.ICE-unix/1868,unix/LAB-INFO-03:/tmp/.ICE-unix/1868'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1787aa7f_a0de_49f5_a37d_859cfa183da6'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1003'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1003/.mutter-Xwaylandauth.6ND6O2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.115'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1003/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/malik/interbotix_moveit/install/emse_rx150_moveit_config:/home/malik/interbotix_moveit/install/emse_rx150_benchmarks:/home/malik/interbotix_moveit/install/emse_reachpose:/home/malik/interbotix_moveit/install/emse_moveit_actions:/home/malik/interbotix_ws/install/interbotix_ros_xsarms_examples:/home/malik/interbotix_ws/install/interbotix_xsarm_moveit_interface:/home/malik/interbotix_ws/install/interbotix_moveit_interface:/home/malik/interbotix_ws/install/moveit_visual_tools:/home/malik/interbotix_ws/install/interbotix_ros_xsarms:/home/malik/interbotix_ws/install/interbotix_xsarm_moveit:/home/malik/interbotix_ws/install/interbotix_xsarm_sim:/home/malik/interbotix_ws/install/interbotix_xsarm_ros_control:/home/malik/interbotix_ws/install/interbotix_xsarm_puppet:/home/malik/interbotix_ws/install/interbotix_xsarm_perception:/home/malik/interbotix_ws/install/interbotix_xsarm_joy:/home/malik/interbotix_ws/install/interbotix_xsarm_dual:/home/malik/interbotix_ws/install/interbotix_xsarm_control:/home/malik/interbotix_ws/install/interbotix_xsarm_descriptions:/home/malik/interbotix_ws/install/interbotix_xs_toolbox:/home/malik/interbotix_ws/install/interbotix_xs_rviz:/home/malik/interbotix_ws/install/interbotix_xs_modules:/home/malik/interbotix_ws/install/interbotix_ros_xseries:/home/malik/interbotix_ws/install/interbotix_xs_sdk:/home/malik/interbotix_ws/install/interbotix_xs_ros_control:/home/malik/interbotix_ws/install/interbotix_perception_toolbox:/home/malik/interbotix_ws/install/interbotix_perception_modules:/home/malik/interbotix_ws/install/interbotix_perception_pipelines:/home/malik/interbotix_ws/install/interbotix_xs_msgs:/home/malik/interbotix_ws/install/interbotix_xs_driver:/home/malik/interbotix_ws/install/interbotix_tf_tools:/home/malik/interbotix_ws/install/interbotix_perception_msgs:/home/malik/interbotix_ws/install/interbotix_moveit_interface_msgs:/home/malik/interbotix_ws/install/interbotix_common_toolbox:/home/malik/interbotix_ws/install/interbotix_common_sim:/home/malik/interbotix_ws/install/interbotix_common_modules:/home/malik/interbotix_ws/install/dynamixel_workbench_toolbox:/home/malik/apriltag_ws/install/apriltag_ros:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/malik/interbotix_moveit/build/emse_rx150_benchmarks'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1003/bus,guid=24f7d0f87a2a8679624a60706666d3e3'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/malik/interbotix_moveit/install/emse_moveit_actions/local/lib/python3.10/dist-packages:/home/malik/interbotix_ws/install/interbotix_xs_modules/lib/python3.10/site-packages:/home/malik/interbotix_ws/install/interbotix_perception_modules/lib/python3.10/site-packages:/home/malik/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages:/home/malik/interbotix_ws/install/interbotix_perception_msgs/local/lib/python3.10/dist-packages:/home/malik/interbotix_ws/install/interbotix_moveit_interface_msgs/local/lib/python3.10/dist-packages:/home/malik/interbotix_ws/install/interbotix_common_modules/lib/python3.10/site-packages:/home/malik/apriltag_ws/install/apriltag_ros/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/malik/interbotix_moveit/install/emse_rx150_moveit_config:/home/malik/interbotix_moveit/install/emse_rx150_benchmarks:/home/malik/interbotix_moveit/install/emse_reachpose:/home/malik/interbotix_moveit/install/emse_moveit_actions:/home/malik/interbotix_ws/install/interbotix_ros_xsarms_examples:/home/malik/interbotix_ws/install/interbotix_xsarm_moveit_interface:/home/malik/interbotix_ws/install/interbotix_moveit_interface:/home/malik/interbotix_ws/install/moveit_visual_tools:/home/malik/interbotix_ws/install/interbotix_ros_xsarms:/home/malik/interbotix_ws/install/interbotix_xsarm_moveit:/home/malik/interbotix_ws/install/interbotix_xsarm_sim:/home/malik/interbotix_ws/install/interbotix_xsarm_ros_control:/home/malik/interbotix_ws/install/interbotix_xsarm_puppet:/home/malik/interbotix_ws/install/interbotix_xsarm_perception:/home/malik/interbotix_ws/install/interbotix_xsarm_joy:/home/malik/interbotix_ws/install/interbotix_xsarm_dual:/home/malik/interbotix_ws/install/interbotix_xsarm_control:/home/malik/interbotix_ws/install/interbotix_xsarm_descriptions:/home/malik/interbotix_ws/install/interbotix_xs_toolbox:/home/malik/interbotix_ws/install/interbotix_xs_rviz:/home/malik/interbotix_ws/install/interbotix_ros_xseries:/home/malik/interbotix_ws/install/interbotix_xs_sdk:/home/malik/interbotix_ws/install/interbotix_xs_ros_control:/home/malik/interbotix_ws/install/interbotix_perception_toolbox:/home/malik/interbotix_ws/install/interbotix_perception_pipelines:/home/malik/interbotix_ws/install/interbotix_xs_msgs:/home/malik/interbotix_ws/install/interbotix_xs_driver:/home/malik/interbotix_ws/install/interbotix_tf_tools:/home/malik/interbotix_ws/install/interbotix_perception_msgs:/home/malik/interbotix_ws/install/interbotix_moveit_interface_msgs:/home/malik/interbotix_ws/install/interbotix_common_toolbox:/home/malik/interbotix_ws/install/interbotix_common_sim:/home/malik/interbotix_ws/install/dynamixel_workbench_toolbox:/home/malik/apriltag_ws/install/apriltag_ros:/home/malik/interbotix_ws/install/interbotix_xs_modules:/home/malik/interbotix_ws/install/interbotix_perception_modules:/home/malik/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble')]), 'shell': False}
+[0.099578] (-) TimerEvent: {}
+[0.129684] (emse_rx150_benchmarks) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target benchmark\x1b[0m\n'}
+[0.185935] (emse_rx150_benchmarks) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object CMakeFiles/benchmark.dir/src/benchmark.cpp.o\x1b[0m\n'}
+[0.198593] (emse_rx150_benchmarks) StdoutLine: {'line': b'[ 44%] Built target moveit_ros_benchmarks\n'}
+[0.199677] (-) TimerEvent: {}
+[0.290343] (emse_rx150_benchmarks) StdoutLine: {'line': b'[ 66%] Built target moveit_combine_predefined_poses_benchmark\n'}
+[0.299817] (-) TimerEvent: {}
+[0.316267] (emse_rx150_benchmarks) StdoutLine: {'line': b'[ 88%] Built target moveit_run_benchmark\n'}
+[0.399965] (-) TimerEvent: {}
+[0.500362] (-) TimerEvent: {}
+[0.600732] (-) TimerEvent: {}
+[0.701145] (-) TimerEvent: {}
+[0.801537] (-) TimerEvent: {}
+[0.901924] (-) TimerEvent: {}
+[1.002356] (-) TimerEvent: {}
+[1.102770] (-) TimerEvent: {}
+[1.203151] (-) TimerEvent: {}
+[1.303542] (-) TimerEvent: {}
+[1.403910] (-) TimerEvent: {}
+[1.504281] (-) TimerEvent: {}
+[1.604687] (-) TimerEvent: {}
+[1.705063] (-) TimerEvent: {}
+[1.805448] (-) TimerEvent: {}
+[1.905861] (-) TimerEvent: {}
+[2.006216] (-) TimerEvent: {}
+[2.106570] (-) TimerEvent: {}
+[2.206970] (-) TimerEvent: {}
+[2.307291] (-) TimerEvent: {}
+[2.407710] (-) TimerEvent: {}
+[2.508122] (-) TimerEvent: {}
+[2.608520] (-) TimerEvent: {}
+[2.708923] (-) TimerEvent: {}
+[2.809308] (-) TimerEvent: {}
+[2.909650] (-) TimerEvent: {}
+[3.010061] (-) TimerEvent: {}
+[3.110473] (-) TimerEvent: {}
+[3.210861] (-) TimerEvent: {}
+[3.311212] (-) TimerEvent: {}
+[3.411621] (-) TimerEvent: {}
+[3.511959] (-) TimerEvent: {}
+[3.612325] (-) TimerEvent: {}
+[3.712721] (-) TimerEvent: {}
+[3.813105] (-) TimerEvent: {}
+[3.913510] (-) TimerEvent: {}
+[4.013900] (-) TimerEvent: {}
+[4.114285] (-) TimerEvent: {}
+[4.214753] (-) TimerEvent: {}
+[4.315140] (-) TimerEvent: {}
+[4.415545] (-) TimerEvent: {}
+[4.516014] (-) TimerEvent: {}
+[4.616467] (-) TimerEvent: {}
+[4.716822] (-) TimerEvent: {}
+[4.817219] (-) TimerEvent: {}
+[4.917589] (-) TimerEvent: {}
+[5.017998] (-) TimerEvent: {}
+[5.118367] (-) TimerEvent: {}
+[5.218755] (-) TimerEvent: {}
+[5.319124] (-) TimerEvent: {}
+[5.419491] (-) TimerEvent: {}
+[5.519829] (-) TimerEvent: {}
+[5.620169] (-) TimerEvent: {}
+[5.720567] (-) TimerEvent: {}
+[5.820938] (-) TimerEvent: {}
+[5.921387] (-) TimerEvent: {}
+[6.021822] (-) TimerEvent: {}
+[6.122154] (-) TimerEvent: {}
+[6.222592] (-) TimerEvent: {}
+[6.322976] (-) TimerEvent: {}
+[6.423294] (-) TimerEvent: {}
+[6.523664] (-) TimerEvent: {}
+[6.624078] (-) TimerEvent: {}
+[6.724441] (-) TimerEvent: {}
+[6.824801] (-) TimerEvent: {}
+[6.925152] (-) TimerEvent: {}
+[7.025562] (-) TimerEvent: {}
+[7.125961] (-) TimerEvent: {}
+[7.226428] (-) TimerEvent: {}
+[7.326760] (-) TimerEvent: {}
+[7.427067] (-) TimerEvent: {}
+[7.527490] (-) TimerEvent: {}
+[7.627903] (-) TimerEvent: {}
+[7.728388] (-) TimerEvent: {}
+[7.828731] (-) TimerEvent: {}
+[7.929194] (-) TimerEvent: {}
+[8.029526] (-) TimerEvent: {}
+[8.129889] (-) TimerEvent: {}
+[8.230231] (-) TimerEvent: {}
+[8.330708] (-) TimerEvent: {}
+[8.431128] (-) TimerEvent: {}
+[8.531635] (-) TimerEvent: {}
+[8.632025] (-) TimerEvent: {}
+[8.732404] (-) TimerEvent: {}
+[8.832759] (-) TimerEvent: {}
+[8.933181] (-) TimerEvent: {}
+[9.033543] (-) TimerEvent: {}
+[9.133903] (-) TimerEvent: {}
+[9.234261] (-) TimerEvent: {}
+[9.335222] (-) TimerEvent: {}
+[9.435633] (-) TimerEvent: {}
+[9.536112] (-) TimerEvent: {}
+[9.636472] (-) TimerEvent: {}
+[9.736827] (-) TimerEvent: {}
+[9.837179] (-) TimerEvent: {}
+[9.937547] (-) TimerEvent: {}
+[10.037860] (-) TimerEvent: {}
+[10.138191] (-) TimerEvent: {}
+[10.238530] (-) TimerEvent: {}
+[10.338924] (-) TimerEvent: {}
+[10.439259] (-) TimerEvent: {}
+[10.539596] (-) TimerEvent: {}
+[10.640110] (-) TimerEvent: {}
+[10.740514] (-) TimerEvent: {}
+[10.840995] (-) TimerEvent: {}
+[10.941316] (-) TimerEvent: {}
+[11.041702] (-) TimerEvent: {}
+[11.142180] (-) TimerEvent: {}
+[11.242566] (-) TimerEvent: {}
+[11.342963] (-) TimerEvent: {}
+[11.443318] (-) TimerEvent: {}
+[11.543692] (-) TimerEvent: {}
+[11.644060] (-) TimerEvent: {}
+[11.744498] (-) TimerEvent: {}
+[11.844869] (-) TimerEvent: {}
+[11.945338] (-) TimerEvent: {}
+[12.045768] (-) TimerEvent: {}
+[12.146187] (-) TimerEvent: {}
+[12.246721] (-) TimerEvent: {}
+[12.347135] (-) TimerEvent: {}
+[12.350499] (emse_rx150_benchmarks) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable benchmark\x1b[0m\n'}
+[12.447307] (-) TimerEvent: {}
+[12.547695] (-) TimerEvent: {}
+[12.648259] (-) TimerEvent: {}
+[12.748739] (-) TimerEvent: {}
+[12.849056] (-) TimerEvent: {}
+[12.890753] (emse_rx150_benchmarks) StdoutLine: {'line': b'[100%] Built target benchmark\n'}
+[12.910767] (emse_rx150_benchmarks) CommandEnded: {'returncode': 0}
+[12.949186] (-) TimerEvent: {}
+[13.004522] (emse_rx150_benchmarks) JobProgress: {'identifier': 'emse_rx150_benchmarks', 'progress': 'install'}
+[13.024820] (emse_rx150_benchmarks) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/malik/interbotix_moveit/build/emse_rx150_benchmarks'], 'cwd': '/home/malik/interbotix_moveit/build/emse_rx150_benchmarks', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'malik'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/malik/interbotix_moveit/install/emse_rx150_benchmarks/lib:/home/malik/interbotix_moveit/install/emse_moveit_actions/lib:/home/malik/interbotix_ws/install/moveit_visual_tools/lib:/home/malik/interbotix_ws/install/interbotix_xs_rviz/lib:/home/malik/interbotix_ws/install/interbotix_xs_ros_control/lib:/home/malik/interbotix_ws/install/interbotix_xs_msgs/lib:/home/malik/interbotix_ws/install/interbotix_xs_driver/lib:/home/malik/interbotix_ws/install/interbotix_tf_tools/lib:/home/malik/interbotix_ws/install/interbotix_perception_msgs/lib:/home/malik/interbotix_ws/install/interbotix_moveit_interface_msgs/lib:/home/malik/interbotix_ws/install/dynamixel_workbench_toolbox/lib:/home/malik/apriltag_ws/install/apriltag_ros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/malik'), ('OLDPWD', '/home/malik/interbotix_moveit/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_IP', '10.103.3.151'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1868'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1003/bus,guid=24f7d0f87a2a8679624a60706666d3e3'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/malik/interbotix_moveit/install:/home/malik/interbotix_ws/install:/home/malik/apriltag_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'malik'), ('_', '/home/malik/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'malik'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/malik/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/LAB-INFO-03:@/tmp/.ICE-unix/1868,unix/LAB-INFO-03:/tmp/.ICE-unix/1868'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1787aa7f_a0de_49f5_a37d_859cfa183da6'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1003'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1003/.mutter-Xwaylandauth.6ND6O2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.115'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1003/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/malik/interbotix_moveit/install/emse_rx150_moveit_config:/home/malik/interbotix_moveit/install/emse_rx150_benchmarks:/home/malik/interbotix_moveit/install/emse_reachpose:/home/malik/interbotix_moveit/install/emse_moveit_actions:/home/malik/interbotix_ws/install/interbotix_ros_xsarms_examples:/home/malik/interbotix_ws/install/interbotix_xsarm_moveit_interface:/home/malik/interbotix_ws/install/interbotix_moveit_interface:/home/malik/interbotix_ws/install/moveit_visual_tools:/home/malik/interbotix_ws/install/interbotix_ros_xsarms:/home/malik/interbotix_ws/install/interbotix_xsarm_moveit:/home/malik/interbotix_ws/install/interbotix_xsarm_sim:/home/malik/interbotix_ws/install/interbotix_xsarm_ros_control:/home/malik/interbotix_ws/install/interbotix_xsarm_puppet:/home/malik/interbotix_ws/install/interbotix_xsarm_perception:/home/malik/interbotix_ws/install/interbotix_xsarm_joy:/home/malik/interbotix_ws/install/interbotix_xsarm_dual:/home/malik/interbotix_ws/install/interbotix_xsarm_control:/home/malik/interbotix_ws/install/interbotix_xsarm_descriptions:/home/malik/interbotix_ws/install/interbotix_xs_toolbox:/home/malik/interbotix_ws/install/interbotix_xs_rviz:/home/malik/interbotix_ws/install/interbotix_xs_modules:/home/malik/interbotix_ws/install/interbotix_ros_xseries:/home/malik/interbotix_ws/install/interbotix_xs_sdk:/home/malik/interbotix_ws/install/interbotix_xs_ros_control:/home/malik/interbotix_ws/install/interbotix_perception_toolbox:/home/malik/interbotix_ws/install/interbotix_perception_modules:/home/malik/interbotix_ws/install/interbotix_perception_pipelines:/home/malik/interbotix_ws/install/interbotix_xs_msgs:/home/malik/interbotix_ws/install/interbotix_xs_driver:/home/malik/interbotix_ws/install/interbotix_tf_tools:/home/malik/interbotix_ws/install/interbotix_perception_msgs:/home/malik/interbotix_ws/install/interbotix_moveit_interface_msgs:/home/malik/interbotix_ws/install/interbotix_common_toolbox:/home/malik/interbotix_ws/install/interbotix_common_sim:/home/malik/interbotix_ws/install/interbotix_common_modules:/home/malik/interbotix_ws/install/dynamixel_workbench_toolbox:/home/malik/apriltag_ws/install/apriltag_ros:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/malik/interbotix_moveit/build/emse_rx150_benchmarks'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1003/bus,guid=24f7d0f87a2a8679624a60706666d3e3'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/malik/interbotix_moveit/install/emse_moveit_actions/local/lib/python3.10/dist-packages:/home/malik/interbotix_ws/install/interbotix_xs_modules/lib/python3.10/site-packages:/home/malik/interbotix_ws/install/interbotix_perception_modules/lib/python3.10/site-packages:/home/malik/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages:/home/malik/interbotix_ws/install/interbotix_perception_msgs/local/lib/python3.10/dist-packages:/home/malik/interbotix_ws/install/interbotix_moveit_interface_msgs/local/lib/python3.10/dist-packages:/home/malik/interbotix_ws/install/interbotix_common_modules/lib/python3.10/site-packages:/home/malik/apriltag_ws/install/apriltag_ros/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/malik/interbotix_moveit/install/emse_rx150_moveit_config:/home/malik/interbotix_moveit/install/emse_rx150_benchmarks:/home/malik/interbotix_moveit/install/emse_reachpose:/home/malik/interbotix_moveit/install/emse_moveit_actions:/home/malik/interbotix_ws/install/interbotix_ros_xsarms_examples:/home/malik/interbotix_ws/install/interbotix_xsarm_moveit_interface:/home/malik/interbotix_ws/install/interbotix_moveit_interface:/home/malik/interbotix_ws/install/moveit_visual_tools:/home/malik/interbotix_ws/install/interbotix_ros_xsarms:/home/malik/interbotix_ws/install/interbotix_xsarm_moveit:/home/malik/interbotix_ws/install/interbotix_xsarm_sim:/home/malik/interbotix_ws/install/interbotix_xsarm_ros_control:/home/malik/interbotix_ws/install/interbotix_xsarm_puppet:/home/malik/interbotix_ws/install/interbotix_xsarm_perception:/home/malik/interbotix_ws/install/interbotix_xsarm_joy:/home/malik/interbotix_ws/install/interbotix_xsarm_dual:/home/malik/interbotix_ws/install/interbotix_xsarm_control:/home/malik/interbotix_ws/install/interbotix_xsarm_descriptions:/home/malik/interbotix_ws/install/interbotix_xs_toolbox:/home/malik/interbotix_ws/install/interbotix_xs_rviz:/home/malik/interbotix_ws/install/interbotix_ros_xseries:/home/malik/interbotix_ws/install/interbotix_xs_sdk:/home/malik/interbotix_ws/install/interbotix_xs_ros_control:/home/malik/interbotix_ws/install/interbotix_perception_toolbox:/home/malik/interbotix_ws/install/interbotix_perception_pipelines:/home/malik/interbotix_ws/install/interbotix_xs_msgs:/home/malik/interbotix_ws/install/interbotix_xs_driver:/home/malik/interbotix_ws/install/interbotix_tf_tools:/home/malik/interbotix_ws/install/interbotix_perception_msgs:/home/malik/interbotix_ws/install/interbotix_moveit_interface_msgs:/home/malik/interbotix_ws/install/interbotix_common_toolbox:/home/malik/interbotix_ws/install/interbotix_common_sim:/home/malik/interbotix_ws/install/dynamixel_workbench_toolbox:/home/malik/apriltag_ws/install/apriltag_ros:/home/malik/interbotix_ws/install/interbotix_xs_modules:/home/malik/interbotix_ws/install/interbotix_perception_modules:/home/malik/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble')]), 'shell': False}
+[13.039755] (emse_rx150_benchmarks) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[13.040335] (emse_rx150_benchmarks) StdoutLine: {'line': b'-- Installing: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/lib/emse_rx150_benchmarks/benchmark\n'}
+[13.041479] (emse_rx150_benchmarks) StdoutLine: {'line': b'-- Set runtime path of "/home/malik/interbotix_moveit/install/emse_rx150_benchmarks/lib/emse_rx150_benchmarks/benchmark" to ""\n'}
+[13.041987] (emse_rx150_benchmarks) StdoutLine: {'line': b'-- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/lib/libmoveit_ros_benchmarks.so.2.5.4\n'}
+[13.042630] (emse_rx150_benchmarks) StdoutLine: {'line': b'-- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/lib/libmoveit_ros_benchmarks.so\n'}
+[13.043058] (emse_rx150_benchmarks) StdoutLine: {'line': b'-- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/emse_rx150_benchmarks/environment/library_path.sh\n'}
+[13.043268] (emse_rx150_benchmarks) StdoutLine: {'line': b'-- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/emse_rx150_benchmarks/environment/library_path.dsv\n'}
+[13.043601] (emse_rx150_benchmarks) StdoutLine: {'line': b'-- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/lib/emse_rx150_benchmarks/moveit_run_benchmark\n'}
+[13.044474] (emse_rx150_benchmarks) StdoutLine: {'line': b'-- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/lib/emse_rx150_benchmarks/moveit_combine_predefined_poses_benchmark\n'}
+[13.044979] (emse_rx150_benchmarks) StdoutLine: {'line': b'-- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/include\n'}
+[13.045415] (emse_rx150_benchmarks) StdoutLine: {'line': b'-- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/include/moveit\n'}
+[13.045888] (emse_rx150_benchmarks) StdoutLine: {'line': b'-- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/include/moveit/benchmarks\n'}
+[13.046293] (emse_rx150_benchmarks) StdoutLine: {'line': b'-- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/include/moveit/benchmarks/BenchmarkExecutor.h\n'}
+[13.046670] (emse_rx150_benchmarks) StdoutLine: {'line': b'-- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/include/moveit/benchmarks/BenchmarkOptions.h\n'}
+[13.046962] (emse_rx150_benchmarks) StdoutLine: {'line': b'-- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/lib/emse_rx150_benchmarks/moveit_benchmark_statistics.py\n'}
+[13.047205] (emse_rx150_benchmarks) StdoutLine: {'line': b'-- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/emse_rx150_benchmarks\n'}
+[13.047500] (emse_rx150_benchmarks) StdoutLine: {'line': b'-- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/emse_rx150_benchmarks/demo1.yaml\n'}
+[13.047891] (emse_rx150_benchmarks) StdoutLine: {'line': b'-- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/emse_rx150_benchmarks/demo_panda_all_planners_obstacles.launch\n'}
+[13.048184] (emse_rx150_benchmarks) StdoutLine: {'line': b'-- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/emse_rx150_benchmarks/demo_panda_predefined_poses.launch.py\n'}
+[13.048427] (emse_rx150_benchmarks) StdoutLine: {'line': b'-- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/emse_rx150_benchmarks/demo2.yaml\n'}
+[13.048743] (emse_rx150_benchmarks) StdoutLine: {'line': b'-- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/emse_rx150_benchmarks/demo_panda_predefined_poses.yaml\n'}
+[13.049086] (emse_rx150_benchmarks) StdoutLine: {'line': b'-- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/emse_rx150_benchmarks/demo_panda.launch.py\n'}
+[13.049335] (-) TimerEvent: {}
+[13.049611] (emse_rx150_benchmarks) StdoutLine: {'line': b'-- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/emse_rx150_benchmarks/demo_fanuc.launch\n'}
+[13.049830] (emse_rx150_benchmarks) StdoutLine: {'line': b'-- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/emse_rx150_benchmarks/demo_obstacles.yaml\n'}
+[13.050098] (emse_rx150_benchmarks) StdoutLine: {'line': b'-- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/emse_rx150_benchmarks/demo_panda_all_planners.launch\n'}
+[13.050412] (emse_rx150_benchmarks) StdoutLine: {'line': b'-- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/emse_rx150_benchmarks/demo_panda_all_planners.yaml\n'}
+[13.050716] (emse_rx150_benchmarks) StdoutLine: {'line': b'-- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/emse_rx150_benchmarks\n'}
+[13.051015] (emse_rx150_benchmarks) StdoutLine: {'line': b'-- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/emse_rx150_benchmarks/ompl_benchmark_rx150.yaml\n'}
+[13.051303] (emse_rx150_benchmarks) StdoutLine: {'line': b'-- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/emse_rx150_benchmarks/random_poses.csv\n'}
+[13.051519] (emse_rx150_benchmarks) StdoutLine: {'line': b'-- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/emse_rx150_benchmarks\n'}
+[13.051688] (emse_rx150_benchmarks) StdoutLine: {'line': b'-- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/emse_rx150_benchmarks/benchmark_poses.launch.py\n'}
+[13.051863] (emse_rx150_benchmarks) StdoutLine: {'line': b'-- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/emse_rx150_benchmarks/benchmark.launch.py\n'}
+[13.052063] (emse_rx150_benchmarks) StdoutLine: {'line': b'-- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/ament_index/resource_index/package_run_dependencies/emse_rx150_benchmarks\n'}
+[13.052270] (emse_rx150_benchmarks) StdoutLine: {'line': b'-- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/ament_index/resource_index/parent_prefix_path/emse_rx150_benchmarks\n'}
+[13.052475] (emse_rx150_benchmarks) StdoutLine: {'line': b'-- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/emse_rx150_benchmarks/environment/ament_prefix_path.sh\n'}
+[13.052689] (emse_rx150_benchmarks) StdoutLine: {'line': b'-- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/emse_rx150_benchmarks/environment/ament_prefix_path.dsv\n'}
+[13.052890] (emse_rx150_benchmarks) StdoutLine: {'line': b'-- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/emse_rx150_benchmarks/environment/path.sh\n'}
+[13.053082] (emse_rx150_benchmarks) StdoutLine: {'line': b'-- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/emse_rx150_benchmarks/environment/path.dsv\n'}
+[13.053284] (emse_rx150_benchmarks) StdoutLine: {'line': b'-- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/emse_rx150_benchmarks/local_setup.bash\n'}
+[13.053484] (emse_rx150_benchmarks) StdoutLine: {'line': b'-- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/emse_rx150_benchmarks/local_setup.sh\n'}
+[13.053675] (emse_rx150_benchmarks) StdoutLine: {'line': b'-- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/emse_rx150_benchmarks/local_setup.zsh\n'}
+[13.053845] (emse_rx150_benchmarks) StdoutLine: {'line': b'-- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/emse_rx150_benchmarks/local_setup.dsv\n'}
+[13.053977] (emse_rx150_benchmarks) StdoutLine: {'line': b'-- Installing: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/emse_rx150_benchmarks/package.dsv\n'}
+[13.054461] (emse_rx150_benchmarks) StdoutLine: {'line': b'-- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/ament_index/resource_index/packages/emse_rx150_benchmarks\n'}
+[13.055161] (emse_rx150_benchmarks) StdoutLine: {'line': b'-- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/emse_rx150_benchmarks/cmake/export_emse_rx150_benchmarksExport.cmake\n'}
+[13.056131] (emse_rx150_benchmarks) StdoutLine: {'line': b'-- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/emse_rx150_benchmarks/cmake/export_emse_rx150_benchmarksExport-release.cmake\n'}
+[13.056547] (emse_rx150_benchmarks) StdoutLine: {'line': b'-- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/emse_rx150_benchmarks/cmake/ConfigExtras.cmake\n'}
+[13.056889] (emse_rx150_benchmarks) StdoutLine: {'line': b'-- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/emse_rx150_benchmarks/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[13.057140] (emse_rx150_benchmarks) StdoutLine: {'line': b'-- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/emse_rx150_benchmarks/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[13.057424] (emse_rx150_benchmarks) StdoutLine: {'line': b'-- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/emse_rx150_benchmarks/cmake/emse_rx150_benchmarksConfig.cmake\n'}
+[13.057896] (emse_rx150_benchmarks) StdoutLine: {'line': b'-- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/emse_rx150_benchmarks/cmake/emse_rx150_benchmarksConfig-version.cmake\n'}
+[13.058295] (emse_rx150_benchmarks) StdoutLine: {'line': b'-- Up-to-date: /home/malik/interbotix_moveit/install/emse_rx150_benchmarks/share/emse_rx150_benchmarks/package.xml\n'}
+[13.058583] (emse_rx150_benchmarks) CommandEnded: {'returncode': 0}
+[13.149476] (-) TimerEvent: {}
+[13.199262] (emse_rx150_benchmarks) JobEnded: {'identifier': 'emse_rx150_benchmarks', 'rc': 0}
+[13.200852] (-) EventReactorShutdown: {}

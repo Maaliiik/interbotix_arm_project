@@ -1,0 +1,42 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from emse_moveit_actions/action/ReachPose.action
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose.idl"
+#include "moveit_msgs/msg/MoveItErrorCodes.idl"
+#include "moveit_msgs/msg/RobotState.idl"
+#include "moveit_msgs/msg/RobotTrajectory.idl"
+
+module emse_moveit_actions {
+  module action {
+    struct ReachPose_Goal {
+      geometry_msgs::msg::Pose target_pose;
+    };
+    @verbatim (language="comment", text=
+      "An error code reflecting what went wrong")
+    struct ReachPose_Result {
+      moveit_msgs::msg::MoveItErrorCodes error_code;
+
+      @verbatim (language="comment", text=
+        "The full starting state of the robot at the start of the trajectory")
+      moveit_msgs::msg::RobotState trajectory_start;
+
+      @verbatim (language="comment", text=
+        "The trajectory that moved group produced for execution")
+      moveit_msgs::msg::RobotTrajectory planned_trajectory;
+
+      @verbatim (language="comment", text=
+        "The trace of the trajectory recorded during execution")
+      moveit_msgs::msg::RobotTrajectory executed_trajectory;
+
+      @verbatim (language="comment", text=
+        "The amount of time it took to complete the motion plan")
+      double planning_time;
+    };
+    struct ReachPose_Feedback {
+      @verbatim (language="comment", text=
+        "The internal state that the move group action currently is in")
+      string state;
+    };
+  };
+};

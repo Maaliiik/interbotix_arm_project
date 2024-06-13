@@ -1,0 +1,84 @@
+-- Found moveit_common: 2.5.5 (/opt/ros/humble/share/moveit_common/cmake)
+-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+-- BACKWARD_HAS_UNWIND=1
+-- BACKWARD_HAS_BACKTRACE=0
+-- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+-- BACKWARD_HAS_DW=1
+-- BACKWARD_HAS_BFD=0
+-- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+[0memse_rx150_benchmarks: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found tf2_eigen: 0.25.6 (/opt/ros/humble/share/tf2_eigen/cmake)
+-- Found moveit_core: 2.5.5 (/opt/ros/humble/share/moveit_core/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+-- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+-- Found rclcpp_lifecycle: 16.0.8 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+-- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found moveit_ros_planning: 2.5.5 (/opt/ros/humble/share/moveit_ros_planning/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+-- Found moveit_ros_warehouse: 2.5.5 (/opt/ros/humble/share/moveit_ros_warehouse/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+-- Found moveit_ros_planning_interface: 2.5.5 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem 
+-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/malik/interbotix_moveit/src/emse_rx150_benchmarks/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/malik/interbotix_moveit/build/emse_rx150_benchmarks
+[ 11%] [32mBuilding CXX object CMakeFiles/benchmark.dir/src/benchmark.cpp.o[0m
+[35m[1mConsolidate compiler generated dependencies of target moveit_ros_benchmarks[0m
+[ 44%] Built target moveit_ros_benchmarks
+[35m[1mConsolidate compiler generated dependencies of target moveit_run_benchmark[0m
+[35m[1mConsolidate compiler generated dependencies of target moveit_combine_predefined_poses_benchmark[0m
+[ 66%] Built target moveit_run_benchmark
+[ 88%] Built target moveit_combine_predefined_poses_benchmark
+[01m[K/home/malik/interbotix_moveit/src/emse_rx150_benchmarks/src/benchmark.cpp:[m[K In constructor ‘[01m[KMoveItBenchmark::MoveItBenchmark()[m[K’:
+[01m[K/home/malik/interbotix_moveit/src/emse_rx150_benchmarks/src/benchmark.cpp:9:51:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(const char [15])[m[K’
+    9 |     MoveItBenchmark() : Node("moveit_benchmark"), [01;31m[Kmove_group("interbotix_arm")[m[K {
+      |                                                   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/malik/interbotix_moveit/src/emse_rx150_benchmarks/src/benchmark.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:159:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(moveit::planning_interface::MoveGroupInterface&&)[m[K’
+  159 |   [01;36m[KMoveGroupInterface[m[K(MoveGroupInterface&& other) noexcept;
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:159:43:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst char [15][m[K’ to ‘[01m[Kmoveit::planning_interface::MoveGroupInterface&&[m[K’
+  159 |   MoveGroupInterface([01;36m[KMoveGroupInterface&& other[m[K) noexcept;
+      |                      [01;36m[K~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:145:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(const SharedPtr&, const string&, const std::shared_ptr<tf2_ros::Buffer>&, const rclcpp::Duration&)[m[K’
+  145 |   [01;36m[KMoveGroupInterface[m[K(const rclcpp::Node::SharedPtr& node, const std::string& group,
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:145:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:134:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(const SharedPtr&, const moveit::planning_interface::MoveGroupInterface::Options&, const std::shared_ptr<tf2_ros::Buffer>&, const rclcpp::Duration&)[m[K’
+  134 |   [01;36m[KMoveGroupInterface[m[K(const rclcpp::Node::SharedPtr& node, const Options& opt,
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:134:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[01m[K/home/malik/interbotix_moveit/src/emse_rx150_benchmarks/src/benchmark.cpp:[m[K In member function ‘[01m[Kvoid MoveItBenchmark::performBenchmark()[m[K’:
+[01m[K/home/malik/interbotix_moveit/src/emse_rx150_benchmarks/src/benchmark.cpp:67:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kplan[m[K’ was not declared in this scope
+   67 |             auto success = (move_group.plan([01;31m[Kplan[m[K) == moveit::planning_interface::MoveItErrorCode::SUCCESS);
+      |                                             [01;31m[K^~~~[m[K
+[01m[K/home/malik/interbotix_moveit/src/emse_rx150_benchmarks/src/benchmark.cpp:67:99:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing MoveItErrorCode = class moveit::core::MoveItErrorCode[m[K’ is deprecated: Use moveit::core::MoveItErrorCode [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   67 |             auto success = (move_group.plan(plan) == moveit::planning_interface::MoveItErrorCode::[01;35m[KSUCCESS[m[K);
+      |                                                                                                   [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/malik/interbotix_moveit/src/emse_rx150_benchmarks/src/benchmark.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:71:7:[m[K [01;36m[Knote: [m[Kdeclared here
+   71 | using [01;36m[KMoveItErrorCode[m[K [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;
+      |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/benchmark.dir/build.make:76: CMakeFiles/benchmark.dir/src/benchmark.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/benchmark.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

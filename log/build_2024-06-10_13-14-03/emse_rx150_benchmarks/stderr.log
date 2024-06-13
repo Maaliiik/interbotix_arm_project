@@ -1,0 +1,38 @@
+[01m[K/home/malik/interbotix_moveit/src/emse_rx150_benchmarks/src/benchmark.cpp:[m[K In constructor ‘[01m[KMoveItBenchmark::MoveItBenchmark()[m[K’:
+[01m[K/home/malik/interbotix_moveit/src/emse_rx150_benchmarks/src/benchmark.cpp:9:48:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface()[m[K’
+    9 |     MoveItBenchmark() : Node("moveit_benchmark"[01;31m[K)[m[K {
+      |                                                [01;31m[K^[m[K
+In file included from [01m[K/home/malik/interbotix_moveit/src/emse_rx150_benchmarks/src/benchmark.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:159:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(moveit::planning_interface::MoveGroupInterface&&)[m[K’
+  159 |   [01;36m[KMoveGroupInterface[m[K(MoveGroupInterface&& other) noexcept;
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:159:3:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:145:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(const SharedPtr&, const string&, const std::shared_ptr<tf2_ros::Buffer>&, const rclcpp::Duration&)[m[K’
+  145 |   [01;36m[KMoveGroupInterface[m[K(const rclcpp::Node::SharedPtr& node, const std::string& group,
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:145:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 0 provided
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:134:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(const SharedPtr&, const moveit::planning_interface::MoveGroupInterface::Options&, const std::shared_ptr<tf2_ros::Buffer>&, const rclcpp::Duration&)[m[K’
+  134 |   [01;36m[KMoveGroupInterface[m[K(const rclcpp::Node::SharedPtr& node, const Options& opt,
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:134:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 0 provided
+[01m[K/home/malik/interbotix_moveit/src/emse_rx150_benchmarks/src/benchmark.cpp:14:105:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kmoveit::planning_interface::MoveGroupInterface[m[K’ and ‘[01m[Kstd::shared_ptr<moveit::planning_interface::MoveGroupInterface>[m[K’)
+   14 |     move_group = std::make_shared<moveit::planning_interface::MoveGroupInterface>(node, "interbotix_arm"[01;31m[K)[m[K;
+      |                                                                                                         [01;31m[K^[m[K
+In file included from [01m[K/home/malik/interbotix_moveit/src/emse_rx150_benchmarks/src/benchmark.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:160:23:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit::planning_interface::MoveGroupInterface& moveit::planning_interface::MoveGroupInterface::operator=(moveit::planning_interface::MoveGroupInterface&&)[m[K’
+  160 |   MoveGroupInterface& [01;36m[Koperator[m[K=(MoveGroupInterface&& other) noexcept;
+      |                       [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:160:54:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<moveit::planning_interface::MoveGroupInterface>[m[K’ to ‘[01m[Kmoveit::planning_interface::MoveGroupInterface&&[m[K’
+  160 |   MoveGroupInterface& operator=([01;36m[KMoveGroupInterface&& other[m[K) noexcept;
+      |                                 [01;36m[K~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/malik/interbotix_moveit/src/emse_rx150_benchmarks/src/benchmark.cpp:[m[K In member function ‘[01m[Kvoid MoveItBenchmark::performBenchmark()[m[K’:
+[01m[K/home/malik/interbotix_moveit/src/emse_rx150_benchmarks/src/benchmark.cpp:72:99:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing MoveItErrorCode = class moveit::core::MoveItErrorCode[m[K’ is deprecated: Use moveit::core::MoveItErrorCode [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   72 |             auto success = (move_group.plan(plan) == moveit::planning_interface::MoveItErrorCode::[01;35m[KSUCCESS[m[K);
+      |                                                                                                   [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/malik/interbotix_moveit/src/emse_rx150_benchmarks/src/benchmark.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:71:7:[m[K [01;36m[Knote: [m[Kdeclared here
+   71 | using [01;36m[KMoveItErrorCode[m[K [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;
+      |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/benchmark.dir/build.make:76: CMakeFiles/benchmark.dir/src/benchmark.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/benchmark.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

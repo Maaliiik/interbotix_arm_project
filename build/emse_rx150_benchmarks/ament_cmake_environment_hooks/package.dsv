@@ -1,0 +1,4 @@
+source;share/emse_rx150_benchmarks/local_setup.bash
+source;share/emse_rx150_benchmarks/local_setup.dsv
+source;share/emse_rx150_benchmarks/local_setup.sh
+source;share/emse_rx150_benchmarks/local_setup.zsh

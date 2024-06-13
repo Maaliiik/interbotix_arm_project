@@ -1,0 +1,39 @@
+# This is an example configuration that loads the "Kitchen" scene from the
+# local MoveIt warehouse and benchmarks the "panda_arm" group in the Pick1
+# query using the Start1 initial state (all pre-stored in the local warehouse)
+
+# Three different planners from OMPL are run a total of 50 times each, with a
+# maximum of 10 seconds per run. Output is stored in the /tmp/moveit_benchmarks directory.
+warehouse:
+    host: /home/malik/interbotix_moveit/src/emse_rx150_moveit_config/data/warehouse_db.sqlite
+    port: 33829
+    scene_name: empty_world   # Required
+
+parameters:
+    name: PickPlaceItem
+    runs: 10
+    group: interbotix_arm       # Required
+    timeout: 10.0
+    output_directory: /tmp/moveit_benchmarks/pick_place_poses
+    queries: .*
+    start_states: .*
+    predefined_poses_group: interbotix_arm
+    predefined_poses:
+        - rx150_state_pick
+        - rx150_state_home
+    
+planning_pipelines:
+    pipelines: [pipeline1]
+    pipeline1:
+        name: ompl
+        planners:
+            - SBLConfigDefault
+            - ESTConfigDefault
+            - LBKPIECEConfigDefault
+            - RRTConfigDefault
+            - RRTConnectConfigDefault
+            - RRTstarConfigDefault
+            - TRRTConfigDefault
+            - PRMConfigDefault
+            - PRMstarConfigDefault
+

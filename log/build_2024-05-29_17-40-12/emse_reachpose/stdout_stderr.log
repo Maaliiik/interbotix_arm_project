@@ -1,0 +1,24 @@
+[ 33%] Built target reachpose
+[ 66%] Built target reach_pose
+[ 83%] [32mBuilding CXX object CMakeFiles/plan_pose.dir/src/reachpose_action_server.cpp.o[0m
+[01m[K/home/malik/interbotix_moveit/src/emse_reachpose/src/reachpose_action_server.cpp:[m[K In constructor ‘[01m[KReachPoseActionServer::ReachPoseActionServer()[m[K’:
+[01m[K/home/malik/interbotix_moveit/src/emse_reachpose/src/reachpose_action_server.cpp:31:84:[m[K [01;31m[Kerror: [m[Kreference to ‘[01m[Kshared_from_this[m[K’ is ambiguous
+   31 |     move_group_ = std::make_shared<moveit::planning_interface::MoveGroupInterface>([01;31m[Kshared_from_this[m[K(), "interbotix_arm");
+      |                                                                                    [01;31m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+                 from [01m[K/home/malik/interbotix_moveit/src/emse_reachpose/src/reachpose_action_server.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:811:7:[m[K [01;36m[Knote: [m[Kcandidates are: ‘[01m[Kstd::shared_ptr<const _Tp> std::enable_shared_from_this<_Tp>::shared_from_this() const [with _Tp = ReachPoseActionServer][m[K’
+  811 |       [01;36m[Kshared_from_this[m[K() const
+      |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:807:7:[m[K [01;36m[Knote: [m[K                ‘[01m[Kstd::shared_ptr<_Tp> std::enable_shared_from_this<_Tp>::shared_from_this() [with _Tp = ReachPoseActionServer][m[K’
+  807 |       [01;36m[Kshared_from_this[m[K()
+      |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:811:7:[m[K [01;36m[Knote: [m[K                ‘[01m[Kstd::shared_ptr<const _Tp> std::enable_shared_from_this<_Tp>::shared_from_this() const [with _Tp = rclcpp::Node][m[K’
+  811 |       [01;36m[Kshared_from_this[m[K() const
+      |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:807:7:[m[K [01;36m[Knote: [m[K                ‘[01m[Kstd::shared_ptr<_Tp> std::enable_shared_from_this<_Tp>::shared_from_this() [with _Tp = rclcpp::Node][m[K’
+  807 |       [01;36m[Kshared_from_this[m[K()
+      |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/plan_pose.dir/build.make:76: CMakeFiles/plan_pose.dir/src/reachpose_action_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/plan_pose.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,22 @@
+[01m[K/home/malik/interbotix_moveit/src/emse_rx150_benchmarks/src/benchmark.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/malik/interbotix_moveit/src/emse_rx150_benchmarks/src/benchmark.cpp:118:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::string MoveItBenchmark::csv_file_[m[K’ is private within this context
+  118 |     if (node->loadPosesFromCSV(node->[01;31m[Kcsv_file_[m[K)) {
+      |                                      [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/malik/interbotix_moveit/src/emse_rx150_benchmarks/src/benchmark.cpp:21:17:[m[K [01;36m[Knote: [m[Kdeclared private here
+   21 |     std::string [01;36m[Kcsv_file_[m[K;
+      |                 [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/malik/interbotix_moveit/src/emse_rx150_benchmarks/src/benchmark.cpp:118:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kbool MoveItBenchmark::loadPosesFromCSV(const string&)[m[K’ is private within this context
+  118 |     if ([01;31m[Knode->loadPosesFromCSV(node->csv_file_)[m[K) {
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/malik/interbotix_moveit/src/emse_rx150_benchmarks/src/benchmark.cpp:25:10:[m[K [01;36m[Knote: [m[Kdeclared private here
+   25 |     bool [01;36m[KloadPosesFromCSV[m[K(const std::string& file_path) {
+      |          [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/malik/interbotix_moveit/src/emse_rx150_benchmarks/src/benchmark.cpp:119:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid MoveItBenchmark::performBenchmark()[m[K’ is private within this context
+  119 |         [01;31m[Knode->performBenchmark()[m[K;
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/malik/interbotix_moveit/src/emse_rx150_benchmarks/src/benchmark.cpp:70:10:[m[K [01;36m[Knote: [m[Kdeclared private here
+   70 |     void [01;36m[KperformBenchmark[m[K() {
+      |          [01;36m[K^~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/benchmark.dir/build.make:76: CMakeFiles/benchmark.dir/src/benchmark.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/benchmark.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

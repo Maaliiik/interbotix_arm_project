@@ -1,0 +1,4 @@
+source;share/emse_reachpose/local_setup.bash
+source;share/emse_reachpose/local_setup.dsv
+source;share/emse_reachpose/local_setup.sh
+source;share/emse_reachpose/local_setup.zsh

@@ -1,0 +1,232 @@
+[0.000000] (-) TimerEvent: {}
+[0.000203] (-) JobUnselected: {'identifier': 'emse_moveit_actions'}
+[0.000288] (-) JobUnselected: {'identifier': 'emse_rx150_moveit_config'}
+[0.000346] (emse_reachpose) JobQueued: {'identifier': 'emse_reachpose', 'dependencies': OrderedDict()}
+[0.001335] (emse_reachpose) JobStarted: {'identifier': 'emse_reachpose'}
+[0.099934] (-) TimerEvent: {}
+[0.122448] (emse_reachpose) JobProgress: {'identifier': 'emse_reachpose', 'progress': 'cmake'}
+[0.135654] (emse_reachpose) JobProgress: {'identifier': 'emse_reachpose', 'progress': 'build'}
+[0.140522] (emse_reachpose) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/malik/interbotix_moveit/build/emse_reachpose', '--', '-j4', '-l4'], 'cwd': '/home/malik/interbotix_moveit/build/emse_reachpose', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'malik'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/malik/interbotix_moveit/install/emse_moveit_actions/lib:/home/malik/interbotix_ws/install/moveit_visual_tools/lib:/home/malik/interbotix_ws/install/interbotix_xs_rviz/lib:/home/malik/interbotix_ws/install/interbotix_xs_ros_control/lib:/home/malik/interbotix_ws/install/interbotix_xs_msgs/lib:/home/malik/interbotix_ws/install/interbotix_xs_driver/lib:/home/malik/interbotix_ws/install/interbotix_tf_tools/lib:/home/malik/interbotix_ws/install/interbotix_perception_msgs/lib:/home/malik/interbotix_ws/install/interbotix_moveit_interface_msgs/lib:/home/malik/interbotix_ws/install/dynamixel_workbench_toolbox/lib:/home/malik/apriltag_ws/install/apriltag_ros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/malik'), ('OLDPWD', '/home/malik'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_IP', '10.103.3.151'), ('SYSTEMD_EXEC_PID', '1870'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1003/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/malik/interbotix_moveit/install:/home/malik/interbotix_ws/install:/home/malik/apriltag_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'malik'), ('_', '/home/malik/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'malik'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/malik/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/LAB-INFO-03:@/tmp/.ICE-unix/1848,unix/LAB-INFO-03:/tmp/.ICE-unix/1848'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8e7511db_2d24_4635_82c1_e55c826f1d39'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1003'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1003/.mutter-Xwaylandauth.YWMVO2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.114'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1003/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/malik/interbotix_moveit/install/emse_moveit_actions:/home/malik/interbotix_ws/install/interbotix_ros_xsarms_examples:/home/malik/interbotix_ws/install/interbotix_xsarm_moveit_interface:/home/malik/interbotix_ws/install/interbotix_moveit_interface:/home/malik/interbotix_ws/install/moveit_visual_tools:/home/malik/interbotix_ws/install/interbotix_ros_xsarms:/home/malik/interbotix_ws/install/interbotix_xsarm_moveit:/home/malik/interbotix_ws/install/interbotix_xsarm_sim:/home/malik/interbotix_ws/install/interbotix_xsarm_ros_control:/home/malik/interbotix_ws/install/interbotix_xsarm_puppet:/home/malik/interbotix_ws/install/interbotix_xsarm_perception:/home/malik/interbotix_ws/install/interbotix_xsarm_joy:/home/malik/interbotix_ws/install/interbotix_xsarm_dual:/home/malik/interbotix_ws/install/interbotix_xsarm_control:/home/malik/interbotix_ws/install/interbotix_xsarm_descriptions:/home/malik/interbotix_ws/install/interbotix_xs_toolbox:/home/malik/interbotix_ws/install/interbotix_xs_rviz:/home/malik/interbotix_ws/install/interbotix_xs_modules:/home/malik/interbotix_ws/install/interbotix_ros_xseries:/home/malik/interbotix_ws/install/interbotix_xs_sdk:/home/malik/interbotix_ws/install/interbotix_xs_ros_control:/home/malik/interbotix_ws/install/interbotix_perception_toolbox:/home/malik/interbotix_ws/install/interbotix_perception_modules:/home/malik/interbotix_ws/install/interbotix_perception_pipelines:/home/malik/interbotix_ws/install/interbotix_xs_msgs:/home/malik/interbotix_ws/install/interbotix_xs_driver:/home/malik/interbotix_ws/install/interbotix_tf_tools:/home/malik/interbotix_ws/install/interbotix_perception_msgs:/home/malik/interbotix_ws/install/interbotix_moveit_interface_msgs:/home/malik/interbotix_ws/install/interbotix_common_toolbox:/home/malik/interbotix_ws/install/interbotix_common_sim:/home/malik/interbotix_ws/install/interbotix_common_modules:/home/malik/interbotix_ws/install/dynamixel_workbench_toolbox:/home/malik/apriltag_ws/install/apriltag_ros:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/malik/interbotix_moveit/build/emse_reachpose'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/malik/interbotix_moveit/install/emse_moveit_actions/local/lib/python3.10/dist-packages:/home/malik/interbotix_ws/install/interbotix_xs_modules/lib/python3.10/site-packages:/home/malik/interbotix_ws/install/interbotix_perception_modules/lib/python3.10/site-packages:/home/malik/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages:/home/malik/interbotix_ws/install/interbotix_perception_msgs/local/lib/python3.10/dist-packages:/home/malik/interbotix_ws/install/interbotix_moveit_interface_msgs/local/lib/python3.10/dist-packages:/home/malik/interbotix_ws/install/interbotix_common_modules/lib/python3.10/site-packages:/home/malik/apriltag_ws/install/apriltag_ros/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/malik/interbotix_moveit/install/emse_moveit_actions:/home/malik/interbotix_ws/install/interbotix_ros_xsarms_examples:/home/malik/interbotix_ws/install/interbotix_xsarm_moveit_interface:/home/malik/interbotix_ws/install/interbotix_moveit_interface:/home/malik/interbotix_ws/install/moveit_visual_tools:/home/malik/interbotix_ws/install/interbotix_ros_xsarms:/home/malik/interbotix_ws/install/interbotix_xsarm_moveit:/home/malik/interbotix_ws/install/interbotix_xsarm_sim:/home/malik/interbotix_ws/install/interbotix_xsarm_ros_control:/home/malik/interbotix_ws/install/interbotix_xsarm_puppet:/home/malik/interbotix_ws/install/interbotix_xsarm_perception:/home/malik/interbotix_ws/install/interbotix_xsarm_joy:/home/malik/interbotix_ws/install/interbotix_xsarm_dual:/home/malik/interbotix_ws/install/interbotix_xsarm_control:/home/malik/interbotix_ws/install/interbotix_xsarm_descriptions:/home/malik/interbotix_ws/install/interbotix_xs_toolbox:/home/malik/interbotix_ws/install/interbotix_xs_rviz:/home/malik/interbotix_ws/install/interbotix_ros_xseries:/home/malik/interbotix_ws/install/interbotix_xs_sdk:/home/malik/interbotix_ws/install/interbotix_xs_ros_control:/home/malik/interbotix_ws/install/interbotix_perception_toolbox:/home/malik/interbotix_ws/install/interbotix_perception_pipelines:/home/malik/interbotix_ws/install/interbotix_xs_msgs:/home/malik/interbotix_ws/install/interbotix_xs_driver:/home/malik/interbotix_ws/install/interbotix_tf_tools:/home/malik/interbotix_ws/install/interbotix_perception_msgs:/home/malik/interbotix_ws/install/interbotix_moveit_interface_msgs:/home/malik/interbotix_ws/install/interbotix_common_toolbox:/home/malik/interbotix_ws/install/interbotix_common_sim:/home/malik/interbotix_ws/install/dynamixel_workbench_toolbox:/home/malik/apriltag_ws/install/apriltag_ros:/home/malik/interbotix_ws/install/interbotix_xs_modules:/home/malik/interbotix_ws/install/interbotix_perception_modules:/home/malik/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble')]), 'shell': False}
+[0.200049] (-) TimerEvent: {}
+[0.295697] (emse_reachpose) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target reachpose\x1b[0m\n'}
+[0.300157] (-) TimerEvent: {}
+[0.302728] (emse_reachpose) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target reach_pose\x1b[0m\n'}
+[0.303085] (emse_reachpose) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target plan_pose\x1b[0m\n'}
+[0.400561] (-) TimerEvent: {}
+[0.501757] (-) TimerEvent: {}
+[0.602734] (-) TimerEvent: {}
+[0.703664] (-) TimerEvent: {}
+[0.757179] (emse_reachpose) StdoutLine: {'line': b'[ 33%] Built target reach_pose\n'}
+[0.766208] (emse_reachpose) StdoutLine: {'line': b'[ 66%] Built target reachpose\n'}
+[0.769175] (emse_reachpose) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/plan_pose.dir/src/reachpose_action_server.cpp.o\x1b[0m\n'}
+[0.803889] (-) TimerEvent: {}
+[0.904540] (-) TimerEvent: {}
+[1.005658] (-) TimerEvent: {}
+[1.106715] (-) TimerEvent: {}
+[1.207884] (-) TimerEvent: {}
+[1.309070] (-) TimerEvent: {}
+[1.410183] (-) TimerEvent: {}
+[1.511103] (-) TimerEvent: {}
+[1.611845] (-) TimerEvent: {}
+[1.712175] (-) TimerEvent: {}
+[1.812605] (-) TimerEvent: {}
+[1.913214] (-) TimerEvent: {}
+[2.013801] (-) TimerEvent: {}
+[2.114430] (-) TimerEvent: {}
+[2.215527] (-) TimerEvent: {}
+[2.316387] (-) TimerEvent: {}
+[2.417301] (-) TimerEvent: {}
+[2.518086] (-) TimerEvent: {}
+[2.618633] (-) TimerEvent: {}
+[2.718979] (-) TimerEvent: {}
+[2.819464] (-) TimerEvent: {}
+[2.919913] (-) TimerEvent: {}
+[3.020386] (-) TimerEvent: {}
+[3.121115] (-) TimerEvent: {}
+[3.222049] (-) TimerEvent: {}
+[3.323057] (-) TimerEvent: {}
+[3.423897] (-) TimerEvent: {}
+[3.524534] (-) TimerEvent: {}
+[3.625911] (-) TimerEvent: {}
+[3.726967] (-) TimerEvent: {}
+[3.827893] (-) TimerEvent: {}
+[3.929129] (-) TimerEvent: {}
+[4.030377] (-) TimerEvent: {}
+[4.131389] (-) TimerEvent: {}
+[4.232019] (-) TimerEvent: {}
+[4.332936] (-) TimerEvent: {}
+[4.434085] (-) TimerEvent: {}
+[4.535343] (-) TimerEvent: {}
+[4.636246] (-) TimerEvent: {}
+[4.737232] (-) TimerEvent: {}
+[4.838369] (-) TimerEvent: {}
+[4.938969] (-) TimerEvent: {}
+[5.039597] (-) TimerEvent: {}
+[5.140156] (-) TimerEvent: {}
+[5.240768] (-) TimerEvent: {}
+[5.341406] (-) TimerEvent: {}
+[5.442276] (-) TimerEvent: {}
+[5.542905] (-) TimerEvent: {}
+[5.643315] (-) TimerEvent: {}
+[5.743916] (-) TimerEvent: {}
+[5.844326] (-) TimerEvent: {}
+[5.944637] (-) TimerEvent: {}
+[6.044978] (-) TimerEvent: {}
+[6.145536] (-) TimerEvent: {}
+[6.246530] (-) TimerEvent: {}
+[6.347492] (-) TimerEvent: {}
+[6.448421] (-) TimerEvent: {}
+[6.549255] (-) TimerEvent: {}
+[6.650265] (-) TimerEvent: {}
+[6.751083] (-) TimerEvent: {}
+[6.852267] (-) TimerEvent: {}
+[6.952841] (-) TimerEvent: {}
+[7.053991] (-) TimerEvent: {}
+[7.154921] (-) TimerEvent: {}
+[7.255509] (-) TimerEvent: {}
+[7.356280] (-) TimerEvent: {}
+[7.456658] (-) TimerEvent: {}
+[7.557034] (-) TimerEvent: {}
+[7.657416] (-) TimerEvent: {}
+[7.757796] (-) TimerEvent: {}
+[7.858210] (-) TimerEvent: {}
+[7.958593] (-) TimerEvent: {}
+[8.058953] (-) TimerEvent: {}
+[8.159306] (-) TimerEvent: {}
+[8.259654] (-) TimerEvent: {}
+[8.360013] (-) TimerEvent: {}
+[8.460394] (-) TimerEvent: {}
+[8.560755] (-) TimerEvent: {}
+[8.661130] (-) TimerEvent: {}
+[8.761507] (-) TimerEvent: {}
+[8.861875] (-) TimerEvent: {}
+[8.962254] (-) TimerEvent: {}
+[9.062618] (-) TimerEvent: {}
+[9.162969] (-) TimerEvent: {}
+[9.263306] (-) TimerEvent: {}
+[9.363635] (-) TimerEvent: {}
+[9.463955] (-) TimerEvent: {}
+[9.564302] (-) TimerEvent: {}
+[9.664634] (-) TimerEvent: {}
+[9.764969] (-) TimerEvent: {}
+[9.865314] (-) TimerEvent: {}
+[9.965643] (-) TimerEvent: {}
+[10.065978] (-) TimerEvent: {}
+[10.166306] (-) TimerEvent: {}
+[10.266639] (-) TimerEvent: {}
+[10.366973] (-) TimerEvent: {}
+[10.467297] (-) TimerEvent: {}
+[10.567595] (-) TimerEvent: {}
+[10.667898] (-) TimerEvent: {}
+[10.768222] (-) TimerEvent: {}
+[10.868578] (-) TimerEvent: {}
+[10.968946] (-) TimerEvent: {}
+[11.069278] (-) TimerEvent: {}
+[11.169630] (-) TimerEvent: {}
+[11.269955] (-) TimerEvent: {}
+[11.370269] (-) TimerEvent: {}
+[11.470572] (-) TimerEvent: {}
+[11.570900] (-) TimerEvent: {}
+[11.671189] (-) TimerEvent: {}
+[11.771522] (-) TimerEvent: {}
+[11.871825] (-) TimerEvent: {}
+[11.972120] (-) TimerEvent: {}
+[12.072498] (-) TimerEvent: {}
+[12.172862] (-) TimerEvent: {}
+[12.273184] (-) TimerEvent: {}
+[12.373510] (-) TimerEvent: {}
+[12.473850] (-) TimerEvent: {}
+[12.574187] (-) TimerEvent: {}
+[12.674523] (-) TimerEvent: {}
+[12.774835] (-) TimerEvent: {}
+[12.875185] (-) TimerEvent: {}
+[12.975513] (-) TimerEvent: {}
+[13.075858] (-) TimerEvent: {}
+[13.176187] (-) TimerEvent: {}
+[13.276522] (-) TimerEvent: {}
+[13.376848] (-) TimerEvent: {}
+[13.477183] (-) TimerEvent: {}
+[13.577492] (-) TimerEvent: {}
+[13.677826] (-) TimerEvent: {}
+[13.778172] (-) TimerEvent: {}
+[13.878499] (-) TimerEvent: {}
+[13.978816] (-) TimerEvent: {}
+[14.079191] (-) TimerEvent: {}
+[14.179548] (-) TimerEvent: {}
+[14.279911] (-) TimerEvent: {}
+[14.380276] (-) TimerEvent: {}
+[14.480601] (-) TimerEvent: {}
+[14.580925] (-) TimerEvent: {}
+[14.681250] (-) TimerEvent: {}
+[14.781605] (-) TimerEvent: {}
+[14.882024] (-) TimerEvent: {}
+[14.982479] (-) TimerEvent: {}
+[15.082873] (-) TimerEvent: {}
+[15.183221] (-) TimerEvent: {}
+[15.283585] (-) TimerEvent: {}
+[15.383939] (-) TimerEvent: {}
+[15.484282] (-) TimerEvent: {}
+[15.584617] (-) TimerEvent: {}
+[15.684961] (-) TimerEvent: {}
+[15.785311] (-) TimerEvent: {}
+[15.885663] (-) TimerEvent: {}
+[15.986007] (-) TimerEvent: {}
+[16.086392] (-) TimerEvent: {}
+[16.186750] (-) TimerEvent: {}
+[16.287117] (-) TimerEvent: {}
+[16.387472] (-) TimerEvent: {}
+[16.487824] (-) TimerEvent: {}
+[16.588180] (-) TimerEvent: {}
+[16.688544] (-) TimerEvent: {}
+[16.788898] (-) TimerEvent: {}
+[16.889235] (-) TimerEvent: {}
+[16.989603] (-) TimerEvent: {}
+[17.089949] (-) TimerEvent: {}
+[17.190336] (-) TimerEvent: {}
+[17.290682] (-) TimerEvent: {}
+[17.391094] (-) TimerEvent: {}
+[17.491411] (-) TimerEvent: {}
+[17.529081] (emse_reachpose) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable plan_pose\x1b[0m\n'}
+[17.591545] (-) TimerEvent: {}
+[17.692145] (-) TimerEvent: {}
+[17.793207] (-) TimerEvent: {}
+[17.893640] (-) TimerEvent: {}
+[17.994078] (-) TimerEvent: {}
+[18.094529] (-) TimerEvent: {}
+[18.194835] (-) TimerEvent: {}
+[18.245353] (emse_reachpose) StdoutLine: {'line': b'[100%] Built target plan_pose\n'}
+[18.262839] (emse_reachpose) CommandEnded: {'returncode': 0}
+[18.294973] (-) TimerEvent: {}
+[18.328801] (emse_reachpose) JobProgress: {'identifier': 'emse_reachpose', 'progress': 'install'}
+[18.344428] (emse_reachpose) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/malik/interbotix_moveit/build/emse_reachpose'], 'cwd': '/home/malik/interbotix_moveit/build/emse_reachpose', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'malik'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/malik/interbotix_moveit/install/emse_moveit_actions/lib:/home/malik/interbotix_ws/install/moveit_visual_tools/lib:/home/malik/interbotix_ws/install/interbotix_xs_rviz/lib:/home/malik/interbotix_ws/install/interbotix_xs_ros_control/lib:/home/malik/interbotix_ws/install/interbotix_xs_msgs/lib:/home/malik/interbotix_ws/install/interbotix_xs_driver/lib:/home/malik/interbotix_ws/install/interbotix_tf_tools/lib:/home/malik/interbotix_ws/install/interbotix_perception_msgs/lib:/home/malik/interbotix_ws/install/interbotix_moveit_interface_msgs/lib:/home/malik/interbotix_ws/install/dynamixel_workbench_toolbox/lib:/home/malik/apriltag_ws/install/apriltag_ros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/malik'), ('OLDPWD', '/home/malik'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_IP', '10.103.3.151'), ('SYSTEMD_EXEC_PID', '1870'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1003/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/malik/interbotix_moveit/install:/home/malik/interbotix_ws/install:/home/malik/apriltag_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'malik'), ('_', '/home/malik/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'malik'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/malik/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/LAB-INFO-03:@/tmp/.ICE-unix/1848,unix/LAB-INFO-03:/tmp/.ICE-unix/1848'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8e7511db_2d24_4635_82c1_e55c826f1d39'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1003'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1003/.mutter-Xwaylandauth.YWMVO2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.114'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1003/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/malik/interbotix_moveit/install/emse_moveit_actions:/home/malik/interbotix_ws/install/interbotix_ros_xsarms_examples:/home/malik/interbotix_ws/install/interbotix_xsarm_moveit_interface:/home/malik/interbotix_ws/install/interbotix_moveit_interface:/home/malik/interbotix_ws/install/moveit_visual_tools:/home/malik/interbotix_ws/install/interbotix_ros_xsarms:/home/malik/interbotix_ws/install/interbotix_xsarm_moveit:/home/malik/interbotix_ws/install/interbotix_xsarm_sim:/home/malik/interbotix_ws/install/interbotix_xsarm_ros_control:/home/malik/interbotix_ws/install/interbotix_xsarm_puppet:/home/malik/interbotix_ws/install/interbotix_xsarm_perception:/home/malik/interbotix_ws/install/interbotix_xsarm_joy:/home/malik/interbotix_ws/install/interbotix_xsarm_dual:/home/malik/interbotix_ws/install/interbotix_xsarm_control:/home/malik/interbotix_ws/install/interbotix_xsarm_descriptions:/home/malik/interbotix_ws/install/interbotix_xs_toolbox:/home/malik/interbotix_ws/install/interbotix_xs_rviz:/home/malik/interbotix_ws/install/interbotix_xs_modules:/home/malik/interbotix_ws/install/interbotix_ros_xseries:/home/malik/interbotix_ws/install/interbotix_xs_sdk:/home/malik/interbotix_ws/install/interbotix_xs_ros_control:/home/malik/interbotix_ws/install/interbotix_perception_toolbox:/home/malik/interbotix_ws/install/interbotix_perception_modules:/home/malik/interbotix_ws/install/interbotix_perception_pipelines:/home/malik/interbotix_ws/install/interbotix_xs_msgs:/home/malik/interbotix_ws/install/interbotix_xs_driver:/home/malik/interbotix_ws/install/interbotix_tf_tools:/home/malik/interbotix_ws/install/interbotix_perception_msgs:/home/malik/interbotix_ws/install/interbotix_moveit_interface_msgs:/home/malik/interbotix_ws/install/interbotix_common_toolbox:/home/malik/interbotix_ws/install/interbotix_common_sim:/home/malik/interbotix_ws/install/interbotix_common_modules:/home/malik/interbotix_ws/install/dynamixel_workbench_toolbox:/home/malik/apriltag_ws/install/apriltag_ros:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/malik/interbotix_moveit/build/emse_reachpose'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/malik/interbotix_moveit/install/emse_moveit_actions/local/lib/python3.10/dist-packages:/home/malik/interbotix_ws/install/interbotix_xs_modules/lib/python3.10/site-packages:/home/malik/interbotix_ws/install/interbotix_perception_modules/lib/python3.10/site-packages:/home/malik/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages:/home/malik/interbotix_ws/install/interbotix_perception_msgs/local/lib/python3.10/dist-packages:/home/malik/interbotix_ws/install/interbotix_moveit_interface_msgs/local/lib/python3.10/dist-packages:/home/malik/interbotix_ws/install/interbotix_common_modules/lib/python3.10/site-packages:/home/malik/apriltag_ws/install/apriltag_ros/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/malik/interbotix_moveit/install/emse_moveit_actions:/home/malik/interbotix_ws/install/interbotix_ros_xsarms_examples:/home/malik/interbotix_ws/install/interbotix_xsarm_moveit_interface:/home/malik/interbotix_ws/install/interbotix_moveit_interface:/home/malik/interbotix_ws/install/moveit_visual_tools:/home/malik/interbotix_ws/install/interbotix_ros_xsarms:/home/malik/interbotix_ws/install/interbotix_xsarm_moveit:/home/malik/interbotix_ws/install/interbotix_xsarm_sim:/home/malik/interbotix_ws/install/interbotix_xsarm_ros_control:/home/malik/interbotix_ws/install/interbotix_xsarm_puppet:/home/malik/interbotix_ws/install/interbotix_xsarm_perception:/home/malik/interbotix_ws/install/interbotix_xsarm_joy:/home/malik/interbotix_ws/install/interbotix_xsarm_dual:/home/malik/interbotix_ws/install/interbotix_xsarm_control:/home/malik/interbotix_ws/install/interbotix_xsarm_descriptions:/home/malik/interbotix_ws/install/interbotix_xs_toolbox:/home/malik/interbotix_ws/install/interbotix_xs_rviz:/home/malik/interbotix_ws/install/interbotix_ros_xseries:/home/malik/interbotix_ws/install/interbotix_xs_sdk:/home/malik/interbotix_ws/install/interbotix_xs_ros_control:/home/malik/interbotix_ws/install/interbotix_perception_toolbox:/home/malik/interbotix_ws/install/interbotix_perception_pipelines:/home/malik/interbotix_ws/install/interbotix_xs_msgs:/home/malik/interbotix_ws/install/interbotix_xs_driver:/home/malik/interbotix_ws/install/interbotix_tf_tools:/home/malik/interbotix_ws/install/interbotix_perception_msgs:/home/malik/interbotix_ws/install/interbotix_moveit_interface_msgs:/home/malik/interbotix_ws/install/interbotix_common_toolbox:/home/malik/interbotix_ws/install/interbotix_common_sim:/home/malik/interbotix_ws/install/dynamixel_workbench_toolbox:/home/malik/apriltag_ws/install/apriltag_ros:/home/malik/interbotix_ws/install/interbotix_xs_modules:/home/malik/interbotix_ws/install/interbotix_perception_modules:/home/malik/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble')]), 'shell': False}
+[18.357552] (emse_reachpose) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[18.357940] (emse_reachpose) StdoutLine: {'line': b'-- Installing: /home/malik/interbotix_moveit/install/emse_reachpose/lib/emse_reachpose/reachpose\n'}
+[18.359133] (emse_reachpose) StdoutLine: {'line': b'-- Set runtime path of "/home/malik/interbotix_moveit/install/emse_reachpose/lib/emse_reachpose/reachpose" to ""\n'}
+[18.359498] (emse_reachpose) StdoutLine: {'line': b'-- Installing: /home/malik/interbotix_moveit/install/emse_reachpose/lib/emse_reachpose/reach_pose\n'}
+[18.365680] (emse_reachpose) StdoutLine: {'line': b'-- Set runtime path of "/home/malik/interbotix_moveit/install/emse_reachpose/lib/emse_reachpose/reach_pose" to ""\n'}
+[18.366004] (emse_reachpose) StdoutLine: {'line': b'-- Installing: /home/malik/interbotix_moveit/install/emse_reachpose/lib/emse_reachpose/plan_pose\n'}
+[18.367886] (emse_reachpose) StdoutLine: {'line': b'-- Set runtime path of "/home/malik/interbotix_moveit/install/emse_reachpose/lib/emse_reachpose/plan_pose" to ""\n'}
+[18.368155] (emse_reachpose) StdoutLine: {'line': b'-- Installing: /home/malik/interbotix_moveit/install/emse_reachpose/share/emse_reachpose/launch\n'}
+[18.379694] (emse_reachpose) StdoutLine: {'line': b'-- Installing: /home/malik/interbotix_moveit/install/emse_reachpose/share/emse_reachpose/launch/joint_state_move_group_interface.launch.py\n'}
+[18.395115] (-) TimerEvent: {}
+[18.408460] (emse_reachpose) StdoutLine: {'line': b'-- Installing: /home/malik/interbotix_moveit/install/emse_reachpose/share/emse_reachpose/launch/move_group_interface.launch.py\n'}
+[18.425938] (emse_reachpose) StdoutLine: {'line': b'-- Installing: /home/malik/interbotix_moveit/install/emse_reachpose/share/ament_index/resource_index/package_run_dependencies/emse_reachpose\n'}
+[18.438419] (emse_reachpose) StdoutLine: {'line': b'-- Installing: /home/malik/interbotix_moveit/install/emse_reachpose/share/ament_index/resource_index/parent_prefix_path/emse_reachpose\n'}
+[18.440389] (emse_reachpose) StdoutLine: {'line': b'-- Installing: /home/malik/interbotix_moveit/install/emse_reachpose/share/emse_reachpose/environment/ament_prefix_path.sh\n'}
+[18.453697] (emse_reachpose) StdoutLine: {'line': b'-- Installing: /home/malik/interbotix_moveit/install/emse_reachpose/share/emse_reachpose/environment/ament_prefix_path.dsv\n'}
+[18.470718] (emse_reachpose) StdoutLine: {'line': b'-- Installing: /home/malik/interbotix_moveit/install/emse_reachpose/share/emse_reachpose/environment/path.sh\n'}
+[18.472460] (emse_reachpose) StdoutLine: {'line': b'-- Installing: /home/malik/interbotix_moveit/install/emse_reachpose/share/emse_reachpose/environment/path.dsv\n'}
+[18.474233] (emse_reachpose) StdoutLine: {'line': b'-- Installing: /home/malik/interbotix_moveit/install/emse_reachpose/share/emse_reachpose/local_setup.bash\n'}
+[18.475924] (emse_reachpose) StdoutLine: {'line': b'-- Installing: /home/malik/interbotix_moveit/install/emse_reachpose/share/emse_reachpose/local_setup.sh\n'}
+[18.477532] (emse_reachpose) StdoutLine: {'line': b'-- Installing: /home/malik/interbotix_moveit/install/emse_reachpose/share/emse_reachpose/local_setup.zsh\n'}
+[18.478918] (emse_reachpose) StdoutLine: {'line': b'-- Installing: /home/malik/interbotix_moveit/install/emse_reachpose/share/emse_reachpose/local_setup.dsv\n'}
+[18.480196] (emse_reachpose) StdoutLine: {'line': b'-- Installing: /home/malik/interbotix_moveit/install/emse_reachpose/share/emse_reachpose/package.dsv\n'}
+[18.481927] (emse_reachpose) StdoutLine: {'line': b'-- Installing: /home/malik/interbotix_moveit/install/emse_reachpose/share/ament_index/resource_index/packages/emse_reachpose\n'}
+[18.483297] (emse_reachpose) StdoutLine: {'line': b'-- Installing: /home/malik/interbotix_moveit/install/emse_reachpose/share/emse_reachpose/cmake/emse_reachposeConfig.cmake\n'}
+[18.484439] (emse_reachpose) StdoutLine: {'line': b'-- Installing: /home/malik/interbotix_moveit/install/emse_reachpose/share/emse_reachpose/cmake/emse_reachposeConfig-version.cmake\n'}
+[18.485702] (emse_reachpose) StdoutLine: {'line': b'-- Installing: /home/malik/interbotix_moveit/install/emse_reachpose/share/emse_reachpose/package.xml\n'}
+[18.496533] (emse_reachpose) CommandEnded: {'returncode': 0}
+[18.498644] (-) TimerEvent: {}
+[18.599285] (-) TimerEvent: {}
+[18.647241] (emse_reachpose) JobEnded: {'identifier': 'emse_reachpose', 'rc': 0}
+[18.649118] (-) EventReactorShutdown: {}

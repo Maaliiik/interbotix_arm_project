@@ -1,0 +1,14 @@
+[01m[K/home/malik/interbotix_moveit/src/emse_rx150_benchmarks/src/benchmark.cpp:[m[K In constructor ‘[01m[KMoveItBenchmark::MoveItBenchmark()[m[K’:
+[01m[K/home/malik/interbotix_moveit/src/emse_rx150_benchmarks/src/benchmark.cpp:18:37:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+   18 |             void performBenchmark() [01;31m[K{[m[K
+      |                                     [01;31m[K^[m[K
+[01m[K/home/malik/interbotix_moveit/src/emse_rx150_benchmarks/src/benchmark.cpp:46:91:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+   46 |     double calculateTrajectoryLength(const moveit_msgs::msg::RobotTrajectory& trajectory) [01;31m[K{[m[K
+      |                                                                                           [01;31m[K^[m[K
+[01m[K/home/malik/interbotix_moveit/src/emse_rx150_benchmarks/src/benchmark.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/malik/interbotix_moveit/src/emse_rx150_benchmarks/src/benchmark.cpp:121:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class MoveItBenchmark[m[K’ {aka ‘[01m[Kclass MoveItBenchmark[m[K’} has no member named ‘[01m[KperformBenchmark[m[K’
+  121 |     node->[01;31m[KperformBenchmark[m[K();
+      |           [01;31m[K^~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/benchmark.dir/build.make:76: CMakeFiles/benchmark.dir/src/benchmark.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/benchmark.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

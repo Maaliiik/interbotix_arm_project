@@ -1,0 +1,33 @@
+[35m[1mConsolidate compiler generated dependencies of target reachpose[0m
+[35m[1mConsolidate compiler generated dependencies of target reach_pose[0m
+[35m[1mConsolidate compiler generated dependencies of target plan_pose[0m
+[ 33%] Built target reach_pose
+[ 66%] Built target reachpose
+[ 83%] [32mBuilding CXX object CMakeFiles/plan_pose.dir/src/reachpose_action_server.cpp.o[0m
+[100%] [32m[1mLinking CXX executable plan_pose[0m
+[100%] Built target plan_pose
+-- Install configuration: ""
+-- Installing: /home/malik/interbotix_moveit/install/emse_reachpose/lib/emse_reachpose/reachpose
+-- Set runtime path of "/home/malik/interbotix_moveit/install/emse_reachpose/lib/emse_reachpose/reachpose" to ""
+-- Installing: /home/malik/interbotix_moveit/install/emse_reachpose/lib/emse_reachpose/reach_pose
+-- Set runtime path of "/home/malik/interbotix_moveit/install/emse_reachpose/lib/emse_reachpose/reach_pose" to ""
+-- Installing: /home/malik/interbotix_moveit/install/emse_reachpose/lib/emse_reachpose/plan_pose
+-- Set runtime path of "/home/malik/interbotix_moveit/install/emse_reachpose/lib/emse_reachpose/plan_pose" to ""
+-- Installing: /home/malik/interbotix_moveit/install/emse_reachpose/share/emse_reachpose/launch
+-- Installing: /home/malik/interbotix_moveit/install/emse_reachpose/share/emse_reachpose/launch/joint_state_move_group_interface.launch.py
+-- Installing: /home/malik/interbotix_moveit/install/emse_reachpose/share/emse_reachpose/launch/move_group_interface.launch.py
+-- Installing: /home/malik/interbotix_moveit/install/emse_reachpose/share/ament_index/resource_index/package_run_dependencies/emse_reachpose
+-- Installing: /home/malik/interbotix_moveit/install/emse_reachpose/share/ament_index/resource_index/parent_prefix_path/emse_reachpose
+-- Installing: /home/malik/interbotix_moveit/install/emse_reachpose/share/emse_reachpose/environment/ament_prefix_path.sh
+-- Installing: /home/malik/interbotix_moveit/install/emse_reachpose/share/emse_reachpose/environment/ament_prefix_path.dsv
+-- Installing: /home/malik/interbotix_moveit/install/emse_reachpose/share/emse_reachpose/environment/path.sh
+-- Installing: /home/malik/interbotix_moveit/install/emse_reachpose/share/emse_reachpose/environment/path.dsv
+-- Installing: /home/malik/interbotix_moveit/install/emse_reachpose/share/emse_reachpose/local_setup.bash
+-- Installing: /home/malik/interbotix_moveit/install/emse_reachpose/share/emse_reachpose/local_setup.sh
+-- Installing: /home/malik/interbotix_moveit/install/emse_reachpose/share/emse_reachpose/local_setup.zsh
+-- Installing: /home/malik/interbotix_moveit/install/emse_reachpose/share/emse_reachpose/local_setup.dsv
+-- Installing: /home/malik/interbotix_moveit/install/emse_reachpose/share/emse_reachpose/package.dsv
+-- Installing: /home/malik/interbotix_moveit/install/emse_reachpose/share/ament_index/resource_index/packages/emse_reachpose
+-- Installing: /home/malik/interbotix_moveit/install/emse_reachpose/share/emse_reachpose/cmake/emse_reachposeConfig.cmake
+-- Installing: /home/malik/interbotix_moveit/install/emse_reachpose/share/emse_reachpose/cmake/emse_reachposeConfig-version.cmake
+-- Installing: /home/malik/interbotix_moveit/install/emse_reachpose/share/emse_reachpose/package.xml

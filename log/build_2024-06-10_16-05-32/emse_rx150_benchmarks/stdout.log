@@ -1,0 +1,5 @@
+[35m[1mConsolidate compiler generated dependencies of target benchmark[0m
+[ 33%] Built target moveit_ros_benchmarks
+[ 44%] [32mBuilding CXX object CMakeFiles/benchmark.dir/src/benchmark.cpp.o[0m
+[ 66%] Built target moveit_combine_predefined_poses_benchmark
+[ 88%] Built target moveit_run_benchmark

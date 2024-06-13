@@ -1,0 +1,17 @@
+[0.027s] Invoking command in '/home/malik/interbotix_moveit/build/emse_rx150_benchmarks': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/malik/interbotix_ws/install/interbotix_xs_modules:/home/malik/interbotix_ws/install/interbotix_perception_modules:/home/malik/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --build /home/malik/interbotix_moveit/build/emse_rx150_benchmarks -- -j4 -l4
+[0.131s] [35m[1mConsolidate compiler generated dependencies of target benchmark[0m
+[0.185s] [ 33%] Built target moveit_ros_benchmarks
+[0.187s] [ 44%] [32mBuilding CXX object CMakeFiles/benchmark.dir/src/benchmark.cpp.o[0m
+[0.283s] [ 66%] Built target moveit_combine_predefined_poses_benchmark
+[0.299s] [ 88%] Built target moveit_run_benchmark
+[7.417s] [01m[K/home/malik/interbotix_moveit/src/emse_rx150_benchmarks/src/benchmark.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[7.417s] [01m[K/home/malik/interbotix_moveit/src/emse_rx150_benchmarks/src/benchmark.cpp:119:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid MoveItBenchmark::performBenchmark()[m[K’ is private within this context
+[7.417s]   119 |     [01;31m[Knode->performBenchmark()[m[K;
+[7.417s]       |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[7.417s] [01m[K/home/malik/interbotix_moveit/src/emse_rx150_benchmarks/src/benchmark.cpp:70:10:[m[K [01;36m[Knote: [m[Kdeclared private here
+[7.417s]    70 |     void [01;36m[KperformBenchmark[m[K() {
+[7.417s]       |          [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[10.896s] gmake[2]: *** [CMakeFiles/benchmark.dir/build.make:76: CMakeFiles/benchmark.dir/src/benchmark.cpp.o] Error 1
+[10.897s] gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/benchmark.dir/all] Error 2
+[10.897s] gmake: *** [Makefile:146: all] Error 2
+[10.900s] Invoked command in '/home/malik/interbotix_moveit/build/emse_rx150_benchmarks' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/malik/interbotix_ws/install/interbotix_xs_modules:/home/malik/interbotix_ws/install/interbotix_perception_modules:/home/malik/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --build /home/malik/interbotix_moveit/build/emse_rx150_benchmarks -- -j4 -l4

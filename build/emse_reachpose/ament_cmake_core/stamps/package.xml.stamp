@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>emse_reachpose</name>
+  <version>0.0.0</version>
+  <description>TODO: Package description</description>
+  <maintainer email="malik@todo.todo">malik</maintainer>
+  <license>TODO: License declaration</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <build_depend>rosidl_default_generators</build_depend>
+  <build_depend>moveit_ros_planning_interface</build_depend>
+  <build_depend>rclcpp</build_depend>
+  <build_depend>rclcpp_action</build_depend>
+  <build_depend>action_msgs</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>moveit_msgs</build_depend>
+  <build_depend>rosidl_default_runtime</build_depend> <!-- Add this line -->
+
+  <build_export_depend>rosidl_default_runtime</build_export_depend> <!-- Add this line -->
+  <exec_depend>rosidl_default_runtime</exec_depend> <!-- Add this line -->
+
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
+

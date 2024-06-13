@@ -1,0 +1,171 @@
+[0.000000] (-) TimerEvent: {}
+[0.001134] (-) JobUnselected: {'identifier': 'emse_moveit_actions'}
+[0.001274] (-) JobUnselected: {'identifier': 'emse_reachpose'}
+[0.001348] (-) JobUnselected: {'identifier': 'emse_rx150_moveit_config'}
+[0.001515] (emse_rx150_benchmarks) JobQueued: {'identifier': 'emse_rx150_benchmarks', 'dependencies': OrderedDict()}
+[0.001606] (emse_rx150_benchmarks) JobStarted: {'identifier': 'emse_rx150_benchmarks'}
+[0.078152] (emse_rx150_benchmarks) JobProgress: {'identifier': 'emse_rx150_benchmarks', 'progress': 'cmake'}
+[0.098273] (emse_rx150_benchmarks) JobProgress: {'identifier': 'emse_rx150_benchmarks', 'progress': 'build'}
+[0.099665] (emse_rx150_benchmarks) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/malik/interbotix_moveit/build/emse_rx150_benchmarks', '--', '-j4', '-l4'], 'cwd': '/home/malik/interbotix_moveit/build/emse_rx150_benchmarks', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'malik'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/malik/interbotix_ws/install/moveit_visual_tools/lib:/home/malik/interbotix_ws/install/interbotix_xs_rviz/lib:/home/malik/interbotix_ws/install/interbotix_xs_ros_control/lib:/home/malik/interbotix_ws/install/interbotix_xs_msgs/lib:/home/malik/interbotix_ws/install/interbotix_xs_driver/lib:/home/malik/interbotix_ws/install/interbotix_tf_tools/lib:/home/malik/interbotix_ws/install/interbotix_perception_msgs/lib:/home/malik/interbotix_ws/install/interbotix_moveit_interface_msgs/lib:/home/malik/interbotix_ws/install/dynamixel_workbench_toolbox/lib:/home/malik/apriltag_ws/install/apriltag_ros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/malik'), ('OLDPWD', '/home/malik/interbotix_moveit/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_IP', '10.103.3.151'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1868'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1003/bus,guid=24f7d0f87a2a8679624a60706666d3e3'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/malik/interbotix_ws/install:/home/malik/apriltag_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'malik'), ('_', '/home/malik/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'malik'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/malik/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/LAB-INFO-03:@/tmp/.ICE-unix/1868,unix/LAB-INFO-03:/tmp/.ICE-unix/1868'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1787aa7f_a0de_49f5_a37d_859cfa183da6'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1003'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1003/.mutter-Xwaylandauth.6ND6O2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.115'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1003/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/malik/interbotix_ws/install/interbotix_ros_xsarms_examples:/home/malik/interbotix_ws/install/interbotix_xsarm_moveit_interface:/home/malik/interbotix_ws/install/interbotix_moveit_interface:/home/malik/interbotix_ws/install/moveit_visual_tools:/home/malik/interbotix_ws/install/interbotix_ros_xsarms:/home/malik/interbotix_ws/install/interbotix_xsarm_moveit:/home/malik/interbotix_ws/install/interbotix_xsarm_sim:/home/malik/interbotix_ws/install/interbotix_xsarm_ros_control:/home/malik/interbotix_ws/install/interbotix_xsarm_puppet:/home/malik/interbotix_ws/install/interbotix_xsarm_perception:/home/malik/interbotix_ws/install/interbotix_xsarm_joy:/home/malik/interbotix_ws/install/interbotix_xsarm_dual:/home/malik/interbotix_ws/install/interbotix_xsarm_control:/home/malik/interbotix_ws/install/interbotix_xsarm_descriptions:/home/malik/interbotix_ws/install/interbotix_xs_toolbox:/home/malik/interbotix_ws/install/interbotix_xs_rviz:/home/malik/interbotix_ws/install/interbotix_xs_modules:/home/malik/interbotix_ws/install/interbotix_ros_xseries:/home/malik/interbotix_ws/install/interbotix_xs_sdk:/home/malik/interbotix_ws/install/interbotix_xs_ros_control:/home/malik/interbotix_ws/install/interbotix_perception_toolbox:/home/malik/interbotix_ws/install/interbotix_perception_modules:/home/malik/interbotix_ws/install/interbotix_perception_pipelines:/home/malik/interbotix_ws/install/interbotix_xs_msgs:/home/malik/interbotix_ws/install/interbotix_xs_driver:/home/malik/interbotix_ws/install/interbotix_tf_tools:/home/malik/interbotix_ws/install/interbotix_perception_msgs:/home/malik/interbotix_ws/install/interbotix_moveit_interface_msgs:/home/malik/interbotix_ws/install/interbotix_common_toolbox:/home/malik/interbotix_ws/install/interbotix_common_sim:/home/malik/interbotix_ws/install/interbotix_common_modules:/home/malik/interbotix_ws/install/dynamixel_workbench_toolbox:/home/malik/apriltag_ws/install/apriltag_ros:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/malik/interbotix_moveit/build/emse_rx150_benchmarks'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1003/bus,guid=24f7d0f87a2a8679624a60706666d3e3'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/malik/interbotix_ws/install/interbotix_xs_modules/lib/python3.10/site-packages:/home/malik/interbotix_ws/install/interbotix_perception_modules/lib/python3.10/site-packages:/home/malik/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages:/home/malik/interbotix_ws/install/interbotix_perception_msgs/local/lib/python3.10/dist-packages:/home/malik/interbotix_ws/install/interbotix_moveit_interface_msgs/local/lib/python3.10/dist-packages:/home/malik/interbotix_ws/install/interbotix_common_modules/lib/python3.10/site-packages:/home/malik/apriltag_ws/install/apriltag_ros/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/malik/interbotix_ws/install/interbotix_ros_xsarms_examples:/home/malik/interbotix_ws/install/interbotix_xsarm_moveit_interface:/home/malik/interbotix_ws/install/interbotix_moveit_interface:/home/malik/interbotix_ws/install/moveit_visual_tools:/home/malik/interbotix_ws/install/interbotix_ros_xsarms:/home/malik/interbotix_ws/install/interbotix_xsarm_moveit:/home/malik/interbotix_ws/install/interbotix_xsarm_sim:/home/malik/interbotix_ws/install/interbotix_xsarm_ros_control:/home/malik/interbotix_ws/install/interbotix_xsarm_puppet:/home/malik/interbotix_ws/install/interbotix_xsarm_perception:/home/malik/interbotix_ws/install/interbotix_xsarm_joy:/home/malik/interbotix_ws/install/interbotix_xsarm_dual:/home/malik/interbotix_ws/install/interbotix_xsarm_control:/home/malik/interbotix_ws/install/interbotix_xsarm_descriptions:/home/malik/interbotix_ws/install/interbotix_xs_toolbox:/home/malik/interbotix_ws/install/interbotix_xs_rviz:/home/malik/interbotix_ws/install/interbotix_ros_xseries:/home/malik/interbotix_ws/install/interbotix_xs_sdk:/home/malik/interbotix_ws/install/interbotix_xs_ros_control:/home/malik/interbotix_ws/install/interbotix_perception_toolbox:/home/malik/interbotix_ws/install/interbotix_perception_pipelines:/home/malik/interbotix_ws/install/interbotix_xs_msgs:/home/malik/interbotix_ws/install/interbotix_xs_driver:/home/malik/interbotix_ws/install/interbotix_tf_tools:/home/malik/interbotix_ws/install/interbotix_perception_msgs:/home/malik/interbotix_ws/install/interbotix_moveit_interface_msgs:/home/malik/interbotix_ws/install/interbotix_common_toolbox:/home/malik/interbotix_ws/install/interbotix_common_sim:/home/malik/interbotix_ws/install/dynamixel_workbench_toolbox:/home/malik/apriltag_ws/install/apriltag_ros:/home/malik/interbotix_ws/install/interbotix_xs_modules:/home/malik/interbotix_ws/install/interbotix_perception_modules:/home/malik/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble')]), 'shell': False}
+[0.101421] (-) TimerEvent: {}
+[0.201910] (-) TimerEvent: {}
+[0.302854] (-) TimerEvent: {}
+[0.403988] (-) TimerEvent: {}
+[0.504649] (-) TimerEvent: {}
+[0.605705] (-) TimerEvent: {}
+[0.706710] (-) TimerEvent: {}
+[0.807405] (-) TimerEvent: {}
+[0.908532] (-) TimerEvent: {}
+[1.009449] (-) TimerEvent: {}
+[1.110528] (-) TimerEvent: {}
+[1.211471] (-) TimerEvent: {}
+[1.302163] (emse_rx150_benchmarks) StdoutLine: {'line': b'-- Found moveit_common: 2.5.5 (/opt/ros/humble/share/moveit_common/cmake)\n'}
+[1.311716] (-) TimerEvent: {}
+[1.331664] (emse_rx150_benchmarks) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.412020] (-) TimerEvent: {}
+[1.512793] (-) TimerEvent: {}
+[1.613232] (-) TimerEvent: {}
+[1.713625] (-) TimerEvent: {}
+[1.814150] (-) TimerEvent: {}
+[1.915132] (-) TimerEvent: {}
+[2.015960] (-) TimerEvent: {}
+[2.116409] (-) TimerEvent: {}
+[2.216965] (-) TimerEvent: {}
+[2.318198] (-) TimerEvent: {}
+[2.419372] (-) TimerEvent: {}
+[2.424940] (emse_rx150_benchmarks) StdoutLine: {'line': b'-- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) \n'}
+[2.425343] (emse_rx150_benchmarks) StdoutLine: {'line': b'-- BACKWARD_HAS_UNWIND=1\n'}
+[2.425469] (emse_rx150_benchmarks) StdoutLine: {'line': b'-- BACKWARD_HAS_BACKTRACE=0\n'}
+[2.425580] (emse_rx150_benchmarks) StdoutLine: {'line': b'-- BACKWARD_HAS_BACKTRACE_SYMBOL=0\n'}
+[2.425686] (emse_rx150_benchmarks) StdoutLine: {'line': b'-- BACKWARD_HAS_DW=1\n'}
+[2.425786] (emse_rx150_benchmarks) StdoutLine: {'line': b'-- BACKWARD_HAS_BFD=0\n'}
+[2.426463] (emse_rx150_benchmarks) StdoutLine: {'line': b'-- Found Backward: /opt/ros/humble/share/backward_ros/cmake  \n'}
+[2.427214] (emse_rx150_benchmarks) StderrLine: {'line': b"\x1b[0memse_rx150_benchmarks: You did not request a specific build type: Choosing 'Release' for maximum performance\x1b[0m\n"}
+[2.440986] (emse_rx150_benchmarks) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.519633] (-) TimerEvent: {}
+[2.620730] (-) TimerEvent: {}
+[2.721866] (-) TimerEvent: {}
+[2.822714] (-) TimerEvent: {}
+[2.912523] (emse_rx150_benchmarks) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.922957] (-) TimerEvent: {}
+[3.023927] (-) TimerEvent: {}
+[3.124951] (-) TimerEvent: {}
+[3.136030] (emse_rx150_benchmarks) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.225368] (-) TimerEvent: {}
+[3.264810] (emse_rx150_benchmarks) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.325678] (-) TimerEvent: {}
+[3.388472] (emse_rx150_benchmarks) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.425864] (-) TimerEvent: {}
+[3.526594] (-) TimerEvent: {}
+[3.574445] (emse_rx150_benchmarks) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.626908] (-) TimerEvent: {}
+[3.727948] (-) TimerEvent: {}
+[3.828427] (-) TimerEvent: {}
+[3.846399] (emse_rx150_benchmarks) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.899591] (emse_rx150_benchmarks) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.928883] (-) TimerEvent: {}
+[4.029719] (-) TimerEvent: {}
+[4.130202] (-) TimerEvent: {}
+[4.230978] (-) TimerEvent: {}
+[4.331937] (-) TimerEvent: {}
+[4.405646] (emse_rx150_benchmarks) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.432306] (-) TimerEvent: {}
+[4.532750] (-) TimerEvent: {}
+[4.633269] (-) TimerEvent: {}
+[4.733812] (-) TimerEvent: {}
+[4.831452] (emse_rx150_benchmarks) StdoutLine: {'line': b'-- Found tf2_eigen: 0.25.6 (/opt/ros/humble/share/tf2_eigen/cmake)\n'}
+[4.833943] (-) TimerEvent: {}
+[4.934263] (-) TimerEvent: {}
+[5.034620] (-) TimerEvent: {}
+[5.135205] (-) TimerEvent: {}
+[5.235857] (-) TimerEvent: {}
+[5.336243] (-) TimerEvent: {}
+[5.436724] (-) TimerEvent: {}
+[5.537082] (-) TimerEvent: {}
+[5.637464] (-) TimerEvent: {}
+[5.737823] (-) TimerEvent: {}
+[5.838209] (-) TimerEvent: {}
+[5.838681] (emse_rx150_benchmarks) StdoutLine: {'line': b'-- Found moveit_core: 2.5.5 (/opt/ros/humble/share/moveit_core/cmake)\n'}
+[5.938390] (-) TimerEvent: {}
+[6.012397] (emse_rx150_benchmarks) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread \n'}
+[6.038619] (-) TimerEvent: {}
+[6.138961] (-) TimerEvent: {}
+[6.210082] (emse_rx150_benchmarks) StdoutLine: {'line': b'-- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)\n'}
+[6.239220] (-) TimerEvent: {}
+[6.311328] (emse_rx150_benchmarks) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.8 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[6.339373] (-) TimerEvent: {}
+[6.439770] (-) TimerEvent: {}
+[6.478454] (emse_rx150_benchmarks) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem \n'}
+[6.539872] (-) TimerEvent: {}
+[6.640429] (-) TimerEvent: {}
+[6.739507] (emse_rx150_benchmarks) StdoutLine: {'line': b'-- library: /usr/lib/x86_64-linux-gnu/libcurl.so\n'}
+[6.740452] (-) TimerEvent: {}
+[6.840782] (-) TimerEvent: {}
+[6.941184] (-) TimerEvent: {}
+[7.041526] (-) TimerEvent: {}
+[7.141911] (-) TimerEvent: {}
+[7.242272] (-) TimerEvent: {}
+[7.342716] (-) TimerEvent: {}
+[7.382349] (emse_rx150_benchmarks) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[7.442832] (-) TimerEvent: {}
+[7.543234] (-) TimerEvent: {}
+[7.643627] (-) TimerEvent: {}
+[7.744011] (-) TimerEvent: {}
+[7.844436] (-) TimerEvent: {}
+[7.944793] (-) TimerEvent: {}
+[8.045226] (-) TimerEvent: {}
+[8.145622] (-) TimerEvent: {}
+[8.246000] (-) TimerEvent: {}
+[8.346376] (-) TimerEvent: {}
+[8.446742] (-) TimerEvent: {}
+[8.547097] (-) TimerEvent: {}
+[8.647539] (-) TimerEvent: {}
+[8.747946] (-) TimerEvent: {}
+[8.848351] (-) TimerEvent: {}
+[8.948869] (-) TimerEvent: {}
+[8.951315] (emse_rx150_benchmarks) StdoutLine: {'line': b'-- Found moveit_ros_planning: 2.5.5 (/opt/ros/humble/share/moveit_ros_planning/cmake)\n'}
+[8.962524] (emse_rx150_benchmarks) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono \n'}
+[9.049017] (-) TimerEvent: {}
+[9.149524] (-) TimerEvent: {}
+[9.249958] (-) TimerEvent: {}
+[9.350349] (-) TimerEvent: {}
+[9.450733] (-) TimerEvent: {}
+[9.551215] (-) TimerEvent: {}
+[9.651635] (-) TimerEvent: {}
+[9.730058] (emse_rx150_benchmarks) StdoutLine: {'line': b'-- Found moveit_ros_warehouse: 2.5.5 (/opt/ros/humble/share/moveit_ros_warehouse/cmake)\n'}
+[9.740164] (emse_rx150_benchmarks) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options \n'}
+[9.751784] (-) TimerEvent: {}
+[9.852199] (-) TimerEvent: {}
+[9.952608] (-) TimerEvent: {}
+[10.053008] (-) TimerEvent: {}
+[10.153589] (-) TimerEvent: {}
+[10.156486] (emse_rx150_benchmarks) StdoutLine: {'line': b'-- Found moveit_ros_planning_interface: 2.5.5 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)\n'}
+[10.164846] (emse_rx150_benchmarks) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread \n'}
+[10.253709] (-) TimerEvent: {}
+[10.354072] (-) TimerEvent: {}
+[10.454425] (-) TimerEvent: {}
+[10.527993] (emse_rx150_benchmarks) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread \n'}
+[10.554653] (-) TimerEvent: {}
+[10.654999] (-) TimerEvent: {}
+[10.755413] (-) TimerEvent: {}
+[10.855774] (-) TimerEvent: {}
+[10.956126] (-) TimerEvent: {}
+[11.056501] (-) TimerEvent: {}
+[11.156863] (-) TimerEvent: {}
+[11.257429] (-) TimerEvent: {}
+[11.334298] (emse_rx150_benchmarks) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem \n'}
+[11.357586] (-) TimerEvent: {}
+[11.358077] (emse_rx150_benchmarks) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:42 (message):\n'}
+[11.358266] (emse_rx150_benchmarks) StderrLine: {'line': b'  ament_target_dependencies() the first argument must be a valid target name\n'}
+[11.358389] (emse_rx150_benchmarks) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[11.358504] (emse_rx150_benchmarks) StderrLine: {'line': b'  CMakeLists.txt:53 (ament_target_dependencies)\n'}
+[11.358634] (emse_rx150_benchmarks) StderrLine: {'line': b'\n'}
+[11.358761] (emse_rx150_benchmarks) StderrLine: {'line': b'\x1b[0m\n'}
+[11.358890] (emse_rx150_benchmarks) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[11.359004] (emse_rx150_benchmarks) StdoutLine: {'line': b'See also "/home/malik/interbotix_moveit/build/emse_rx150_benchmarks/CMakeFiles/CMakeOutput.log".\n'}
+[11.435589] (emse_rx150_benchmarks) StderrLine: {'line': b'gmake: *** [Makefile:376: cmake_check_build_system] Error 1\n'}
+[11.441712] (emse_rx150_benchmarks) CommandEnded: {'returncode': 2}
+[11.457721] (-) TimerEvent: {}
+[11.558244] (-) TimerEvent: {}
+[11.636650] (emse_rx150_benchmarks) JobEnded: {'identifier': 'emse_rx150_benchmarks', 'rc': 2}
+[11.648062] (-) EventReactorShutdown: {}
